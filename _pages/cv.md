@@ -19,24 +19,12 @@ Professional Experience
 
 Education
 ======
-<ul style="list-style-type: none; padding-left: 0;">
-  <li style="margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;">
-    <strong style="font-size: 1.05em;">Ph.D. in Soil and Water Conservation Engineering</strong> (2019 – 2023)
-    <br><span><em>Maharana Pratap University of Agriculture and Technology, Udaipur, IN</em></span>
-    <br><span style="color: #444; font-size: 0.95em;">Dissertation: <a href="https://krishikosh.egranth.ac.in/handle/1/5810211653" target="_blank"><em>Assessment of Water Footprint Sustainability for Major Crops in Banas River Basin</em></a></span>
-  </li>
-  
-  <li style="margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;">
-    <strong style="font-size: 1.05em;">M.Tech. in Soil and Water Engineering</strong> (2017 – 2019)
-    <br><span><em>Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN</em></span>
-    <br><span style="color: #444; font-size: 0.95em;">Thesis: <a href="http://krishikosh.egranth.ac.in/handle/1/5810142413" target="_blank"><em>Effect of Drip Irrigation Frequency on Onion Yield and Water Productivity</em></a></span>
-  </li>
+* **Ph.D. in Soil and Water Conservation Engineering**, Maharana Pratap University of Agriculture and Technology, Udaipur, IN *(Aug 2019 – Jun 2023)*
+  * **Dissertation:** [*Assessment of Water Footprint Sustainability for Major Crops in Banas River Basin*](https://krishikosh.egranth.ac.in/handle/1/5810211653)
+* **M.Tech. in Soil and Water Engineering**, Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN *(Aug 2017 – Jul 2019)*
+  * **Thesis:** [*Effect of Drip Irrigation Frequency on Onion Yield and Water Productivity*](http://krishikosh.egranth.ac.in/handle/1/5810142413)
+* **B.Tech. in Agricultural Engineering**, Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN *(Aug 2013 – Jun 2017)*
 
-  <li style="margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;">
-    <strong style="font-size: 1.05em;">B.Tech. in Agricultural Engineering</strong> (2013 – 2017)
-    <br><span><em>Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN</em></span>
-  </li>
-</ul>
 Technical Skills
 ======
 * **GIS & Geospatial Software:** ArcMap, ArcGIS Pro, QGIS, Surfer
@@ -58,8 +46,8 @@ Professional Memberships
 * Member, Sigma Xi The Scientific Research Honor Society
 * Member, Crop Science Society of America (CSSA)
 * Member, Association of Agricultural Scientists of Indian Origin (AASIO)
-* Life Member, Indian Society of Agricultural Engineers (ISAE)
-* Life Member, Society for Community Mobilization for Sustainable Development
+* Life Member, Indian Society of Agricultural Engineers (ISAE) *(LM-12661)*
+* Life Member, Society for Community Mobilization for Sustainable Development *(LM-1860)*
 
 Publications
 ======
@@ -86,7 +74,7 @@ Publications
         return;
       }
 
-      let html = "<ul style='margin-left: 20px; list-style-type: decimal;'>";
+      let html = "<ul style='list-style-type: none; padding-left: 0;'>";
       
       data.group.forEach(function(group) {
         if (!group["work-summary"] || group["work-summary"].length === 0) return;
@@ -107,11 +95,11 @@ Publications
           }
         }
 
-        html += "<li style='margin-bottom: 12px;'>";
-        html += "<strong>" + title + "</strong>";
+        html += "<li style='margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;'>";
+        html += "<strong style='font-size: 1.05em;'>" + title + "</strong>";
         if (year) html += " (" + year + ")";
-        if (journal) html += ". <em>" + journal + "</em>";
-        if (link) html += " <a href='" + link + "' target='_blank' style='font-size: 0.85em;'>[DOI/Link]</a>";
+        if (journal) html += "<br><span style='color: #555;'><em>" + journal + "</em></span>";
+        if (link) html += "<br><a href='" + link + "' target='_blank' style='display: inline-block; margin-top: 6px; font-size: 0.9em; font-weight: bold;'>[View Paper / DOI]</a>";
         html += "</li>";
       });
 
