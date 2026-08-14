@@ -52,18 +52,18 @@ This portfolio project synthesizes findings from the following peer-reviewed res
 
 1. **Bardhan, K., Bangari, M. P. S., Saini, D. K., Lima, J. M., Mehla, M. K., & Jagadish, S. V. K. (2025).** *Optimizing root phenes for efficient soil resource acquisition and adaptation to drought and nutrient stress.* **Advances in Agronomy** (Academic Press / Elsevier), 193, 293–351.  
    🔗 [Read Chapter (Google Books / Elsevier)](https://www.google.com/books/edition/Advances_in_Agronomy/Ne4sEQAAQBAJ?hl=en&gbpv=1&dq=info:Z7gdLTgTinYJ:scholar.google.com&pg=PA293&printsec=frontcover)
-
-2. **Kumar, M., Naresh, R., Duhan, D., Singh, K., Mehla, M. K., & Jhorar, R. K. (2024).** *Effects of lateral spacings and irrigation water quality on plant growth and yield parameters of onion in the semi‐arid region of India.* **Irrigation and Drainage** (Wiley), 73(4), 1292–1312.  
-   🔗 [Read Article (Wiley Online Library)](https://onlinelibrary.wiley.com/doi/abs/10.1002/ird.2963)
-
-3. **Mehla, M. K., Kumar, A., Kumar, S., & Jhorar, R. K. (2024).** *Soil salinity assessment and mapping using spectral indices and geostatistical techniques—concepts and reviews.* In *Remote Sensing of Soils: Mapping, Monitoring and Measurement* (Elsevier), 429–437.  
-   🔗 [Read Chapter (ScienceDirect)](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443187735000193)
-
-4. **Mehla, M. K., et al. (2025).** *Precision irrigation technologies and automated water management for sustainable crop production.* **Smart Agricultural Technology** (Elsevier).  
+   
+2. **Jatana, M.S., Sheoran, P., Fagodiya, R.K., Kumar, A., Mann, A., Kumar, P., Mehla, M.K., Kumar, A. & Kumar, S. (2025).** *Designing an ecologically sustainable and resource-efficient rice-wheat system in the Western Indo-Gangetic Plains of India: Integrating practices of pressurized irrigation, tillage and residue management* **Energy Nexus** (Elsevier), 19,100504.  
    🔗 [Read Article (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S2772427125001457)
 
-5. **Mehla, M. K., et al. (2023).** *Crop physiological, biochemical, and yield dynamics under water-deficit stress.* **South African Journal of Botany** (Elsevier).  
+3. **Kumar, M., Naresh, R., Duhan, D., Singh, K., Mehla, M. K., & Jhorar, R. K. (2024).** *Effects of lateral spacings and irrigation water quality on plant growth and yield parameters of onion in the semi‐arid region of India.* **Irrigation and Drainage** (Wiley), 73(4), 1292–1312.  
+   🔗 [Read Article (Wiley Online Library)](https://onlinelibrary.wiley.com/doi/abs/10.1002/ird.2963)
+
+4. **Mehla, M. K., Kumar, A., Kumar, S., & Jhorar, R. K. (2024).** *Soil salinity assessment and mapping using spectral indices and geostatistical techniques—concepts and reviews.* In *Remote Sensing of Soils: Mapping, Monitoring and Measurement* (Elsevier), 429–437.  
+   🔗 [Read Chapter (ScienceDirect)](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443187735000193)
+
+5. **Kumar, R., Singh, A., Kumar, A., Kumar, A., Mehla, M.K. & Kumar, A. (2023).** *Salinity and sodicity stresses differentially influence growth and physiology in sapota (Achras zapota L.).* **South African Journal of Botany** (Elsevier), 160, 739-748.  
    🔗 [Read Article (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S0254629923004313)
 
-6. **Mehla, M. K., et al. (2022).** *Assessment of crop performance and water utilization efficiency in irrigated field crops.* **International Journal of Agriculture, Environment and Bioresearch** (IJAEB).  
-   🔗 [Read Article (IndianJournals)](https://indianjournals.com/article/ijaeb-15-2-007)
+6. **Mehla, M.K., Jhorar, R.K., Kumar, S. & Kumar, A. (2022).** *Effect of Drip Irrigation Frequency and Lateral Spacing on Kharif Onion Crop.* **International Journal of Agriculture Environment and Biotechnology** (IJAEB).  
+   🔗 [Read Article (IJAEB)](https://ijaeb.com/Journal/abstract/id/NTM1NA==)
