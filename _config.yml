@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Mukesh Kumar Mehla"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Mukesh Kumar Mehla"
 description              : &description "Passionate early career researcher looking to pursuing career in academics and research"   # Update this with a general description of your site, this is the default if not overridden by a page
