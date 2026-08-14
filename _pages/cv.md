@@ -13,15 +13,17 @@ Professional Experience
 ======
 * **Assistant Research Scientist**, Texas A&M AgriLife Research, Temple, TX *(Jul 2026 – Present)*
 * **Postdoctoral Research Associate**, Texas A&M AgriLife Research, Temple, TX *(Feb 2025 – Jun 2026)*
-* **Postdoctoral Research Associate**, Texas Tech University, Lubbock, TX *(Jul 2023 – Jan 2025)*[cite: 1, 4]
-* **Senior Research Fellow**, ICAR-Central Soil Salinity Research Institute, Karnal, IN *(Jan 2023 – Jun 2023)*[cite: 1, 4]
+* **Postdoctoral Research Associate**, Texas Tech University, Lubbock, TX *(Jul 2023 – Jan 2025)*
+* **Senior Research Fellow**, ICAR-Central Soil Salinity Research Institute, Karnal, IN *(Jan 2023 – Jun 2023)*
 * **Senior Research Fellow**, Maharana Pratap University of Agriculture and Technology, Udaipur, IN *(Aug 2019 – Dec 2022)*
 
 Education
 ======
-* **Ph.D. in Soil and Water Conservation Engineering**, Maharana Pratap University of Agriculture and Technology, Udaipur, IN *(Aug 2019 – Jun 2023)*[cite: 1, 2]
-* **M.Tech. in Soil and Water Engineering**, Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN *(Aug 2017 – Jul 2019)*[cite: 1, 2]
-* **B.Tech. in Agricultural Engineering**, Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN *(Aug 2013 – Jun 2017)*[cite: 1, 2]
+* **Ph.D. in Soil and Water Conservation Engineering**, Maharana Pratap University of Agriculture and Technology, Udaipur, IN *(Aug 2019 – Jun 2023)*
+  * **Dissertation:** [*Assessment of Water Footprint Sustainability for Major Crops in Banas River Basin*](https://krishikosh.egranth.ac.in/handle/1/5810211653)
+* **M.Tech. in Soil and Water Engineering**, Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN *(Aug 2017 – Jul 2019)*
+  * **Thesis:** [*Effect of Drip Irrigation Frequency on Onion Yield and Water Productivity*](http://krishikosh.egranth.ac.in/handle/1/5810142413)
+* **B.Tech. in Agricultural Engineering**, Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN *(Aug 2013 – Jun 2017)*
 
 Technical Skills
 ======
@@ -113,6 +115,22 @@ Publications
 
 Talks & Presentations
 ======
+<ul style="list-style-type: none; padding-left: 0;">
 {% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
+  <li style="margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;">
+    <strong style="font-size: 1.05em;">{{ post.title }}</strong>
+    {% if post.date %}
+      ({{ post.date | date: "%Y" }})
+    {% endif %}
+    {% if post.venue %}
+      <br><span style="color: #555;"><em>{{ post.venue }}</em></span>
+    {% endif %}
+    {% if post.location %}
+      <span> &bull; {{ post.location }}</span>
+    {% endif %}
+    {% if post.type %}
+      <br><span style="display: inline-block; margin-top: 6px; font-size: 0.85em; font-weight: bold; color: #0073e6;">{{ post.type }}</span>
+    {% endif %}
+  </li>
 {% endfor %}
+</ul>
