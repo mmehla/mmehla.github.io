@@ -74,7 +74,7 @@ Publications
         return;
       }
 
-      let html = "<ul style='list-style-type: none; padding-left: 0;'>";
+      let html = "<ul style='margin-left: 20px; list-style-type: decimal;'>";
       
       data.group.forEach(function(group) {
         if (!group["work-summary"] || group["work-summary"].length === 0) return;
@@ -95,11 +95,11 @@ Publications
           }
         }
 
-        html += "<li style='margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;'>";
-        html += "<strong style='font-size: 1.05em;'>" + title + "</strong>";
+        html += "<li style='margin-bottom: 12px;'>";
+        html += "<strong>" + title + "</strong>";
         if (year) html += " (" + year + ")";
-        if (journal) html += "<br><span style='color: #555;'><em>" + journal + "</em></span>";
-        if (link) html += "<br><a href='" + link + "' target='_blank' style='display: inline-block; margin-top: 6px; font-size: 0.9em; font-weight: bold;'>[View Paper / DOI]</a>";
+        if (journal) html += ". <em>" + journal + "</em>";
+        if (link) html += " <a href='" + link + "' target='_blank' style='font-size: 0.85em;'>[DOI/Link]</a>";
         html += "</li>";
       });
 
@@ -115,21 +115,21 @@ Publications
 
 Talks & Presentations
 ======
-<ul style="list-style-type: none; padding-left: 0;">
+<ul style="margin-left: 20px; list-style-type: decimal;">
 {% for post in site.talks reversed %}
-  <li style="margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;">
-    <strong style="font-size: 1.05em;">{{ post.title }}</strong>
+  <li style="margin-bottom: 12px;">
+    <strong>{{ post.title }}</strong>
     {% if post.date %}
       ({{ post.date | date: "%Y" }})
     {% endif %}
     {% if post.venue %}
-      <br><span style="color: #555;"><em>{{ post.venue }}</em></span>
+      . <em>{{ post.venue }}</em>
     {% endif %}
     {% if post.location %}
-      <span> &bull; {{ post.location }}</span>
+      , {{ post.location }}
     {% endif %}
     {% if post.type %}
-      <br><span style="display: inline-block; margin-top: 6px; font-size: 0.85em; font-weight: bold; color: #0073e6;">{{ post.type }}</span>
+      <span style="font-size: 0.85em;">[{{ post.type }}]</span>
     {% endif %}
   </li>
 {% endfor %}
