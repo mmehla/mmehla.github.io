@@ -1,7 +1,7 @@
 ---
 title: "Groundwater level prediction using machine learning"
 collection: talks
-type: "Conference presentation"
+type: "Oral presentation"
 permalink: /talks/2020-02-22-ncrtnfbase
 venue: "National Conference on Recent Trends and New Frontiers in Biotechnology, Agriculture, Science and Environment (NCRTNFBASE-2020), St. John's College"
 date: 2020-02-22
