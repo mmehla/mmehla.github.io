@@ -50,16 +50,19 @@ By combining field-level crop dynamics, hydrological modeling, geospatial analys
 
 This portfolio project synthesizes findings from the following peer-reviewed publications:
 
-1. **Mehla, M.K.**, Kothari, M., Singh, P.K., Bhakar, S.R., & Yadav, K.K. (2023). *Optimization of virtual water flows in agriculture by changing cropping patterns using an integrated approach.* **Heliyon** (Cell Press), 9(11), e22603.  
+1. **Mehla, M.K.**, Kothari, M., Singh, P.K., Bhakar, S.R., Yadav, K.K., Rathore, J., Gautam, V.K., & Bilaiya, S. (2025). Basin scale impacts of nitrogenous fertilizer use on croplands from a grey water footprint perspective.* **Discover Water** (Springer), 5(1), 122. 
+   🔗 [Read Full Paper (Springer / Discover Water)](https://link.springer.com/article/10.1007/s43832-025-00319-6)
+
+2. **Mehla, M.K.**, Kothari, M., Singh, P.K., Bhakar, S.R., & Yadav, K.K. (2023). *Optimization of virtual water flows in agriculture by changing cropping patterns using an integrated approach.* **Heliyon** (Cell Press), 9(11), e22603.  
    🔗 [Read Full Paper (Cell Press / Heliyon)](https://www.cell.com/heliyon/fulltext/S2405-8440(23)09811-0)
 
-2. **Mehla, M.K.**, Kothari, M., Singh, P.K., Bhakar, S.R., & Yadav, K.K. (2023). *Water footprint assessment and its importance in Indian context: a meta-review.* **Water Supply** (IWA Publishing), 23(8), 3113–3127.  
+3. **Mehla, M.K.**, Kothari, M., Singh, P.K., Bhakar, S.R., & Yadav, K.K. (2023). *Water footprint assessment and its importance in Indian context: a meta-review.* **Water Supply** (IWA Publishing), 23(8), 3113–3127.  
    🔗 [Read Full Paper (IWA Publishing)](https://iwaponline.com/ws/article/23/8/3113/96288)
 
-3. **Mehla, M.K.** (2022). *Regional water footprint assessment for a semi-arid basin in India.* **PeerJ**, 10, e14207.  
+4. **Mehla, M.K.** (2022). *Regional water footprint assessment for a semi-arid basin in India.* **PeerJ**, 10, e14207.  
    🔗 [Read Full Paper (PeerJ)](https://peerj.com/articles/14207/)
 
-4. **Mehla, M.K.**, Kothari, M., Singh, P.K., Bhakar, S.R., & Yadav, K.K. (2023). *Blue Water Scarcity Assessment in Banas River Basin Using Water Footprint Approach.* **Ecology, Environment and Conservation**, 29(1), 115–119.  
+5. **Mehla, M.K.**, Kothari, M., Singh, P.K., Bhakar, S.R., & Yadav, K.K. (2023). *Blue Water Scarcity Assessment in Banas River Basin Using Water Footprint Approach.* **Ecology, Environment and Conservation**, 29(1), 115–119.  
    🔗 [View PDF Document](https://d1wqtxts1xzle7.cloudfront.net/107950935/eec.2023.v29i01-libre.pdf?1701154382=&response-content-disposition=inline%3B+filename%3DBlue_Water_Scarcity_Assessment_in_Banas.pdf&Expires=1786738355&Signature=NhFOXPps23PX3g42KhHlaB8V2xAY8D6NIm8pdWavylqGFYkKKqAsUfGwrOb0UFKdyIl0NRdCJao1ND119yGO0UfrKc~BgEhfGmJ8VimLVTTOdZH-OMdqPy6y1a2naByLOct6zg8e3CVi1UVjYDoPjrtr98pwmCJOw7dZYchmyaTzrNGvjAKbW1K-jCNds6liIzbJGXbsajFKqBWF8xZoW4W2nBVxoBrvPpidYTqLr-wmtCZrEy06~r-3CtfeOF5wwDFyyTJ~048rMtQB8esog0B-GS~clEimCSOYTTrDKtYkNnskawajbyDvLQc3uDHp1pXvhAAqXccKV8H3CIci4g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) | [CABI Digital Library Record](https://www.cabidigitallibrary.org/doi/full/10.5555/20230196088)
 
 
