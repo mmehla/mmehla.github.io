@@ -50,14 +50,15 @@ By analyzing field-level operational data and regional hydro-geological trends a
 
 This portfolio project synthesizes findings from the following peer-reviewed articles and research papers:
 
-1. **Singh, K., Jhorar, R.K., Sidhpuria, M.S., Kumar, M., & Mehla, M.K. (2024).** *Impacts of improved irrigation application efficiency and groundwater levels on energy use for crop production in a semi-arid region of India.* **Environment, Development and Sustainability** (Springer), 26(4), 10145–10162.  
-   🔗 [Read Article (Springer Link)](https://link.springer.com/article/10.1007/s10668-023-03139-7)
-
-2. **Singh, K., Jhorar, R.K., Kumar, M., & Mehla, M.K. (2025).** *Energy and carbon footprint dynamics of agricultural groundwater pumping under varying irrigation efficiencies.* **Environment, Development and Sustainability** (Springer).  
+1. **Singh, K., Jhorar, R.K., Mehla, M.K., Singh, R., Singh, .J,  Kumar, M., & Dahiya, Y. (2025).** *Evaluating water productivity and carbon footprint in groundwater-irrigated wheat crop: Impact of on-farm land and water management practices in semi-arid regions.* **Environment, Development and Sustainability** (Springer), 1–20.  
    🔗 [Read Article (Springer Link)](https://link.springer.com/article/10.1007/s10668-025-06316-y)
 
-3. **Mehla, M.K., et al.** *Assessment of energy conservation and carbon mitigation potential in groundwater-irrigated agriculture.* **Journal of Community Mobilization and Sustainable Development**.  
-   🔗 [Read Paper (IndianJournals)](https://indianjournals.com/article/jcmsd-18-4-039)
+2. **Singh, K., Jhorar, R.K., Sidhpuria, M.S., Kumar, M., & Mehla, M.K. (2024).** *Impacts of improved irrigation application efficiency and groundwater levels on energy use for crop production in a semi-arid region of India.* **Environment, Development and Sustainability** (Springer), 26(4), 10145–10162.  
+   🔗 [Read Article (Springer Link)](https://link.springer.com/article/10.1007/s10668-023-03139-7)
 
-4. **Mehla, M.K., et al.** *Identification and prioritization of challenges in sustainable agricultural resource management.* **Research Proceedings / ResearchGate**.  
-   🔗 [View Publication PDF (ResearchGate)](https://www.researchgate.net/profile/Loukham-Devarani/publication/395194578_Identification_and_Prioritization_of_Challenges_Faced_by_Village_Organizations_in_Meghalaya_A_MoSCoW_Prioritization_Approach/links/68b71a82653c451cf473c395/Identification-and-Prioritization-of-Challenges-Faced-by-Village-Organizations-in-Meghalaya-A-MoSCoW-Prioritization-Approach.pdf#page=111)
+3. **Singh, K., Jhorar, R.K., Sidhpuria, M.S., Singh, .J,  Kumar, M., & Mehla, M.K. (2024).** *Estimation of different sub-components of head in the total pumping head for groundwater irrigation in Rai block of Sonipat district.* **Journal of Community Mobilization and Sustainable Development**, 18(4), 1324-1330.  
+   🔗 [Read Article (Indian Journals Link)](https://indianjournals.com/article/jcmsd-18-4-039)
+
+4. **Singh, K., Jhorar, R.K., Sidhpuria, M.S., Kumar, M., & Mehla, M.K. (2023).** *Energy conservation prospects in water intensive Paddy-Wheat cropping system for groundwater pumping in the semi-arid region of Haryana.* **PeerJ**,  11, p.e14815.  
+   🔗 [Read Paper (PeerJ)](https://peerj.com/articles/14815/)
+
