@@ -6,7 +6,10 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my articles on
+    <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 <hr />
@@ -17,88 +20,114 @@ author_profile: true
 
 {% raw %}
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const orcidId = "0000-0003-0948-4876";
-    const container = document.getElementById("orcid-publications");
+document.addEventListener("DOMContentLoaded", function () {
+  const orcidId = "0000-0003-0948-4876";
+  const container = document.getElementById("orcid-publications");
 
-    fetch("https://pub.orcid.org/v3.0/" + orcidId + "/works", {
-      headers: {
-        "Accept": "application/json"
+  fetch("https://pub.orcid.org/v3.0/" + orcidId + "/works", {
+    headers: {
+      "Accept": "application/vnd.orcid+json"
+    }
+  })
+  .then(function (response) {
+    console.log("ORCID response status:", response.status);
+
+    if (!response.ok) {
+      throw new Error("HTTP error " + response.status);
+    }
+
+    return response.json();
+  })
+  .then(function (data) {
+    console.log("ORCID data:", data);
+
+    if (!data || !data.group || data.group.length === 0) {
+      container.innerHTML = "<p>No public publications found on ORCID.</p>";
+      return;
+    }
+
+    let html = "<ul style='list-style-type: none; padding-left: 0;'>";
+
+    data.group.forEach(function (group) {
+      if (!group["work-summary"] || group["work-summary"].length === 0) return;
+
+      const summary = group["work-summary"][0];
+
+      let title = "Untitled";
+      if (
+        summary.title &&
+        summary.title.title &&
+        summary.title.title.value
+      ) {
+        title = summary.title.title.value;
       }
-    })
-    .then(function(response) {
-      if (!response.ok) {
-        throw new Error("HTTP error " + response.status);
-      }
-      return response.json();
-    })
-    .then(function(data) {
-      if (!data || !data.group || data.group.length === 0) {
-        container.innerHTML = "<p>No publications found on ORCID.</p>";
-        return;
+
+      let year = "";
+      if (
+        summary["publication-date"] &&
+        summary["publication-date"].year &&
+        summary["publication-date"].year.value
+      ) {
+        year = summary["publication-date"].year.value;
       }
 
-      let html = "<ul style='list-style-type: none; padding-left: 0;'>";
+      let journal = "";
+      if (
+        summary["journal-title"] &&
+        summary["journal-title"].value
+      ) {
+        journal = summary["journal-title"].value;
+      }
 
-      data.group.forEach(function(group) {
-        if (!group["work-summary"] || group["work-summary"].length === 0) return;
+      let link = "";
 
-        const summary = group["work-summary"][0];
+      if (summary.url && summary.url.value) {
+        link = summary.url.value;
+      } else if (
+        summary["external-ids"] &&
+        summary["external-ids"]["external-id"]
+      ) {
+        const ids = summary["external-ids"]["external-id"];
 
-        // Safe extraction of Title
-        let title = "Untitled";
-        if (summary.title && summary.title.title && summary.title.title.value) {
-          title = summary.title.title.value;
-        }
-
-        // Safe extraction of Year
-        let year = "";
-        if (summary["publication-date"] && summary["publication-date"].year && summary["publication-date"].year.value) {
-          year = summary["publication-date"].year.value;
-        }
-
-        // Safe extraction of Journal
-        let journal = "";
-        if (summary["journal-title"] && summary["journal-title"].value) {
-          journal = summary["journal-title"].value;
-        }
-
-        // Safe extraction of Link (URL or DOI)
-        let link = "";
-        if (summary.url && summary.url.value) {
-          link = summary.url.value;
-        } else if (summary["external-ids"] && summary["external-ids"]["external-id"]) {
-          const ids = summary["external-ids"]["external-id"];
-          for (let i = 0; i < ids.length; i++) {
-            if (ids[i]["external-id-type"] === "doi" && ids[i]["external-id-value"]) {
-              link = "https://doi.org/" + ids[i]["external-id-value"];
-              break;
-            }
+        for (let i = 0; i < ids.length; i++) {
+          if (
+            ids[i]["external-id-type"] === "doi" &&
+            ids[i]["external-id-value"]
+          ) {
+            link = "https://doi.org/" + ids[i]["external-id-value"];
+            break;
           }
         }
+      }
 
-        // Format each publication entry
-        html += "<li style='margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;'>";
-        html += "<strong style='font-size: 1.05em;'>" + title + "</strong>";
-        if (year) {
-          html += " (" + year + ")";
-        }
-        if (journal) {
-          html += "<br><span style='color: #555;'><em>" + journal + "</em></span>";
-        }
-        if (link) {
-          html += "<br><a href='" + link + "' target='_blank' style='display: inline-block; margin-top: 6px; font-size: 0.9em; font-weight: bold;'>[View Paper / DOI]</a>";
-        }
-        html += "</li>";
-      });
+      html += "<li style='margin-bottom: 18px; padding: 14px 18px; border-left: 4px solid #0073e6; background-color: #f8f9fa;'>";
+      html += "<strong style='font-size: 1.05em;'>" + title + "</strong>";
 
-      html += "</ul>";
-      container.innerHTML = html;
-    })
-    .catch(function(error) {
-      console.error("ORCID Fetch Error:", error);
-      container.innerHTML = "<p>Unable to load publications automatically. Please view my full research list directly on my <a href='https://orcid.org/" + orcidId + "' target='_blank'>ORCID Profile</a>.</p>";
+      if (year) {
+        html += " (" + year + ")";
+      }
+
+      if (journal) {
+        html += "<br><span style='color: #555;'><em>" + journal + "</em></span>";
+      }
+
+      if (link) {
+        html += "<br><a href='" + link + "' target='_blank' rel='noopener' style='display: inline-block; margin-top: 6px; font-size: 0.9em; font-weight: bold;'>[View Paper / DOI]</a>";
+      }
+
+      html += "</li>";
     });
+
+    html += "</ul>";
+    container.innerHTML = html;
+  })
+  .catch(function (error) {
+    console.error("ORCID Fetch Error:", error);
+
+    container.innerHTML =
+      "<p>Unable to load publications automatically. Please view my full research list directly on my " +
+      "<a href='https://orcid.org/" + orcidId + "' target='_blank' rel='noopener'>ORCID profile</a>.</p>";
   });
+});
 </script>
 {% endraw %}
