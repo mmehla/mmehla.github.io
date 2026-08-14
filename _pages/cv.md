@@ -9,56 +9,110 @@ redirect_from:
 
 {% include base_path %}
 
+Professional Experience
+======
+* **Assistant Research Scientist**, Texas A&M AgriLife Research, Temple, TX *(Jul 2026 – Present)*
+* **Postdoctoral Research Associate**, Texas A&M AgriLife Research, Temple, TX *(Feb 2025 – Jun 2026)*
+* **Postdoctoral Research Associate**, Texas Tech University, Lubbock, TX *(Jul 2023 – Jan 2025)*[cite: 1, 4]
+* **Senior Research Fellow**, ICAR-Central Soil Salinity Research Institute, Karnal, IN *(Jan 2023 – Jun 2023)*[cite: 1, 4]
+* **Senior Research Fellow**, Maharana Pratap University of Agriculture and Technology, Udaipur, IN *(Aug 2019 – Dec 2022)*
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Soil and Water Conservation Engineering**, Maharana Pratap University of Agriculture and Technology, Udaipur, IN *(Aug 2019 – Jun 2023)*[cite: 1, 2]
+* **M.Tech. in Soil and Water Engineering**, Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN *(Aug 2017 – Jul 2019)*[cite: 1, 2]
+* **B.Tech. in Agricultural Engineering**, Chaudhary Charan Singh Haryana Agricultural University, Hisar, IN *(Aug 2013 – Jun 2017)*[cite: 1, 2]
 
-Work experience
+Technical Skills
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **GIS & Geospatial Software:** ArcMap, ArcGIS Pro, QGIS, Surfer
+* **Hydrological & Crop Modeling:** SWAT, SWAT+, AquaCrop, CropWAT
+* **Programming & Analytics:** Python, R, MATLAB, SPSS
+* **Computer-Aided Design (CAD):** AutoCAD, SolidWorks, SketchUp
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Licenses & Certifications
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Remote Pilot Certificate (Part 107)**, Federal Aviation Administration (FAA), USA *(2023)*
+
+Academic Service & Editorial Roles
+======
+* **Associate Editor**, *Agrosystems, Geosciences & Environment* (AGE) Journal *(Aug 2024 – Dec 2026)*
+
+Professional Memberships
+======
+* Member, American Geophysical Union (AGU)
+* Member, Sigma Xi The Scientific Research Honor Society
+* Member, Crop Science Society of America (CSSA)
+* Member, Association of Agricultural Scientists of Indian Origin (AASIO)
+* Life Member, Indian Society of Agricultural Engineers (ISAE) *(LM-12661)*
+* Life Member, Society for Community Mobilization for Sustainable Development *(LM-1860)*
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+<div id="orcid-cv-publications">
+  <p><i>Loading latest publications directly from ORCID...</i></p>
+</div>
+
+{% raw %}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const orcidId = "0000-0003-0948-4876";
+    const container = document.getElementById("orcid-cv-publications");
+
+    fetch("https://pub.orcid.org/v3.0/" + orcidId + "/works", {
+      headers: { "Accept": "application/json" }
+    })
+    .then(function(response) {
+      if (!response.ok) throw new Error("Network error");
+      return response.json();
+    })
+    .then(function(data) {
+      if (!data || !data.group || data.group.length === 0) {
+        container.innerHTML = "<p>No publications found.</p>";
+        return;
+      }
+
+      let html = "<ul style='margin-left: 20px; list-style-type: decimal;'>";
+      
+      data.group.forEach(function(group) {
+        if (!group["work-summary"] || group["work-summary"].length === 0) return;
+        const summary = group["work-summary"][0];
+
+        let title = (summary.title && summary.title.title && summary.title.title.value) ? summary.title.title.value : "Untitled";
+        let year = (summary["publication-date"] && summary["publication-date"].year) ? summary["publication-date"].year.value : "";
+        let journal = (summary["journal-title"] && summary["journal-title"].value) ? summary["journal-title"].value : "";
+
+        let link = summary.url ? summary.url.value : "";
+        if (!link && summary["external-ids"] && summary["external-ids"]["external-id"]) {
+          const ids = summary["external-ids"]["external-id"];
+          for (let i = 0; i < ids.length; i++) {
+            if (ids[i]["external-id-type"] === "doi" && ids[i]["external-id-value"]) {
+              link = "https://doi.org/" + ids[i]["external-id-value"];
+              break;
+            }
+          }
+        }
+
+        html += "<li style='margin-bottom: 12px;'>";
+        html += "<strong>" + title + "</strong>";
+        if (year) html += " (" + year + ")";
+        if (journal) html += ". <em>" + journal + "</em>";
+        if (link) html += " <a href='" + link + "' target='_blank' style='font-size: 0.85em;'>[DOI/Link]</a>";
+        html += "</li>";
+      });
+
+      html += "</ul>";
+      container.innerHTML = html;
+    })
+    .catch(function(error) {
+      container.innerHTML = "<p>Unable to automatically fetch publications. View full publication record on <a href='https://orcid.org/0000-0003-0948-4876' target='_blank'>ORCID</a>.</p>";
+    });
+  });
+</script>
+{% endraw %}
+
+Talks & Presentations
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}
