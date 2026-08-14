@@ -9,28 +9,66 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<hr />
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<!-- This div will hold the ORCID publications -->
+<div id="orcid-publications">
+  <p><i>Fetching latest publications from ORCID...</i></p>
+</div>
 
+<!-- JavaScript to auto-fetch from ORCID API -->
+<script>
+  // Your ORCID ID
+  const orcidId = "0000-0003-0948-4876";
+  const orcidUrl = `https://pub.orcid.org/v3.0/${orcidId}/works`;
 
+  fetch(orcidUrl, {
+    headers: {
+      "Accept": "application/json" // Request JSON format from ORCID
+    }
+  })
+  .then(response => response.json())
+  .then(data => {
+    const works = data.group;
+    let html = "<ul style='list-style-type: none; padding-left: 0;'>";
 
+    works.forEach(work => {
+      // ORCID groups works; we take the first summary of the group
+      const summary = work["work-summary"][0]; 
+      
+      // Extract data safely
+      const title = summary.title ? summary.title.title.value : "Untitled";
+      const year = summary["publication-date"] ? summary["publication-date"].year.value : "Year unknown";
+      const journal = summary["journal-title"] ? summary["journal-title"].value : "";
+      
+      // Try to find a URL or construct a DOI link
+      let link = summary.url ? summary.url.value : "";
+      if (!link && summary["external-ids"] && summary["external-ids"]["external-id"]) {
+        const doiObj = summary["external-ids"]["external-id"].find(id => id["external-id-type"] === "doi");
+        if (doiObj) {
+          link = `https://doi.org/${doiObj["external-id-value"]}`;
+        }
+      }
+
+      // Format the HTML for each publication
+      html += `<li style="margin-bottom: 20px; padding: 15px; border-left: 4px solid #52adc8; background-color: #f9f9f9;">`;
+      html += `<strong>${title}</strong> (${year})`;
+      if (journal) {
+        html += `<br><em>${journal}</em>`;
+      }
+      if (link) {
+        html += `<br><a href="${link}" target="_blank" style="font-size: 0.9em;">[View Publication]</a>`;
+      }
+      html += `</li>`;
+    });
+
+    html += "</ul>";
+    
+    // Inject the formatted HTML into the page
+    document.getElementById("orcid-publications").innerHTML = html;
+  })
+  .catch(error => {
+    console.error("Error fetching ORCID data:", error);
+    document.getElementById("orcid-publications").innerHTML = "<p>Error loading publications. Please visit my <a href='https://orcid.org/0000-0003-0948-4876'>ORCID profile</a> directly.</p>";
+  });
+</script>
