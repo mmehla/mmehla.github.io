@@ -1,7 +1,7 @@
 ---
 title: "Kharif Onion Yield and Water Productivity Response to Different Irrigation Frequency and Lateral Spacing Using an Automated Drip System"
 collection: talks
-type: "Conference presentation"
+type: "Poster presentation"
 permalink: /talks/2019-11-06-ginma-conference
 venue: "Golden Jubilee International Conference on New Millennia Agriculture (GINMA 2019), CCS Haryana Agricultural University"
 date: 2019-11-06
