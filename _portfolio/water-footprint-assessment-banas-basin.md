@@ -18,7 +18,6 @@ By combining field-level crop dynamics, hydrological modeling, geospatial analys
 * **Basin-Scale Water Footprint Accounting:** Quantified green ($WF_{green}$), blue ($WF_{blue}$), and grey ($WF_{grey}$) water footprints for major agricultural crops across varying soil and climatic zones.
 * **Blue Water Scarcity Assessment:** Evaluated monthly and seasonal blue water scarcity indices by comparing blue water footprints against environmental flow requirements and available surface/groundwater resources.
 * **Optimization of Virtual Water Flows:** Applied multi-objective optimization techniques to realign cropping patterns, minimizing net blue water abstraction while maximizing economic returns and food production.
-* **Groundwater Recharge & River Revival:** Leveraged Analytical Hierarchy Process (AHP) and geospatial techniques to identify high-priority sites for artificial groundwater recharge and river restoration.
 * **Policy & Meta-Synthesis:** Conducted comprehensive synthesis on water footprint methodologies tailored to the socio-economic and hydrological realities of Indian agriculture.
 
 ---
@@ -63,5 +62,4 @@ This portfolio project synthesizes findings from the following peer-reviewed pub
 4. **Mehla, M.K.**, Kothari, M., Singh, P.K., Bhakar, S.R., & Yadav, K.K. (2023). *Blue Water Scarcity Assessment in Banas River Basin Using Water Footprint Approach.* **Ecology, Environment and Conservation**, 29(1), 115–119.  
    🔗 [View PDF Document](https://d1wqtxts1xzle7.cloudfront.net/107950935/eec.2023.v29i01-libre.pdf?1701154382=&response-content-disposition=inline%3B+filename%3DBlue_Water_Scarcity_Assessment_in_Banas.pdf&Expires=1786738355&Signature=NhFOXPps23PX3g42KhHlaB8V2xAY8D6NIm8pdWavylqGFYkKKqAsUfGwrOb0UFKdyIl0NRdCJao1ND119yGO0UfrKc~BgEhfGmJ8VimLVTTOdZH-OMdqPy6y1a2naByLOct6zg8e3CVi1UVjYDoPjrtr98pwmCJOw7dZYchmyaTzrNGvjAKbW1K-jCNds6liIzbJGXbsajFKqBWF8xZoW4W2nBVxoBrvPpidYTqLr-wmtCZrEy06~r-3CtfeOF5wwDFyyTJ~048rMtQB8esog0B-GS~clEimCSOYTTrDKtYkNnskawajbyDvLQc3uDHp1pXvhAAqXccKV8H3CIci4g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) | [CABI Digital Library Record](https://www.cabidigitallibrary.org/doi/full/10.5555/20230196088)
 
-5. Trivedi, A., Awasthi, M.K., Nandeha, N., Gautam, V.K., & **Mehla, M.K.** (2024). *Addressing water security challenges through groundwater recharge for revival of Kanari River using AHP and geospatial techniques.* **Discover Water** (Springer), 4(1), 59.  
-   🔗 [Read Full Paper (Springer)](https://link.springer.com/article/10.1007/s43832-025-00319-6)
+
