@@ -1,19 +1,14 @@
 <svg
-   viewBox="0 0 1200 900"
-   width="100%"
-   height="100%"
+   viewBox="0 20 1200 860"
    preserveAspectRatio="xMidYMid meet"
    role="img"
    aria-labelledby="watershed-title watershed-description"
    version="1.1"
-   id="svg210"
-   sodipodi:docname="watershed-interactive.svg"
-   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   id="watershed-diagram"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   xmlns="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview210"
      pagecolor="#ffffff"
@@ -32,8 +27,7 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg210" />
-  <title
-     id="watershed-title">Interactive watershed landscape</title>
+
   <desc
      id="watershed-description">
     Interactive watershed diagram showing precipitation, mountains,
@@ -1459,15 +1453,7 @@
   <!-- ============================================================
        BACKGROUND AND HEADING
        ============================================================ -->
-  <g
-     id="heading"
-     transform="translate(-26.175675,-19.08643)">
-    <text
-       class="title"
-       x="48"
-       y="83"
-       id="text68">Watershed</text>
-  </g>
+
   <!-- Background clouds -->
   <g
      aria-hidden="true"
