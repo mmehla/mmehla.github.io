@@ -7,7 +7,32 @@
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
+/* Interactive watershed SVG */
+.watershed-graphic {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
 
+.watershed-graphic > svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+}
+
+/* Allow the diagram to use more of the page width */
+@media (min-width: 1024px) {
+  .watershed-graphic {
+    width: min(1100px, calc(100vw - 4rem));
+    max-width: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 @import
     "vendor/breakpoint/breakpoint",
 
