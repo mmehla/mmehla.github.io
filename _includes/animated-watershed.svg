@@ -635,15 +635,9 @@
          fill="#f5faff"
          id="path42" />
     </marker>
-    <!-- Clip for circular pivot field -->
-    <clipPath
-       id="pivot-field-clip">
-      <ellipse
-         cx="827"
-         cy="519"
-         rx="61"
-         ry="37"
-         id="ellipse42" />
+    <!-- Center-pivot clip -->
+    <clipPath id="pivot-field-clip">
+      <ellipse cx="827" cy="519" rx="61" ry="37"/>
     </clipPath>
     <!-- ==========================================================
          REUSABLE COMPONENTS
@@ -1941,9 +1935,146 @@
          id="text137">Corn</text>
     </g>
   </a>
-  <!-- ============================================================
-       CENTER-PIVOT FIELD
-       ============================================================ -->
+  <!-- ==========================================================
+       CENTER-PIVOT IRRIGATION
+       ========================================================== -->
+  <a
+    id="center-pivot-link"
+    href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
+    target="_top"
+    aria-label="Open irrigation and crop-stress modeling project"
+    data-title="Center-pivot irrigation — Irrigation and crop-stress modeling">
+
+    <g class="feature" transform="translate(4,-39)">
+      <ellipse
+        class="hit-area"
+        cx="827"
+        cy="519"
+        rx="75"
+        ry="49"/>
+
+      <ellipse
+        class="focus-outline"
+        cx="827"
+        cy="519"
+        rx="69"
+        ry="43"/>
+
+      <ellipse
+        cx="827"
+        cy="519"
+        rx="61"
+        ry="37"
+        fill="#5d9e48"
+        stroke="#377343"
+        stroke-width="3"/>
+
+      <g clip-path="url(#pivot-field-clip)">
+        <ellipse
+          cx="827"
+          cy="519"
+          rx="52"
+          ry="30"
+          fill="none"
+          stroke="#b8d96e"
+          stroke-width="13"/>
+
+        <ellipse
+          cx="827"
+          cy="519"
+          rx="36"
+          ry="21"
+          fill="none"
+          stroke="#438e48"
+          stroke-width="12"/>
+
+        <ellipse
+          cx="827"
+          cy="519"
+          rx="20"
+          ry="11"
+          fill="#c7df78"/>
+
+        <path
+          d="M766 519H888M827 482V556"
+          stroke="#2d7241"
+          stroke-width="2"
+          opacity=".52"/>
+      </g>
+
+      <g transform="matrix(1,0,0,.62,827,519)">
+        <circle
+          cx="0"
+          cy="0"
+          r="10"
+          fill="#e8f0f1"
+          stroke="#48656d"
+          stroke-width="3"/>
+
+        <g class="pivot-rotor">
+          <line
+            x1="0"
+            y1="0"
+            x2="56"
+            y2="0"
+            stroke="#eef5f6"
+            stroke-width="7"
+            stroke-linecap="round"/>
+
+          <line
+            x1="7"
+            y1="4"
+            x2="55"
+            y2="4"
+            stroke="#59727a"
+            stroke-width="2.5"
+            stroke-linecap="round"/>
+
+          <path
+            d="M5 0L14-10L23 0L32-10L41 0L50-8L56 0"
+            fill="none"
+            stroke="#48636b"
+            stroke-width="2.5"/>
+
+          <g transform="translate(20 9)">
+            <use href="#wheel"/>
+          </g>
+
+          <g transform="translate(39 9)">
+            <use href="#wheel"/>
+          </g>
+
+          <g transform="translate(55 7)">
+            <use href="#wheel"/>
+          </g>
+
+          <g
+            class="pivot-spray"
+            fill="none"
+            stroke="#75ddf0"
+            stroke-width="2.5"
+            stroke-linecap="round">
+            <path d="M14 2Q14 20 8 31"/>
+            <path d="M25 2Q27 23 20 35"/>
+            <path d="M37 2Q41 21 36 34"/>
+            <path d="M49 1Q55 18 53 31"/>
+          </g>
+        </g>
+      </g>
+
+      <circle
+        cx="827"
+        cy="519"
+        r="5"
+        fill="#48666d"
+        stroke="#ffffff"
+        stroke-width="2"/>
+
+      <text class="feature-label" x="700" y="575">
+        Center-pivot irrigation
+      </text>
+    </g>
+  </a>
   <!-- ============================================================
        PASTURE AND LIVESTOCK
        ============================================================ -->
