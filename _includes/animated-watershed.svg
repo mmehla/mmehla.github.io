@@ -112,13 +112,13 @@
        class="water-shimmer"
        id="path78" />
   </g>
-  <a
-     id="irrigation-channel-link"
-     href="/watershed/irrigation-channel/"
-     target="_top"
-     aria-label="Open irrigation channel page"
-     data-title="Irrigation channel"
-     transform="matrix(0.97033751,0,0,1.3672217,24.813353,-157.35063)">
+   <a
+      id="irrigation-channel-link"
+      href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
+      target="_top"
+      aria-label="Open irrigation and crop-stress modeling project"
+      data-title="Irrigation and crop-stress modeling"
+      transform="matrix(0.97033751,0,0,1.3672217,24.813353,-157.35063)">
     <g
        class="feature"
        id="g131">
@@ -151,13 +151,13 @@
   <!-- ============================================================
        DEFINITIONS
        ============================================================ -->
-  <a
-     id="river-link"
-     href="/watershed/main-channel/"
-     target="_top"
-     aria-label="Open main river channel page"
-     data-title="Main river channel"
-     transform="matrix(0.85217978,0,0,1.1260117,20.41104,-80.314482)">
+   <a
+      id="river-link"
+      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+      target="_top"
+      aria-label="Open water-footprint assessment project"
+      data-title="Water-footprint assessment"
+      transform="matrix(0.85217978,0,0,1.1260117,20.41104,-80.314482)">
     <g
        class="feature"
        id="g186"
@@ -1493,12 +1493,12 @@
   <!-- ============================================================
        PRECIPITATION
        ============================================================ -->
-  <a
-     id="precipitation-link"
-     href="/watershed/precipitation/"
-     target="_top"
-     aria-label="Open precipitation and rainfall page"
-     data-title="Precipitation and rainfall">
+   <a
+      id="precipitation-link"
+      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+      target="_top"
+      aria-label="Open water-footprint assessment project"
+      data-title="Water-footprint assessment">
     <g
        class="feature"
        id="g122">
@@ -1714,13 +1714,13 @@
   <!-- ============================================================
      DAM AND RESERVOIR
      ============================================================ -->
-  <a
-     id="dam-link"
-     href="/watershed/dam-and-reservoir/"
-     target="_top"
-     aria-label="Open dam and reservoir page"
-     data-title="Dam and reservoir"
-     transform="matrix(1.1133847,0,0,0.84656421,-61.227755,38.300561)">
+   <a
+      id="dam-link"
+      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+      target="_top"
+      aria-label="Open water-footprint assessment project"
+      data-title="Water-footprint assessment"
+      transform="matrix(1.1133847,0,0,0.84656421,-61.227755,38.300561)">
     <g
        class="feature"
        id="dam-and-reservoir-feature">
@@ -1920,13 +1920,13 @@
   <!-- ============================================================
        AGRICULTURE
        ============================================================ -->
-  <a
-     id="agriculture-link"
-     href="/watershed/agriculture/"
-     target="_top"
-     aria-label="Open agricultural fields page"
-     data-title="Agricultural fields"
-     transform="matrix(0.93981249,0.04870625,-0.04940576,0.95330995,76.81758,-26.441248)">
+   <a
+      id="agriculture-link"
+      href="{{ '/portfolio/agroecosystem-modeling/' | relative_url }}"
+      target="_top"
+      aria-label="Open agroecosystem modeling project"
+      data-title="Agroecosystem modeling"
+      transform="matrix(0.93981249,0.04870625,-0.04940576,0.95330995,76.81758,-26.441248)">
     <g
        class="feature"
        id="g137">
@@ -1993,13 +1993,13 @@
   <!-- ============================================================
        PASTURE AND LIVESTOCK
        ============================================================ -->
-  <a
-     id="pasture-link"
-     href="/watershed/livestock-and-pasture/"
-     target="_top"
-     aria-label="Open livestock and pasture page"
-     data-title="Livestock and managed pasture"
-     transform="translate(4.6272494,2.3136247)">
+   <a
+      id="pasture-link"
+      href="{{ '/portfolio/agroecosystem-modeling/' | relative_url }}"
+      target="_top"
+      aria-label="Open agroecosystem modeling project"
+      data-title="Agroecosystem modeling"
+      transform="translate(4.6272494,2.3136247)">
     <g
        class="feature"
        id="g160">
@@ -2079,13 +2079,13 @@
   <!-- ============================================================
        EVAPOTRANSPIRATION
        ============================================================ -->
-  <a
-     id="evapotranspiration-link"
-     href="/watershed/evapotranspiration/"
-     target="_top"
-     aria-label="Open evapotranspiration page"
-     data-title="Evapotranspiration"
-     transform="translate(53.442004,-57.259289)">
+   <a
+      id="evapotranspiration-link"
+      href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
+      target="_top"
+      aria-label="Open irrigation and crop-stress modeling project"
+      data-title="Irrigation and crop-stress modeling"
+      transform="translate(53.442004,-57.259289)">
     <g
        class="feature"
        id="g166">
@@ -2139,13 +2139,13 @@
   <!-- ============================================================
        URBAN CATCHMENT
        ============================================================ -->
-  <a
-     id="urban-link"
-     href="/watershed/urban-runoff/"
-     target="_top"
-     aria-label="Open urban runoff and catchment page"
-     data-title="Urban catchment and stormwater runoff"
-     transform="translate(-3.0848329)">
+   <a
+      id="urban-link"
+      href="{{ '/portfolio/lulc-texas-high-plains/' | relative_url }}"
+      target="_top"
+      aria-label="Open land-use and land-cover project"
+      data-title="Land-use and land-cover analysis"
+      transform="translate(-3.0848329)">
     <g
        class="feature"
        id="g180">
@@ -2475,9 +2475,16 @@
       svg.addEventListener("mouseleave", hideTooltip);
     }());
   ]]></script>
-  <g
-     id="g219"
-     transform="translate(1065.5681,4.3626124)">
+   <a
+      id="forest-link"
+      href="{{ '/portfolio/lulc-texas-high-plains/' | relative_url }}"
+      target="_top"
+      aria-label="Open land-use and land-cover project"
+      data-title="Land-use and land-cover analysis">
+     <g
+        class="feature"
+        id="g219"
+        transform="translate(1065.5681,4.3626124)">
     <g
        id="g92"
        transform="matrix(1.0570537,0,0,1.0384323,-1115.9715,-56.636519)">
@@ -2524,6 +2531,7 @@
            id="use91" />
       </g>
     </g>
+    </a>
     <text
        class="small-label"
        x="-862.56915"
@@ -2531,13 +2539,13 @@
        id="text92"
        transform="scale(1.0461976,0.95584242)">Forest</text>
   </g>
-  <a
-     id="center-pivot-link"
-     href="/watershed/center-pivot-irrigation/"
-     target="_top"
-     aria-label="Open center-pivot irrigation page"
-     data-title="Center-pivot irrigation"
-     transform="translate(3.8560412,-39.331619)">
+   <a
+      id="center-pivot-link"
+      href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
+      target="_top"
+      aria-label="Open irrigation and crop-stress modeling project"
+      data-title="Irrigation and crop-stress modeling"
+      transform="translate(3.8560412,-39.331619)">
     <g
        class="feature"
        id="g151">
@@ -2706,12 +2714,12 @@
          id="text150">Center-pivot irrigation</text>
     </g>
   </a>
-  <a
-     id="wetland-link"
-     href="/watershed/wetlands/"
-     target="_top"
-     aria-label="Open wetlands page"
-     data-title="Wetland">
+   <a
+      id="wetland-link"
+      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+      target="_top"
+      aria-label="Open water-footprint assessment project"
+      data-title="Water-footprint assessment">
     <g
        class="feature"
        id="g192">
@@ -2779,12 +2787,12 @@
          id="text191">Wetland</text>
     </g>
   </a>
-  <a
-     id="floodplain-link"
-     href="/watershed/floodplain/"
-     target="_top"
-     aria-label="Open floodplain page"
-     data-title="Floodplain">
+   <a
+      id="floodplain-link"
+      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+      target="_top"
+      aria-label="Open water-footprint assessment project"
+      data-title="Water-footprint assessment">
     <g
        class="feature"
        id="g198">
