@@ -1130,21 +1130,21 @@
        ============================================================ -->
   <style
      id="style68">
-    :root {
-      --ink: #173b49;
-      --muted: #496773;
-      --flow: #087eb9;
-      --rain: #279fd0;
-      --et: #13a8b8;
-      --groundwater: #5ad9ef;
-      --focus: #ffcf32;
-    }
-
    #watershed-diagram {
+     --ink: #173b49;
+     --muted: #496773;
+     --flow: #087eb9;
+     --rain: #279fd0;
+     --et: #13a8b8;
+     --groundwater: #5ad9ef;
+     --focus: #ffcf32;
+   
      background: #eef7f8;
      font-family: Inter, "Segoe UI", Arial, sans-serif;
      user-select: none;
    }
+
+
 
     a {
       cursor: pointer;
