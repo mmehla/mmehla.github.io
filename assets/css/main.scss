@@ -7,30 +7,32 @@
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
-/* Interactive watershed SVG */
+/* Interactive watershed on homepage */
 .watershed-graphic {
   width: 100%;
-  max-width: 1200px;
-  margin: 2rem auto;
+  max-width: 850px;
+  margin: 1.25rem auto 2rem;
   overflow: hidden;
   border-radius: 12px;
+  line-height: 0;
 }
 
 .watershed-graphic > svg {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 3;
+  max-height: 650px;
 }
 
-/* Allow the diagram to use more of the page width */
-@media (min-width: 1024px) {
+/* Slightly smaller diagram on phones */
+@media (max-width: 600px) {
   .watershed-graphic {
-    width: min(1100px, calc(100vw - 4rem));
-    max-width: none;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 1rem auto 1.5rem;
+    border-radius: 8px;
+  }
+
+  .watershed-graphic > svg {
+    max-height: none;
   }
 }
 @import
