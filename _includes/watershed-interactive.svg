@@ -1140,11 +1140,11 @@
       --focus: #ffcf32;
     }
 
-    svg {
-      background: #eef7f8;
-      font-family: Inter, &quot;Segoe UI&quot;, Arial, sans-serif;
-      user-select: none;
-    }
+   #watershed-diagram {
+     background: #eef7f8;
+     font-family: Inter, "Segoe UI", Arial, sans-serif;
+     user-select: none;
+   }
 
     a {
       cursor: pointer;
