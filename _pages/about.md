@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my website!"
+title: "My watershed"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 
-## My watershed
 
 <div class="watershed-graphic">
   {% include animated-watershed.svg %}
