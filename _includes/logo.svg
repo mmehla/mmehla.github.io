@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 1200"
+  width="1200"
+  height="1200"
+  role="img"
+  aria-labelledby="logo-title logo-description">
+
+  <title id="logo-title">
+    Water, Forest, Land, Agriculture
+  </title>
+
+  <desc id="logo-description">
+    A watershed badge logo featuring rainfall, forested mountains,
+    a winding river, agricultural fields, center-pivot irrigation,
+    soil, and groundwater.
+  </desc>
+
+  <!-- =========================================================
+       DEFINITIONS
+       ========================================================= -->
+
+  <defs>
+
+    <!-- Background colors -->
+
+    <linearGradient id="logo-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff5fb"/>
+      <stop offset="0.62" stop-color="#a7dae6"/>
+      <stop offset="1" stop-color="#6cb7c9"/>
+    </linearGradient>
+
+    <linearGradient id="mountain-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#91aa9c"/>
+      <stop offset="1" stop-color="#496b60"/>
+    </linearGradient>
+
+    <linearGradient id="mountain-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#52766a"/>
+      <stop offset="1" stop-color="#254d45"/>
+    </linearGradient>
+
+    <linearGradient id="river-gradient" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#75ddf2"/>
+      <stop offset="0.55" stop-color="#22a9d3"/>
+      <stop offset="1" stop-color="#0878ad"/>
+    </linearGradient>
+
+    <linearGradient id="land-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#76ba58"/>
+      <stop offset="1" stop-color="#278b4a"/>
+    </linearGradient>
+
+    <linearGradient id="forest-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#287154"/>
+      <stop offset="1" stop-color="#123f36"/>
+    </linearGradient>
+
+    <linearGradient id="field-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4d96a"/>
+      <stop offset="1" stop-color="#c79428"/>
+    </linearGradient>
+
+    <linearGradient id="field-green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#91cc5f"/>
+      <stop offset="1" stop-color="#3d9147"/>
+    </linearGradient>
+
+    <linearGradient id="soil-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#96613e"/>
+      <stop offset="0.38" stop-color="#72442c"/>
+      <stop offset="0.72" stop-color="#4f2e20"/>
+      <stop offset="1" stop-color="#352119"/>
+    </linearGradient>
+
+    <linearGradient id="aquifer-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#29a8ca"/>
+      <stop offset="0.5" stop-color="#83dfed"/>
+      <stop offset="1" stop-color="#1585b7"/>
+    </linearGradient>
+
+    <!-- Agricultural row patterns -->
+
+    <pattern
+      id="gold-field-pattern"
+      width="34"
+      height="34"
+      patternUnits="userSpaceOnUse"
+      patternTransform="rotate(27)">
+
+      <rect
+        width="34"
+        height="34"
+        fill="url(#field-gold)"/>
+
+      <path
+        d="M5 0V34 M18 0V34 M31 0V34"
+        stroke="#fff0a3"
+        stroke-width="6"
+        opacity="0.72"/>
+    </pattern>
+
+    <pattern
+      id="green-field-pattern"
+      width="32"
+      height="32"
+      patternUnits="userSpaceOnUse"
+      patternTransform="rotate(-28)">
+
+      <rect
+        width="32"
+        height="32"
+        fill="url(#field-green)"/>
+
+      <path
+        d="M5 0V32 M18 0V32 M31 0V32"
+        stroke="#b6e58b"
+        stroke-width="6"
+        opacity="0.65"/>
+    </pattern>
+
+    <!-- Badge clipping area -->
+
+    <clipPath id="landscape-clip">
+      <path
+        d="M600 174
+           L975 373
+           L946 817
+           L600 1017
+           L254 817
+           L225 373Z"/>
+    </clipPath>
+
+    <!-- Center-pivot field clip -->
+
+    <clipPath id="pivot-clip">
+      <ellipse cx="809" cy="713" rx="114" ry="70"/>
+    </clipPath>
+
+    <!-- Shadows -->
+
+    <filter
+      id="badge-shadow"
+      x="-20%"
+      y="-20%"
+      width="140%"
+      height="150%">
+
+      <feDropShadow
+        dx="0"
+        dy="18"
+        stdDeviation="18"
+        flood-color="#0d3034"
+        flood-opacity="0.26"/>
+    </filter>
+
+    <filter
+      id="small-shadow"
+      x="-30%"
+      y="-30%"
+      width="160%"
+      height="170%">
+
+      <feDropShadow
+        dx="0"
+        dy="7"
+        stdDeviation="6"
+        flood-color="#123a3d"
+        flood-opacity="0.26"/>
+    </filter>
+
+    <!-- Text paths -->
+
+    <path
+      id="top-text-path"
+      d="M270 340 Q600 124 930 340"/>
+
+    <path
+      id="bottom-text-path"
+      d="M287 873 Q600 1069 913 873"/>
+
+    <!-- Reusable pine tree -->
+
+    <g id="pine-tree">
+      <ellipse
+        cx="0"
+        cy="17"
+        rx="24"
+        ry="9"
+        fill="#173d32"
+        opacity="0.2"/>
+
+      <rect
+        x="-5"
+        y="-20"
+        width="10"
+        height="38"
+        rx="3"
+        fill="#745039"/>
+
+      <polygon
+        points="0,-94 43,-40 -43,-40"
+        fill="#2c7957"/>
+
+      <polygon
+        points="0,-73 53,-18 -53,-18"
+        fill="#1e6248"/>
+
+      <polygon
+        points="0,-50 48,5 -48,5"
+        fill="url(#forest-gradient)"/>
+    </g>
+
+    <!-- Reusable deciduous tree -->
+
+    <g id="round-tree">
+      <ellipse
+        cx="0"
+        cy="17"
+        rx="27"
+        ry="10"
+        fill="#173d32"
+        opacity="0.18"/>
+
+      <rect
+        x="-5"
+        y="-31"
+        width="11"
+        height="48"
+        rx="3"
+        fill="#735038"/>
+
+      <circle
+        cx="-22"
+        cy="-42"
+        r="27"
+        fill="#388f4a"/>
+
+      <circle
+        cx="22"
+        cy="-44"
+        r="29"
+        fill="#277a41"/>
+
+      <circle
+        cx="0"
+        cy="-69"
+        r="31"
+        fill="#5eae56"/>
+    </g>
+
+    <!-- Reusable cloud -->
+
+    <g id="cloud">
+      <path
+        d="M-75 15
+           C-75-6-59-23-38-23
+           C-32-52-8-69 18-60
+           C39-57 55-41 58-22
+           C81-24 98-7 98 16
+           C98 38 80 52 58 52
+           H-48
+           C-70 52-85 38-85 20
+           C-85 17-81 16-75 15Z"
+        fill="#ffffff"
+        stroke="#b7d8df"
+        stroke-width="4"/>
+
+      <path
+        d="M-80 20
+           C-69 42-55 52-35 52
+           H58
+           C80 52 95 39 98 19
+           C63 33 20 35-16 31
+           C-43 28-63 24-80 20Z"
+        fill="#c7dfe4"
+        opacity="0.78"/>
+    </g>
+
+    <!-- Reusable raindrop -->
+
+    <g id="raindrop">
+      <path
+        d="M0-18
+           C11-4 16 7 16 17
+           C16 29 9 37 0 37
+           C-9 37-16 29-16 17
+           C-16 7-11-4 0-18Z"
+        fill="#31b8e2"
+        stroke="#087eae"
+        stroke-width="3"/>
+
+      <path
+        d="M-5 9C-2 3 1 0 6-4"
+        fill="none"
+        stroke="#dffaff"
+        stroke-width="4"
+        stroke-linecap="round"/>
+    </g>
+
+  </defs>
+
+  <!-- =========================================================
+       STYLES
+       ========================================================= -->
+
+  <style>
+    .logo-main-text {
+      fill: #164f48;
+      font-family: Montserrat, "Segoe UI", Arial, sans-serif;
+      font-size: 50px;
+      font-weight: 850;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .logo-main-text-light {
+      fill: #f8fffd;
+      font-family: Montserrat, "Segoe UI", Arial, sans-serif;
+      font-size: 48px;
+      font-weight: 850;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .small-badge-text {
+      fill: #18564e;
+      font-family: Montserrat, "Segoe UI", Arial, sans-serif;
+      font-size: 25px;
+      font-weight: 750;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .water-highlight {
+      fill: none;
+      stroke: #d8faff;
+      stroke-width: 10;
+      stroke-linecap: round;
+      stroke-dasharray: 28 22;
+      opacity: 0.88;
+    }
+
+    .fine-line {
+      fill: none;
+      stroke: #174f49;
+      stroke-width: 7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+
+  <!-- Transparent background.
+       Add a white rect here if a white background is preferred. -->
+
+  <!-- =========================================================
+       SIDE RIBBON
+       ========================================================= -->
+
+  <g
+    id="ribbon"
+    filter="url(#small-shadow)">
+
+    <!-- Left ribbon tail -->
+
+    <path
+      d="M38 565
+         L230 565
+         L230 692
+         L38 692
+         L102 628Z"
+      fill="#267466"
+      stroke="#ffffff"
+      stroke-width="18"/>
+
+    <path
+      d="M38 565
+         L230 565
+         L230 692
+         L38 692
+         L102 628Z"
+      fill="#267466"
+      stroke="#174f49"
+      stroke-width="7"/>
+
+    <!-- Right ribbon tail -->
+
+    <path
+      d="M1162 565
+         L970 565
+         L970 692
+         L1162 692
+         L1098 628Z"
+      fill="#267466"
+      stroke="#ffffff"
+      stroke-width="18"/>
+
+    <path
+      d="M1162 565
+         L970 565
+         L970 692
+         L1162 692
+         L1098 628Z"
+      fill="#267466"
+      stroke="#174f49"
+      stroke-width="7"/>
+
+    <!-- Ribbon folds -->
+
+    <polygon
+      points="230,565 284,601 230,633"
+      fill="#123f3a"/>
+
+    <polygon
+      points="970,565 916,601 970,633"
+      fill="#123f3a"/>
+
+  </g>
+
+  <!-- =========================================================
+       OUTER BADGE
+       ========================================================= -->
+
+  <g
+    id="badge"
+    filter="url(#badge-shadow)">
+
+    <!-- White separation border -->
+
+    <path
+      d="M600 50
+         L1087 309
+         L1049 889
+         L600 1149
+         L151 889
+         L113 309Z"
+      fill="#ffffff"
+      stroke="#ffffff"
+      stroke-width="30"
+      stroke-linejoin="round"/>
+
+    <!-- Dark outside border -->
+
+    <path
+      d="M600 50
+         L1087 309
+         L1049 889
+         L600 1149
+         L151 889
+         L113 309Z"
+      fill="#f4f1e9"
+      stroke="#174f49"
+      stroke-width="20"
+      stroke-linejoin="round"/>
+
+    <!-- Teal accent border -->
+
+    <path
+      d="M600 82
+         L1054 324
+         L1019 870
+         L600 1113
+         L181 870
+         L146 324Z"
+      fill="none"
+      stroke="#5fa899"
+      stroke-width="10"
+      stroke-linejoin="round"/>
+
+    <!-- Inner cream badge -->
+
+    <path
+      d="M600 123
+         L1013 343
+         L981 845
+         L600 1065
+         L219 845
+         L187 343Z"
+      fill="#f4f1e9"
+      stroke="#174f49"
+      stroke-width="9"
+      stroke-linejoin="round"/>
+
+  </g>
+
+  <!-- =========================================================
+       WATERSHED LANDSCAPE
+       ========================================================= -->
+
+  <g clip-path="url(#landscape-clip)">
+
+    <!-- Sky -->
+
+    <rect
+      x="200"
+      y="150"
+      width="800"
+      height="520"
+      fill="url(#logo-sky)"/>
+
+    <!-- Sun -->
+
+    <circle
+      cx="835"
+      cy="323"
+      r="68"
+      fill="#f4cf50"
+      opacity="0.95"/>
+
+    <circle
+      cx="835"
+      cy="323"
+      r="84"
+      fill="none"
+      stroke="#fff0a0"
+      stroke-width="12"
+      opacity="0.35"/>
+
+    <!-- Distant mountain -->
+
+    <polygon
+      points="274,568 478,263 648,572"
+      fill="url(#mountain-light)"/>
+
+    <polygon
+      points="478,263 648,572 527,458"
+      fill="url(#mountain-dark)"/>
+
+    <polygon
+      points="478,263 425,344 466,328 493,361 520,330 560,375"
+      fill="#f7fcfd"/>
+
+    <!-- Main mountain -->
+
+    <polygon
+      points="390,586 628,218 876,585"
+      fill="url(#mountain-light)"/>
+
+    <polygon
+      points="628,218 876,585 704,454"
+      fill="url(#mountain-dark)"/>
+
+    <polygon
+      points="628,218 559,328 608,307 642,349 676,309 732,377"
+      fill="#fbffff"/>
+
+    <!-- Clouds and rain -->
+
+    <g
+      transform="translate(378 265) scale(.55)"
+      filter="url(#small-shadow)">
+      <use href="#cloud"/>
+    </g>
+
+    <g
+      transform="translate(807 241) scale(.42)"
+      filter="url(#small-shadow)">
+      <use href="#cloud"/>
+    </g>
+
+    <g transform="translate(332 310) scale(.27)">
+      <use href="#raindrop"/>
+    </g>
+
+    <g transform="translate(375 333) scale(.22)">
+      <use href="#raindrop"/>
+    </g>
+
+    <g transform="translate(416 306) scale(.26)">
+      <use href="#raindrop"/>
+    </g>
+
+    <!-- Ground -->
+
+    <path
+      d="M190 537
+         C346 487 460 500 595 533
+         C733 487 877 495 1019 555
+         L1002 845
+         L600 1069
+         L198 845Z"
+      fill="url(#land-gradient)"/>
+
+    <!-- Forest region -->
+
+    <path
+      d="M199 525
+         C303 479 409 485 522 543
+         L467 762
+         L202 739Z"
+      fill="#347e4e"
+      opacity="0.85"/>
+
+    <!-- Agricultural region -->
+
+    <path
+      d="M637 536
+         C767 492 902 508 1012 565
+         L984 811
+         L735 874
+         L610 729Z"
+      fill="#d5ba50"/>
+
+    <!-- Gold field -->
+
+    <polygon
+      points="712,546 850,499 940,555 800,621"
+      fill="url(#gold-field-pattern)"
+      stroke="#a87926"
+      stroke-width="6"/>
+
+    <!-- Green crop field -->
+
+    <polygon
+      points="664,639 793,583 901,650 772,719"
+      fill="url(#green-field-pattern)"
+      stroke="#317742"
+      stroke-width="6"/>
+
+    <!-- River shadow -->
+
+    <path
+      d="M613 315
+         C559 376 494 400 524 462
+         C557 527 672 521 652 600
+         C635 669 514 665 531 756
+         C544 830 654 869 633 1034"
+      fill="none"
+      stroke="#0a6a8d"
+      stroke-width="100"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      opacity="0.42"/>
+
+    <!-- River -->
+
+    <path
+      d="M613 315
+         C559 376 494 400 524 462
+         C557 527 672 521 652 600
+         C635 669 514 665 531 756
+         C544 830 654 869 633 1034"
+      fill="none"
+      stroke="url(#river-gradient)"
+      stroke-width="79"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+
+    <!-- River highlight -->
+
+    <path
+      class="water-highlight"
+      d="M613 325
+         C565 380 511 407 538 458
+         C571 518 678 526 664 599
+         C650 672 529 672 545 754
+         C559 826 657 871 647 1013"/>
+
+    <!-- Forest trees -->
+
+    <g transform="translate(284 595) scale(.60)">
+      <use href="#pine-tree"/>
+    </g>
+
+    <g transform="translate(376 555) scale(.68)">
+      <use href="#pine-tree"/>
+    </g>
+
+    <g transform="translate(455 631) scale(.55)">
+      <use href="#pine-tree"/>
+    </g>
+
+    <g transform="translate(270 710) scale(.54)">
+      <use href="#round-tree"/>
+    </g>
+
+    <g transform="translate(394 730) scale(.59)">
+      <use href="#round-tree"/>
+    </g>
+
+    <!-- Wetland plants -->
+
+    <g
+      fill="none"
+      stroke="#175b3c"
+      stroke-width="9"
+      stroke-linecap="round">
+
+      <path d="M449 791L432 723"/>
+      <path d="M455 791L468 716"/>
+      <path d="M464 791L495 737"/>
+
+      <path d="M677 834L661 774"/>
+      <path d="M686 834L701 765"/>
+      <path d="M694 834L724 787"/>
+    </g>
+
+    <!-- Center-pivot field -->
+
+    <ellipse
+      cx="809"
+      cy="713"
+      rx="114"
+      ry="70"
+      fill="#65a44e"
+      stroke="#2c6d43"
+      stroke-width="7"/>
+
+    <g clip-path="url(#pivot-clip)">
+
+      <ellipse
+        cx="809"
+        cy="713"
+        rx="94"
+        ry="57"
+        fill="none"
+        stroke="#b8d76a"
+        stroke-width="25"/>
+
+      <ellipse
+        cx="809"
+        cy="713"
+        rx="65"
+        ry="39"
+        fill="none"
+        stroke="#3e8c49"
+        stroke-width="24"/>
+
+      <ellipse
+        cx="809"
+        cy="713"
+        rx="36"
+        ry="21"
+        fill="#c8dc72"/>
+
+      <path
+        d="M696 713H922M809 643V783"
+        stroke="#2e7441"
+        stroke-width="5"
+        opacity="0.45"/>
+    </g>
+
+    <!-- Pivot irrigation arm -->
+
+    <g transform="translate(809 713) scale(1 .62)">
+
+      <circle
+        r="15"
+        fill="#edf4f2"
+        stroke="#315d5c"
+        stroke-width="7"/>
+
+      <line
+        x1="0"
+        y1="0"
+        x2="107"
+        y2="0"
+        stroke="#eef6f5"
+        stroke-width="13"
+        stroke-linecap="round"/>
+
+      <path
+        d="M9 0
+           L29-20
+           L49 0
+           L69-20
+           L89 0
+           L105-16"
+        fill="none"
+        stroke="#315d5c"
+        stroke-width="6"
+        stroke-linejoin="round"/>
+
+      <g fill="#243f43">
+        <circle cx="40" cy="17" r="10"/>
+        <circle cx="76" cy="17" r="10"/>
+        <circle cx="105" cy="13" r="10"/>
+      </g>
+
+      <!-- Water spray -->
+
+      <g
+        fill="none"
+        stroke="#8be4f1"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-dasharray="8 9">
+
+        <path d="M30 6Q31 37 18 58"/>
+        <path d="M56 6Q61 43 47 66"/>
+        <path d="M82 5Q89 37 80 59"/>
+        <path d="M105 4Q116 31 112 51"/>
+      </g>
+
+    </g>
+
+    <!-- Soil cross-section -->
+
+    <path
+      d="M196 838
+         L600 1068
+         L1004 838
+         L987 1003
+         L600 1162
+         L213 1003Z"
+      fill="url(#soil-gradient)"/>
+
+    <!-- Soil layers -->
+
+    <path
+      d="M201 881L600 1097L999 881"
+      fill="none"
+      stroke="#d1a16d"
+      stroke-width="24"
+      opacity="0.9"/>
+
+    <path
+      d="M206 929L600 1137L994 929"
+      fill="none"
+      stroke="#254d4f"
+      stroke-width="36"
+      opacity="0.95"/>
+
+    <!-- Aquifer -->
+
+    <path
+      d="M206 918
+         L600 1135
+         L994 918
+         L988 972
+         L600 1177
+         L212 972Z"
+      fill="url(#aquifer-gradient)"
+      stroke="#0d7097"
+      stroke-width="6"
+      opacity="0.95"/>
+
+    <path
+      d="M225 942L600 1147L973 942"
+      fill="none"
+      stroke="#c6f7ff"
+      stroke-width="10"
+      stroke-dasharray="30 22"
+      opacity="0.75"/>
+
+  </g>
+
+  <!-- Inner landscape border -->
+
+  <path
+    d="M600 174
+       L975 373
+       L946 817
+       L600 1017
+       L254 817
+       L225 373Z"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="21"
+    stroke-linejoin="round"/>
+
+  <path
+    d="M600 174
+       L975 373
+       L946 817
+       L600 1017
+       L254 817
+       L225 373Z"
+    fill="none"
+    stroke="#174f49"
+    stroke-width="10"
+    stroke-linejoin="round"/>
+
+  <!-- =========================================================
+       SYMBOLS BETWEEN WORDS
+       ========================================================= -->
+
+  <!-- Left forest symbol -->
+
+  <g transform="translate(187 331)">
+    <path
+      d="M0-27L10-8L31-8L15 5L21 27L0 14L-21 27L-15 5L-31-8L-10-8Z"
+      fill="#267466"/>
+  </g>
+
+  <!-- Right agriculture symbol -->
+
+  <g transform="translate(1013 331)">
+    <path
+      d="M0-27L10-8L31-8L15 5L21 27L0 14L-21 27L-15 5L-31-8L-10-8Z"
+      fill="#267466"/>
+  </g>
+
+  <!-- =========================================================
+       PRIMARY WORDS
+       ========================================================= -->
+
+  <!-- Top wording -->
+
+  <text class="logo-main-text">
+    <textPath
+      href="#top-text-path"
+      startOffset="50%"
+      text-anchor="middle">
+      WATER • FOREST
+    </textPath>
+  </text>
+
+  <!-- Bottom wording -->
+
+  <text class="logo-main-text">
+    <textPath
+      href="#bottom-text-path"
+      startOffset="50%"
+      text-anchor="middle">
+      LAND • AGRICULTURE
+    </textPath>
+  </text>
+
+  <!-- =========================================================
+       CENTRAL RIBBON
+       ========================================================= -->
+
+  <g
+    id="center-ribbon"
+    filter="url(#small-shadow)">
+
+    <path
+      d="M222 759
+         L978 759
+         L978 883
+         L222 883Z"
+      fill="#17665a"
+      stroke="#ffffff"
+      stroke-width="18"/>
+
+    <path
+      d="M222 759
+         L978 759
+         L978 883
+         L222 883Z"
+      fill="#17665a"
+      stroke="#174f49"
+      stroke-width="8"/>
+
+    <!-- Decorative river line -->
+
+    <path
+      d="M548 861
+         C566 837 557 813 583 795
+         C600 783 620 783 639 770"
+      fill="none"
+      stroke="#6edcf0"
+      stroke-width="11"
+      stroke-linecap="round"/>
+
+    <!-- Leaf ornament -->
+
+    <path
+      d="M518 862
+         C486 830 488 792 519 773
+         C538 809 536 839 518 862Z"
+      fill="#7fc85d"/>
+
+    <path
+      d="M518 859L520 784"
+      fill="none"
+      stroke="#e4f7b6"
+      stroke-width="5"
+      stroke-linecap="round"/>
+
+    <!-- Central name -->
+
+    <text
+      x="600"
+      y="839"
+      text-anchor="middle"
+      class="logo-main-text-light">
+      WATERSHED
+    </text>
+
+  </g>
+
+  <!-- =========================================================
+       SMALL CORNER IDENTIFIERS
+       ========================================================= -->
+
+  <g aria-hidden="true">
+
+    <!-- Water drop -->
+
+    <g transform="translate(600 126) scale(.47)">
+      <use href="#raindrop"/>
+    </g>
+
+    <!-- Leaf -->
+
+    <g transform="translate(600 1080)">
+      <path
+        d="M0 0
+           C-44-15-64-52-50-89
+           C-8-80 18-50 0 0Z"
+        fill="#489b50"/>
+
+      <path
+        d="M0 0
+           C44-15 64-52 50-89
+           C8-80-18-50 0 0Z"
+        fill="#74bd59"/>
+
+      <path
+        d="M0-1V-77"
+        stroke="#f4f1e9"
+        stroke-width="7"
+        stroke-linecap="round"/>
+    </g>
+
+  </g>
+
+</svg>
