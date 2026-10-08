@@ -6,10 +6,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Welcome to my academic website.
 
+## Interactive watershed model
 
+<div class="watershed-graphic">
+  {% include animated-watershed.svg %}
+</div>
 
-I am an **early career researcher** specializing in *soil and water conservation*, *conservation agriculture*, and *agroecosystem modeling*, and the sustainable management of agricultural ecosystems and groundwater resources. 
+I am an **early career researcher** specializing in *soil and water conservation*, *conservation agriculture*, and *hydrological modeling*, and the sustainable management of agricultural ecosystems and groundwater resources. 
 
 Currently, I work as an **Assistant Research Scientist at Texas A&M AgriLife Research**, where I am actively pursuing my passion for academic research and environmental sustainability. In this role, I am developing, calibrating, and validating **process-based modules for the SWAT+ model**, employing field measurements and eddy covariance flux datasets to simulate carbon and water fluxes across diverse agroecosystems. 
 
