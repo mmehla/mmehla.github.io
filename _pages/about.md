@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome to my academic website.
+Welcome to my website ! 
 
 ## My watershed
 
