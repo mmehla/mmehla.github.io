@@ -1,1236 +1,530 @@
 <svg
-   viewBox="0 20 1200 860"
-   preserveAspectRatio="xMidYMid meet"
-   role="img"
-   aria-labelledby="watershed-title watershed-description"
-   version="1.1"
-   id="watershed-diagram"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview210"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.2966667"
-     inkscape:cx="532.13367"
-     inkscape:cy="402.95629"
-     inkscape:window-width="3440"
-     inkscape:window-height="1369"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg210" />
+  id="watershed-diagram"
+  viewBox="0 20 1200 860"
+  preserveAspectRatio="xMidYMid meet"
+  role="img"
+  aria-labelledby="watershed-title watershed-description"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
 
-  <desc
-     id="watershed-description">
-    Interactive watershed diagram showing precipitation, mountains,
-    streams, a river, dam and reservoir, wetlands, floodplain,
-    agriculture, center-pivot irrigation, livestock, an urban
-    catchment, infiltration, groundwater, and evapotranspiration.
-    Select a component to open its corresponding website page.
+  <title id="watershed-title">Interactive watershed landscape</title>
+
+  <desc id="watershed-description">
+    Interactive watershed diagram showing two mountains, precipitation,
+    a reservoir and dam, an irrigation channel, a main river, agriculture,
+    center-pivot irrigation, managed pasture, an urban catchment, forest,
+    wetland, floodplain, infiltration, groundwater flow, runoff, and
+    evapotranspiration. Select a component to open the related portfolio page.
   </desc>
-  <rect
-     width="1201.0907"
-     height="900"
-     fill="url(#sky)"
-     id="rect68"
-     style="fill:url(#sky);stroke-width:1.00045"
-     x="-0.35544568"
-     y="0.99955958" />
-  <g
-     id="watershed-block"
-     filter="url(#land-shadow)"
-     transform="matrix(1.0240934,0,0,1.1437342,-39.745847,-49.362311)">
-    <!-- Top surface -->
-    <path
-       d="m 76,442 c 4,-53 40,-87 96,-120 L 487,145 c 33,-18 70,-17 107,2 l 464,260 c 27,16 32,43 12,62 L 605,754 c -25,16 -55,16 -81,0 L 94,503 C 71,489 62,465 76,442 Z"
-       fill="url(#top-ground)"
-       stroke="#1d7d49"
-       stroke-width="3"
-       id="path71"
-       style="fill:url(#top-ground)" />
-    <!-- Left cutaway -->
-    <path
-       d="M 75,445 552,724 V 827 L 75,550 Z"
-       fill="url(#left-soil)"
-       stroke="#4a2817"
-       stroke-width="3"
-       id="path72"
-       style="fill:url(#left-soil)" />
-    <!-- Right cutaway -->
-    <path
-       d="M 552,724 1075,421 V 550 L 552,827 Z"
-       fill="url(#right-soil)"
-       stroke="#3a1d0e"
-       stroke-width="3"
-       id="path73"
-       style="fill:url(#right-soil)" />
-    <!-- Soil layers -->
-    <path
-       d="M 77,483 552,760 1074,458"
-       fill="none"
-       stroke="#d29a65"
-       stroke-width="13"
-       opacity="0.92"
-       id="path74" />
-    <path
-       d="M 77,515 552,792 1074,489"
-       fill="none"
-       stroke="#587987"
-       stroke-width="23"
-       opacity="0.97"
-       id="path75" />
-    <path
-       d="M 77,546 552,820 1074,519"
-       fill="none"
-       stroke="#b57d58"
-       stroke-width="15"
-       opacity="0.88"
-       id="path76" />
-    <!-- Aquifer -->
-    <path
-       d="m 76,503 476,276 523,-303 v 40 L 552,817 76,540 Z"
-       fill="url(#aquifer-water)"
-       stroke="#167fab"
-       stroke-width="3"
-       opacity="0.94"
-       id="path77"
-       style="fill:url(#aquifer-water)" />
-    <path
-       d="M 91,515 552,782 1057,490"
-       fill="none"
-       stroke="#baf5ff"
-       stroke-width="5"
-       opacity="0.75"
-       class="water-shimmer"
-       id="path78" />
-  </g>
-   <a
-      id="irrigation-channel-link"
-      href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
-      target="_top"
-      aria-label="Open irrigation and crop-stress modeling project"
-      data-title="Irrigation and crop-stress modeling"
-      transform="matrix(0.97033751,0,0,1.3672217,24.813353,-157.35063)">
-    <g
-       class="feature"
-       id="g131">
-      <path
-         d="m 413.53959,348.0923 c 141.8508,-4.98668 271.41532,8.97604 423.31854,49.86685 l -11.16935,19.94674 C 680.48717,380.00709 552.03959,366.04437 413.53959,369.03638 Z"
-         fill="#0d91b4"
-         stroke="#087e9f"
-         stroke-width="3.16633"
-         id="path130"
-         style="fill:#00aad4;stroke:#9f4608;stroke-opacity:1" />
-      <path
-         class="hit-area"
-         d="m 458,338 c 136,-5 246,9 384,51 l -13,40 C 694,387 583,373 456,377 Z"
-         id="path128" />
-      <path
-         class="focus-outline"
-         d="m 458,338 c 136,-5 246,9 384,51 l -13,40 C 694,387 583,373 456,377 Z"
-         id="path129" />
-      <path
-         class="flow-arrow"
-         d="m 489,358 c 101,-4 214,12 319,44"
-         id="path131" />
-      <text
-         class="feature-label"
-         x="555"
-         y="338"
-         id="text131">Irrigation channel</text>
-    </g>
-  </a>
-  <!-- ============================================================
+
+  <!-- ==========================================================
        DEFINITIONS
-       ============================================================ -->
-   <a
-      id="river-link"
-      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
-      target="_top"
-      aria-label="Open water-footprint assessment project"
-      data-title="Water-footprint assessment"
-      transform="matrix(0.85217978,0,0,1.1260117,20.41104,-80.314482)">
-    <g
-       class="feature"
-       id="g186"
-       transform="matrix(1.0146086,0,0,0.98018479,-5.4324884,6.6542392)">
-      <!-- Floodplain -->
-      <path
-         d="m 408,375 c 67,7 116,35 142,72 25,32 72,27 109,55 40,30 14,66 -21,94 -36,30 -39,71 -19,107 l -53,33 c -35,-51 -40,-104 -10,-145 23,-31 55,-57 25,-79 -29,-21 -73,-19 -104,-57 -21,-27 -50,-40 -93,-48 z"
-         fill="#77bd8a"
-         opacity="0.74"
-         id="path181" />
-      <path
-         class="hit-area"
-         d="m 387.06307,340 c 59.46515,21.49309 126.99337,65.55391 164.28507,105.31612 29.22863,33.31429 75.59129,33.31429 109.85934,59.10599 48.37843,35.46359 16.12614,82.74838 -18.14191,112.83871 -38.29958,33.31428 -30.8058,95.03639 -12.66389,138.02257 L 574.33549,770.2594 C 540.06744,720.8253 533.01225,693.58121 545.26286,616.80728 563.40477,581.34369 611.82117,551.7069 583.60042,528.06451 557.39544,506.57142 511.03279,503.34746 480.79627,465.73456 452.57552,430.27096 420.32324,409.85253 379,393.73272 Z"
-         id="path182"
-         style="stroke-width:1.04073"
-         sodipodi:nodetypes="ccccccccccc" />
-      <path
-         class="focus-outline"
-         d="m 387,340 c 59,20 126,61 163,98 29,31 75,31 109,55 48,33 16,77 -18,105 -38,31 -39,69 -21,109"
-         id="path183" />
-      <!-- River underlay -->
-      <path
-         d="m 389.63147,356.63439 c 58.15102,24.11886 115.34875,58.10452 145.85421,97.57175 25.73898,33.98566 75.31034,29.60041 109.62898,61.39346 33.36534,30.69673 5.71977,66.87501 -23.83239,95.37912 -36.22523,35.08198 -36.22523,80.03076 -16.20602,127.17217"
-         fill="none"
-         stroke="#0967a6"
-         stroke-width="50.093"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path184" />
-      <!-- River water -->
-      <path
-         d="m 389.4035,356.40547 c 58.0772,23.91873 115.20231,57.6224 145.66904,96.76215 25.7063,33.70367 75.21473,29.35481 109.4898,60.88404 33.32298,30.44203 5.71251,66.32013 -23.80213,94.58772 -36.17924,34.79089 -33.14293,85.47947 -13.14914,132.22972"
-         fill="none"
-         stroke="url(#river-water)"
-         stroke-width="39.679"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         id="path185"
-         style="stroke:url(#river-water)"
-         sodipodi:nodetypes="ccccc" />
-      <!-- River flow -->
-      <path
-         class="river-flow"
-         d="m 411.16902,367.22349 c 50.93107,26.15244 100.86349,58.24863 128.82565,97.4773 30.95811,40.41742 79.89188,34.47368 109.85134,65.38112 25.96486,26.15245 1.99729,57.05989 -26.96351,89.15607 -28.96081,33.28494 -22.96892,83.21234 -10.98514,120.06351"
-         id="path186" />
-      <text
-         class="feature-label"
-         x="568.23285"
-         y="435.30188"
-         id="text186">Main channel</text>
-    </g>
-  </a>
-  <defs
-     id="defs68">
+       ========================================================== -->
+  <defs>
+
     <!-- Background -->
-    <linearGradient
-       id="sky"
-       x1="0"
-       y1="0"
-       x2="0"
-       y2="1039.2305"
-       gradientTransform="matrix(1.1557501,0,0,0.86602543,-0.35544597,0.99956858)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0"
-         stop-color="#d8f2ff"
-         id="stop1" />
-      <stop
-         offset="0.58"
-         stop-color="#f4fbff"
-         id="stop2" />
-      <stop
-         offset="1"
-         stop-color="#eef5f1"
-         id="stop3" />
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8f2ff"/>
+      <stop offset="0.58" stop-color="#f4fbff"/>
+      <stop offset="1" stop-color="#eef5f1"/>
     </linearGradient>
+
     <!-- Ground -->
-    <linearGradient
-       id="top-ground"
-       x1="53.712633"
-       y1="164.97171"
-       x2="858.04998"
-       y2="969.30905"
-       gradientTransform="scale(1.2629733,0.79178235)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0"
-         stop-color="#39ad63"
-         id="stop4" />
-      <stop
-         offset="0.55"
-         stop-color="#279f58"
-         id="stop5" />
-      <stop
-         offset="1"
-         stop-color="#168548"
-         id="stop6" />
+    <linearGradient id="top-ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#39ad63"/>
+      <stop offset="0.55" stop-color="#279f58"/>
+      <stop offset="1" stop-color="#168548"/>
     </linearGradient>
-    <linearGradient
-       id="left-soil"
-       x1="66.015517"
-       y1="492.5401"
-       x2="66.015517"
-       y2="923.66185"
-       gradientTransform="scale(1.1133746,0.89817031)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0"
-         stop-color="#9b6842"
-         id="stop7" />
-      <stop
-         offset="0.22"
-         stop-color="#5c311a"
-         id="stop8" />
-      <stop
-         offset="0.50"
-         stop-color="#a97552"
-         id="stop9" />
-      <stop
-         offset="0.72"
-         stop-color="#542b17"
-         id="stop10" />
-      <stop
-         offset="1"
-         stop-color="#3c210f"
-         id="stop11" />
+
+    <linearGradient id="left-soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9b6842"/>
+      <stop offset="0.25" stop-color="#5c311a"/>
+      <stop offset="0.54" stop-color="#a97552"/>
+      <stop offset="0.76" stop-color="#542b17"/>
+      <stop offset="1" stop-color="#3c210f"/>
     </linearGradient>
-    <linearGradient
-       id="right-soil"
-       x1="486.67075"
-       y1="473.27229"
-       x2="486.67075"
-       y2="938.28376"
-       gradientTransform="scale(1.1311549,0.88405223)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0"
-         stop-color="#754323"
-         id="stop12" />
-      <stop
-         offset="0.22"
-         stop-color="#492311"
-         id="stop13" />
-      <stop
-         offset="0.50"
-         stop-color="#88583a"
-         id="stop14" />
-      <stop
-         offset="0.72"
-         stop-color="#3e1e0e"
-         id="stop15" />
-      <stop
-         offset="1"
-         stop-color="#2d170c"
-         id="stop16" />
+
+    <linearGradient id="right-soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#754323"/>
+      <stop offset="0.25" stop-color="#492311"/>
+      <stop offset="0.54" stop-color="#88583a"/>
+      <stop offset="0.76" stop-color="#3e1e0e"/>
+      <stop offset="1" stop-color="#2d170c"/>
     </linearGradient>
+
     <!-- Water -->
-    <linearGradient
-       id="river-water"
-       x1="404.48617"
-       y1="307.39432"
-       x2="692.38092"
-       y2="695.09277"
-       gradientTransform="matrix(0.86973428,0,0,1.1901584,19.042358,-30.643127)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0"
-         stop-color="#27b5de"
-         id="stop17" />
-      <stop
-         offset="0.52"
-         stop-color="#158bc7"
-         id="stop18" />
-      <stop
-         offset="1"
-         stop-color="#0864a6"
-         id="stop19" />
+    <linearGradient id="river-water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#27b5de"/>
+      <stop offset="0.52" stop-color="#158bc7"/>
+      <stop offset="1" stop-color="#0864a6"/>
     </linearGradient>
-    <linearGradient
-       id="reservoir-water"
-       x1="247.10527"
-       y1="385.11353"
-       x2="379.21881"
-       y2="517.22708"
-       gradientTransform="matrix(1.0302179,0,0,0.62018174,87.461493,43.878322)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0"
-         stop-color="#54cae7"
-         id="stop20" />
-      <stop
-         offset="1"
-         stop-color="#0879b8"
-         id="stop21" />
+
+    <linearGradient id="reservoir-water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#54cae7"/>
+      <stop offset="1" stop-color="#0879b8"/>
     </linearGradient>
-    <linearGradient
-       id="wetland-water"
-       x1="0"
-       y1="0"
-       x2="1"
-       y2="1">
-      <stop
-         offset="0"
-         stop-color="#29c7cd"
-         id="stop22" />
-      <stop
-         offset="1"
-         stop-color="#087f9e"
-         id="stop23" />
+
+    <linearGradient id="wetland-water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#29c7cd"/>
+      <stop offset="1" stop-color="#087f9e"/>
     </linearGradient>
-    <linearGradient
-       id="aquifer-water"
-       x1="43.736409"
-       y1="806.37869"
-       x2="631.97643"
-       y2="806.37869"
-       gradientTransform="scale(1.7033863,0.58706589)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0"
-         stop-color="#51cbe8"
-         stop-opacity="0.83"
-         id="stop24" />
-      <stop
-         offset="0.50"
-         stop-color="#87e1ee"
-         stop-opacity="0.95"
-         id="stop25" />
-      <stop
-         offset="1"
-         stop-color="#249acb"
-         stop-opacity="0.85"
-         id="stop26" />
+
+    <linearGradient id="aquifer-water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#51cbe8" stop-opacity="0.83"/>
+      <stop offset="0.5" stop-color="#87e1ee" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#249acb" stop-opacity="0.85"/>
     </linearGradient>
+
     <!-- Mountains -->
-    <linearGradient
-       id="mountain-light"
-       x1="0"
-       y1="0"
-       x2="1"
-       y2="1">
-      <stop
-         offset="0"
-         stop-color="#a8bbad"
-         id="stop27" />
-      <stop
-         offset="1"
-         stop-color="#698578"
-         id="stop28" />
+    <linearGradient id="mountain-light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#afc0b5"/>
+      <stop offset="1" stop-color="#718b7e"/>
     </linearGradient>
-    <linearGradient
-       id="mountain-mid"
-       x1="0"
-       y1="0"
-       x2="1"
-       y2="1">
-      <stop
-         offset="0"
-         stop-color="#789487"
-         id="stop29" />
-      <stop
-         offset="1"
-         stop-color="#49665b"
-         id="stop30" />
+
+    <linearGradient id="mountain-mid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7e998c"/>
+      <stop offset="1" stop-color="#4b685d"/>
     </linearGradient>
-    <linearGradient
-       id="mountain-dark"
-       x1="563.79248"
-       y1="84.380338"
-       x2="725.8326"
-       y2="246.42046"
-       gradientTransform="scale(0.74672866,1.3391745)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         offset="0"
-         stop-color="#506f64"
-         id="stop31" />
-      <stop
-         offset="1"
-         stop-color="#304e46"
-         id="stop32" />
+
+    <linearGradient id="mountain-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#526f65"/>
+      <stop offset="1" stop-color="#304e46"/>
     </linearGradient>
+
     <!-- Agriculture -->
-    <linearGradient
-       id="wheat-field"
-       x1="0"
-       y1="0"
-       x2="1"
-       y2="1">
-      <stop
-         offset="0"
-         stop-color="#f0d55f"
-         id="stop33" />
-      <stop
-         offset="1"
-         stop-color="#c99625"
-         id="stop34" />
+    <linearGradient id="wheat-field" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0d55f"/>
+      <stop offset="1" stop-color="#c99625"/>
     </linearGradient>
-    <linearGradient
-       id="corn-field"
-       x1="0"
-       y1="0"
-       x2="1"
-       y2="1">
-      <stop
-         offset="0"
-         stop-color="#83c95e"
-         id="stop35" />
-      <stop
-         offset="1"
-         stop-color="#398743"
-         id="stop36" />
+
+    <linearGradient id="corn-field" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#83c95e"/>
+      <stop offset="1" stop-color="#398743"/>
     </linearGradient>
+
     <pattern
-       id="wheat-rows"
-       width="18"
-       height="18"
-       patternUnits="userSpaceOnUse"
-       patternTransform="rotate(32)">
-      <rect
-         width="18"
-         height="18"
-         fill="url(#wheat-field)"
-         id="rect36" />
+      id="wheat-rows"
+      width="18"
+      height="18"
+      patternUnits="userSpaceOnUse"
+      patternTransform="rotate(32)">
+      <rect width="18" height="18" fill="url(#wheat-field)"/>
       <path
-         d="M3 0V18 M12 0V18"
-         stroke="#fff1a5"
-         stroke-width="3"
-         opacity="0.75"
-         id="path36" />
+        d="M3 0V18 M12 0V18"
+        stroke="#fff1a5"
+        stroke-width="3"
+        opacity="0.72"/>
     </pattern>
+
     <pattern
-       id="corn-rows"
-       width="17"
-       height="17"
-       patternUnits="userSpaceOnUse"
-       patternTransform="rotate(32)">
-      <rect
-         width="17"
-         height="17"
-         fill="url(#corn-field)"
-         id="rect37" />
+      id="corn-rows"
+      width="17"
+      height="17"
+      patternUnits="userSpaceOnUse"
+      patternTransform="rotate(32)">
+      <rect width="17" height="17" fill="url(#corn-field)"/>
       <path
-         d="M3 0V17 M11 0V17"
-         stroke="#b3e587"
-         stroke-width="3"
-         opacity="0.75"
-         id="path37" />
+        d="M3 0V17 M11 0V17"
+        stroke="#b3e587"
+        stroke-width="3"
+        opacity="0.72"/>
     </pattern>
+
     <!-- Shadows -->
     <filter
-       id="land-shadow"
-       x="-0.0014725958"
-       y="-0.0021305506"
-       width="1.0029486"
-       height="1.0058802">
+      id="land-shadow"
+      x="-10%"
+      y="-10%"
+      width="120%"
+      height="145%">
       <feDropShadow
-         dx="0"
-         dy="16"
-         stdDeviation="14"
-         flood-color="#153543"
-         flood-opacity="0.24" />
+        dx="0"
+        dy="14"
+        stdDeviation="12"
+        flood-color="#153543"
+        flood-opacity="0.24"/>
     </filter>
+
     <filter
-       id="object-shadow"
-       x="-0.04"
-       y="-0.0625"
-       width="1.08"
-       height="1.0625">
+      id="object-shadow"
+      x="-20%"
+      y="-20%"
+      width="140%"
+      height="160%">
       <feDropShadow
-         dx="0"
-         dy="5"
-         stdDeviation="4"
-         flood-color="#163a47"
-         flood-opacity="0.30" />
+        dx="0"
+        dy="5"
+        stdDeviation="4"
+        flood-color="#163a47"
+        flood-opacity="0.30"/>
     </filter>
+
     <filter
-       id="cloud-shadow"
-       x="-0.010416667"
-       y="-0.016322949"
-       width="1.0208333"
-       height="1.0327362">
+      id="cloud-shadow"
+      x="-20%"
+      y="-25%"
+      width="145%"
+      height="165%">
       <feDropShadow
-         dx="0"
-         dy="5"
-         stdDeviation="5"
-         flood-color="#345d6b"
-         flood-opacity="0.22" />
+        dx="0"
+        dy="5"
+        stdDeviation="5"
+        flood-color="#345d6b"
+        flood-opacity="0.22"/>
     </filter>
+
     <filter
-       id="tooltip-shadow"
-       x="0"
-       y="0"
-       width="1"
-       height="1">
+      id="tooltip-shadow"
+      x="-20%"
+      y="-30%"
+      width="140%"
+      height="170%">
       <feDropShadow
-         dx="0"
-         dy="5"
-         stdDeviation="5"
-         flood-color="#0d2935"
-         flood-opacity="0.30" />
+        dx="0"
+        dy="5"
+        stdDeviation="5"
+        flood-color="#0d2935"
+        flood-opacity="0.30"/>
     </filter>
-    <!-- Visible arrow markers -->
+
+    <!-- Arrow markers -->
     <marker
-       id="arrow-flow"
-       viewBox="0 0 12 12"
-       refX="10"
-       refY="6"
-       markerWidth="13"
-       markerHeight="13"
-       markerUnits="userSpaceOnUse"
-       orient="auto"
-       overflow="visible">
-      <path
-         d="M1 1L11 6L1 11Z"
-         fill="#087eb9"
-         id="path38" />
+      id="arrow-flow"
+      viewBox="0 0 12 12"
+      refX="10"
+      refY="6"
+      markerWidth="13"
+      markerHeight="13"
+      markerUnits="userSpaceOnUse"
+      orient="auto">
+      <path d="M1 1L11 6L1 11Z" fill="#087eb9"/>
     </marker>
+
     <marker
-       id="arrow-rain"
-       viewBox="0 0 12 12"
-       refX="10"
-       refY="6"
-       markerWidth="13"
-       markerHeight="13"
-       markerUnits="userSpaceOnUse"
-       orient="auto"
-       overflow="visible">
-      <path
-         d="M1 1L11 6L1 11Z"
-         fill="#279fd0"
-         id="path39" />
+      id="arrow-rain"
+      viewBox="0 0 12 12"
+      refX="10"
+      refY="6"
+      markerWidth="13"
+      markerHeight="13"
+      markerUnits="userSpaceOnUse"
+      orient="auto">
+      <path d="M1 1L11 6L1 11Z" fill="#279fd0"/>
     </marker>
+
     <marker
-       id="arrow-et"
-       viewBox="0 0 12 12"
-       refX="10"
-       refY="6"
-       markerWidth="13"
-       markerHeight="13"
-       markerUnits="userSpaceOnUse"
-       orient="auto"
-       overflow="visible">
-      <path
-         d="M1 1L11 6L1 11Z"
-         fill="#13a8b8"
-         id="path40" />
+      id="arrow-et"
+      viewBox="0 0 12 12"
+      refX="10"
+      refY="6"
+      markerWidth="13"
+      markerHeight="13"
+      markerUnits="userSpaceOnUse"
+      orient="auto">
+      <path d="M1 1L11 6L1 11Z" fill="#13a8b8"/>
     </marker>
+
     <marker
-       id="arrow-groundwater"
-       viewBox="0 0 12 12"
-       refX="10"
-       refY="6"
-       markerWidth="12"
-       markerHeight="12"
-       markerUnits="userSpaceOnUse"
-       orient="auto"
-       overflow="visible">
-      <path
-         d="M1 1L11 6L1 11Z"
-         fill="#5ad9ef"
-         id="path41" />
+      id="arrow-groundwater"
+      viewBox="0 0 12 12"
+      refX="10"
+      refY="6"
+      markerWidth="12"
+      markerHeight="12"
+      markerUnits="userSpaceOnUse"
+      orient="auto">
+      <path d="M1 1L11 6L1 11Z" fill="#5ad9ef"/>
     </marker>
+
     <marker
-       id="arrow-runoff"
-       viewBox="0 0 12 12"
-       refX="10"
-       refY="6"
-       markerWidth="12"
-       markerHeight="12"
-       markerUnits="userSpaceOnUse"
-       orient="auto"
-       overflow="visible">
-      <path
-         d="M1 1L11 6L1 11Z"
-         fill="#f5faff"
-         id="path42" />
+      id="arrow-runoff"
+      viewBox="0 0 12 12"
+      refX="10"
+      refY="6"
+      markerWidth="12"
+      markerHeight="12"
+      markerUnits="userSpaceOnUse"
+      orient="auto">
+      <path d="M1 1L11 6L1 11Z" fill="#f5faff"/>
     </marker>
-    <!-- Clip for circular pivot field -->
-    <clipPath
-       id="pivot-field-clip">
-      <ellipse
-         cx="827"
-         cy="519"
-         rx="61"
-         ry="37"
-         id="ellipse42" />
+
+    <!-- Center-pivot clip -->
+    <clipPath id="pivot-field-clip">
+      <ellipse cx="827" cy="519" rx="61" ry="37"/>
     </clipPath>
-    <!-- ==========================================================
-         REUSABLE COMPONENTS
-         ========================================================== -->
-    <g
-       id="tree">
+
+    <!-- Reusable cloud -->
+    <g id="cloud">
       <ellipse
-         cx="0"
-         cy="9"
-         rx="16"
-         ry="6"
-         fill="#1c4538"
-         opacity="0.22"
-         id="ellipse43" />
-      <rect
-         x="-3"
-         y="-20"
-         width="6"
-         height="28"
-         rx="2"
-         fill="#724a2e"
-         id="rect43" />
-      <polygon
-         points="0,-67 29,-23 -29,-23"
-         fill="#337957"
-         id="polygon43" />
-      <polygon
-         points="0,-54 34,-10 -34,-10"
-         fill="#246247"
-         id="polygon44" />
-      <polygon
-         points="0,-39 31,2 -31,2"
-         fill="#1b503c"
-         id="polygon45" />
+        cx="0"
+        cy="20"
+        rx="62"
+        ry="15"
+        fill="#315461"
+        opacity="0.12"/>
+
+      <path
+        d="M-58 8
+           C-58-10-45-24-28-24
+           C-24-47-6-61 15-55
+           C32-52 43-40 46-25
+           C64-27 79-13 79 6
+           C79 24 64 35 46 35
+           H-35
+           C-53 35-65 24-65 10
+           C-65 8-62 8-58 8Z"
+        fill="#ffffff"
+        stroke="#b9d7e2"
+        stroke-width="3"/>
+
+      <path
+        d="M-61 10
+           C-53 28-43 35-27 35
+           H46
+           C63 35 76 25 79 9
+           C51 20 18 21-10 18
+           C-31 16-47 13-61 10Z"
+        fill="#c9dfe7"
+        opacity="0.82"/>
+
+      <path
+        d="M-35-18C-25-36-6-43 10-36
+           M27-20C37-17 43-10 45-2"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="7"
+        stroke-linecap="round"
+        opacity="0.88"/>
     </g>
-    <g
-       id="deciduous-tree">
+
+    <!-- Reusable raindrop -->
+    <g id="raindrop">
+      <path
+        d="M0-12
+           C7-2 10 5 10 11
+           C10 19 6 24 0 24
+           C-6 24-10 19-10 11
+           C-10 5-7-2 0-12Z"
+        fill="#46bce7"
+        stroke="#147fae"
+        stroke-width="2"/>
+
+      <path
+        d="M-3 6C-1 2 1 0 4-3"
+        fill="none"
+        stroke="#e3fbff"
+        stroke-width="2.5"
+        stroke-linecap="round"/>
+    </g>
+
+    <!-- Reusable conifer -->
+    <g id="tree">
       <ellipse
-         cx="0"
-         cy="11"
-         rx="17"
-         ry="7"
-         fill="#1a4e37"
-         opacity="0.22"
-         id="ellipse45" />
+        cx="0"
+        cy="9"
+        rx="16"
+        ry="6"
+        fill="#1c4538"
+        opacity="0.22"/>
       <rect
-         x="-3"
-         y="-19"
-         width="7"
-         height="29"
-         rx="2"
-         fill="#775033"
-         id="rect45" />
-      <circle
-         cx="-12"
-         cy="-27"
-         r="18"
-         fill="#429d4f"
-         id="circle45" />
-      <circle
-         cx="12"
-         cy="-29"
-         r="19"
-         fill="#338c46"
-         id="circle46" />
-      <circle
-         cx="0"
-         cy="-45"
-         r="20"
-         fill="#68b75a"
-         id="circle47" />
+        x="-3"
+        y="-20"
+        width="6"
+        height="28"
+        rx="2"
+        fill="#724a2e"/>
+      <polygon points="0,-67 29,-23 -29,-23" fill="#337957"/>
+      <polygon points="0,-54 34,-10 -34,-10" fill="#246247"/>
+      <polygon points="0,-39 31,2 -31,2" fill="#1b503c"/>
     </g>
-    <g
-       id="cloud">
+
+    <!-- Reusable deciduous tree -->
+    <g id="deciduous-tree">
       <ellipse
-         cx="0"
-         cy="20"
-         rx="62"
-         ry="15"
-         fill="#315461"
-         opacity="0.12"
-         id="ellipse47" />
-      <path
-         d="M-58 8            C-58-10-45-24-28-24            C-24-47-6-61 15-55            C32-52 43-40 46-25            C64-27 79-13 79 6            C79 24 64 35 46 35            H-35            C-53 35-65 24-65 10            C-65 8-62 8-58 8Z"
-         fill="#ffffff"
-         stroke="#b9d7e2"
-         stroke-width="3"
-         id="path47" />
-      <path
-         d="M-61 10            C-53 28-43 35-27 35            H46            C63 35 76 25 79 9            C51 20 18 21-10 18            C-31 16-47 13-61 10Z"
-         fill="#c9dfe7"
-         opacity="0.82"
-         id="path48" />
-      <path
-         d="M-35-18C-25-36-6-43 10-36            M27-20C37-17 43-10 45-2"
-         fill="none"
-         stroke="#ffffff"
-         stroke-width="7"
-         stroke-linecap="round"
-         opacity="0.88"
-         id="path49" />
-    </g>
-    <g
-       id="raindrop">
-      <path
-         d="M0-12            C7-2 10 5 10 11            C10 19 6 24 0 24            C-6 24-10 19-10 11            C-10 5-7-2 0-12Z"
-         fill="#46bce7"
-         stroke="#147fae"
-         stroke-width="2"
-         id="path50" />
-      <path
-         d="M-3 6C-1 2 1 0 4-3"
-         fill="none"
-         stroke="#e3fbff"
-         stroke-width="2.5"
-         stroke-linecap="round"
-         id="path51" />
-    </g>
-    <g
-       id="house">
-      <polygon
-         points="0,0 28,16 0,32 -28,16"
-         fill="#f3eee3"
-         id="polygon51" />
-      <polygon
-         points="-28,16 0,32 0,63 -28,47"
-         fill="#e1e7e4"
-         id="polygon52" />
-      <polygon
-         points="28,16 0,32 0,63 28,47"
-         fill="#bac9c7"
-         id="polygon53" />
-      <polygon
-         points="-32,14 0,-10 32,14 0,34"
-         fill="#d85b4c"
-         id="polygon54" />
-      <polygon
-         points="0,-10 32,14 23,20 0,5"
-         fill="#ae3e39"
-         id="polygon55" />
+        cx="0"
+        cy="11"
+        rx="17"
+        ry="7"
+        fill="#1a4e37"
+        opacity="0.22"/>
       <rect
-         x="-19"
-         y="37"
-         width="9"
-         height="12"
-         fill="#6bb5d1"
-         id="rect55" />
-      <polygon
-         points="8,37 18,32 18,51 8,57"
-         fill="#79513a"
-         id="polygon56" />
+        x="-3"
+        y="-19"
+        width="7"
+        height="29"
+        rx="2"
+        fill="#775033"/>
+      <circle cx="-12" cy="-27" r="18" fill="#429d4f"/>
+      <circle cx="12" cy="-29" r="19" fill="#338c46"/>
+      <circle cx="0" cy="-45" r="20" fill="#68b75a"/>
     </g>
-    <g
-       id="building">
-      <polygon
-         points="0,0 26,15 0,30 -26,15"
-         fill="#ecf6f8"
-         id="polygon57" />
-      <polygon
-         points="-26,15 0,30 0,100 -26,85"
-         fill="#7694a3"
-         id="polygon58" />
-      <polygon
-         points="26,15 0,30 0,100 26,85"
-         fill="#4e6c7c"
-         id="polygon59" />
-      <g
-         stroke="#bceafa"
-         stroke-width="3"
-         id="g60">
-        <path
-           d="M-19 31L-7 38M-19 48L-7 55M-19 65L-7 72"
-           id="path59" />
-        <path
-           d="M19 31L7 38M19 48L7 55M19 65L7 72"
-           id="path60" />
+
+    <!-- Reusable building -->
+    <g id="building">
+      <polygon points="0,0 26,15 0,30 -26,15" fill="#ecf6f8"/>
+      <polygon points="-26,15 0,30 0,100 -26,85" fill="#7694a3"/>
+      <polygon points="26,15 0,30 0,100 26,85" fill="#4e6c7c"/>
+      <g stroke="#bceafa" stroke-width="3">
+        <path d="M-19 31L-7 38M-19 48L-7 55M-19 65L-7 72"/>
+        <path d="M19 31L7 38M19 48L7 55M19 65L7 72"/>
       </g>
     </g>
-    <g
-       id="cow">
-      <ellipse
-         cx="0"
-         cy="4"
-         rx="19"
-         ry="10"
-         fill="#f1efe7"
-         id="ellipse60" />
-      <circle
-         cx="18"
-         cy="0"
-         r="7"
-         fill="#e6e1d8"
-         id="circle60" />
-      <path
-         d="M-13 10V24M-3 12V25M10 11V24M17 8V22"
-         stroke="#4b3d33"
-         stroke-width="3"
-         id="path61" />
-      <path
-         d="M-15 0C-9-5-4 4 2 0M6 7C11 1 16 7 19 3"
-         fill="none"
-         stroke="#4b3d33"
-         stroke-width="5"
-         id="path62" />
-      <path
-         d="M22-5L27-10M14-6L11-11"
-         stroke="#906945"
-         stroke-width="2"
-         id="path63" />
+
+    <!-- Reusable house -->
+    <g id="house">
+      <polygon points="0,0 28,16 0,32 -28,16" fill="#f3eee3"/>
+      <polygon points="-28,16 0,32 0,63 -28,47" fill="#e1e7e4"/>
+      <polygon points="28,16 0,32 0,63 28,47" fill="#bac9c7"/>
+      <polygon points="-32,14 0,-10 32,14 0,34" fill="#d85b4c"/>
+      <polygon points="0,-10 32,14 23,20 0,5" fill="#ae3e39"/>
+      <rect x="-19" y="37" width="9" height="12" fill="#6bb5d1"/>
+      <polygon points="8,37 18,32 18,51 8,57" fill="#79513a"/>
     </g>
-    <g
-       id="horse">
-      <ellipse
-         cx="0"
-         cy="4"
-         rx="20"
-         ry="9"
-         fill="#9c643e"
-         id="ellipse63" />
+
+    <!-- Reusable cow -->
+    <g id="cow">
+      <ellipse cx="0" cy="4" rx="19" ry="10" fill="#f1efe7"/>
+      <circle cx="18" cy="0" r="7" fill="#e6e1d8"/>
       <path
-         d="M14 0L24-14L30-12L24 5Z"
-         fill="#9c643e"
-         id="path64" />
-      <circle
-         cx="29"
-         cy="-13"
-         r="5"
-         fill="#ae754a"
-         id="circle64" />
+        d="M-13 10V24M-3 12V25M10 11V24M17 8V22"
+        stroke="#4b3d33"
+        stroke-width="3"/>
       <path
-         d="M-14 9V26M-4 11V27M10 10V25M18 7V23"
-         stroke="#65412d"
-         stroke-width="3"
-         id="path65" />
+        d="M-15 0C-9-5-4 4 2 0M6 7C11 1 16 7 19 3"
+        fill="none"
+        stroke="#4b3d33"
+        stroke-width="5"/>
       <path
-         d="M-20 1Q-31-3-27-13"
-         fill="none"
-         stroke="#523326"
-         stroke-width="4"
-         id="path66" />
+        d="M22-5L27-10M14-6L11-11"
+        stroke="#906945"
+        stroke-width="2"/>
     </g>
-    <g
-       id="reed">
+
+    <!-- Reusable horse -->
+    <g id="horse">
+      <ellipse cx="0" cy="4" rx="20" ry="9" fill="#9c643e"/>
+      <path d="M14 0L24-14L30-12L24 5Z" fill="#9c643e"/>
+      <circle cx="29" cy="-13" r="5" fill="#ae754a"/>
       <path
-         d="M0 12L-3-19M3 12L8-22M-2 12L-12-14"
-         fill="none"
-         stroke="#347145"
-         stroke-width="3"
-         stroke-linecap="round"
-         id="path67" />
+        d="M-14 9V26M-4 11V27M10 10V25M18 7V23"
+        stroke="#65412d"
+        stroke-width="3"/>
+      <path
+        d="M-20 1Q-31-3-27-13"
+        fill="none"
+        stroke="#523326"
+        stroke-width="4"/>
     </g>
-    <g
-       id="wheel">
-      <circle
-         r="6"
-         fill="#354f57"
-         id="circle67" />
-      <circle
-         r="2.5"
-         fill="#b9c7ca"
-         id="circle68" />
+
+    <!-- Reusable reed -->
+    <g id="reed">
+      <path
+        d="M0 12L-3-19M3 12L8-22M-2 12L-12-14"
+        fill="none"
+        stroke="#347145"
+        stroke-width="3"
+        stroke-linecap="round"/>
     </g>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-mid"
-       id="linearGradient210"
-       x1="156.27252"
-       y1="180.20443"
-       x2="376.52238"
-       y2="400.45429"
-       gradientTransform="scale(0.95346259,1.0488088)"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-light"
-       id="linearGradient211"
-       x1="170.38802"
-       y1="165.27571"
-       x2="319.04871"
-       y2="313.93639"
-       gradientTransform="scale(0.87447463,1.1435437)"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-mid"
-       id="linearGradient212"
-       x1="279.33681"
-       y1="108.0094"
-       x2="567.04325"
-       y2="395.71584"
-       gradientTransform="scale(0.95583537,1.0462053)"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-light"
-       id="linearGradient213"
-       x1="340.1895"
-       y1="88.688804"
-       x2="536.40367"
-       y2="284.90297"
-       gradientTransform="scale(0.78485667,1.274118)"
-       gradientUnits="userSpaceOnUse" />
-    <marker
-       id="arrow-flow-4"
-       viewBox="0 0 12 12"
-       refX="10"
-       refY="6"
-       markerWidth="13"
-       markerHeight="13"
-       markerUnits="userSpaceOnUse"
-       orient="auto"
-       overflow="visible">
-      <path
-         d="M 1,1 11,6 1,11 Z"
-         fill="#087eb9"
-         id="path38-8" />
-    </marker>
-    <marker
-       id="arrow-groundwater-6"
-       viewBox="0 0 12 12"
-       refX="10"
-       refY="6"
-       markerWidth="12"
-       markerHeight="12"
-       markerUnits="userSpaceOnUse"
-       orient="auto"
-       overflow="visible">
-      <path
-         d="M 1,1 11,6 1,11 Z"
-         fill="#5ad9ef"
-         id="path41-1" />
-    </marker>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-mid"
-       id="linearGradient3"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(0.95583537,1.0462053)"
-       x1="279.33681"
-       y1="108.0094"
-       x2="567.04325"
-       y2="395.71584" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-light"
-       id="linearGradient4"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(0.78485667,1.274118)"
-       x1="340.1895"
-       y1="88.688804"
-       x2="536.40367"
-       y2="284.90297" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-dark"
-       id="linearGradient5"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(0.74672866,1.3391745)"
-       x1="563.79248"
-       y1="84.380338"
-       x2="725.8326"
-       y2="246.42046" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-mid"
-       id="linearGradient6"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(0.95583537,1.0462053)"
-       x1="279.33681"
-       y1="108.0094"
-       x2="567.04325"
-       y2="395.71584" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-light"
-       id="linearGradient7"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(0.78485667,1.274118)"
-       x1="340.1895"
-       y1="88.688804"
-       x2="536.40367"
-       y2="284.90297" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#mountain-dark"
-       id="linearGradient8"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(0.74672866,1.3391745)"
-       x1="563.79248"
-       y1="84.380338"
-       x2="725.8326"
-       y2="246.42046" />
+
+    <!-- Reusable wheel -->
+    <g id="wheel">
+      <circle r="6" fill="#354f57"/>
+      <circle r="2.5" fill="#b9c7ca"/>
+    </g>
   </defs>
-  <g
-     id="g217"
-     transform="translate(638.5056,59.763936)">
-    <polygon
-       points="395,414 267,363 421,113 542,330 "
-       fill="url(#mountain-mid)"
-       id="polygon84"
-       style="fill:url(#linearGradient212)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="360,320 267,363 421,113 "
-       fill="url(#mountain-light)"
-       id="polygon85"
-       style="fill:url(#linearGradient213)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="466,286 421,113 542,330 "
-       fill="url(#mountain-dark)"
-       id="polygon86"
-       style="fill:url(#mountain-dark)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="450,169 480,205 421,113 379,183 410,168 429,193 "
-       fill="#f8fcff"
-       id="polygon87"
-       transform="matrix(1.0565532,0.03252629,-0.03195329,1.0379406,-708.00547,-122.2031)" />
-  </g>
-  <g
-     id="g217-5"
-     transform="translate(629.66662,31.222244)">
-    <polygon
-       points="421,113 542,330 395,414 267,363 "
-       fill="url(#mountain-mid)"
-       id="polygon84-5"
-       style="fill:url(#linearGradient3)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="360,320 267,363 421,113 "
-       fill="url(#mountain-light)"
-       id="polygon85-1"
-       style="fill:url(#linearGradient4)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="466,286 421,113 542,330 "
-       fill="url(#mountain-dark)"
-       id="polygon86-7"
-       style="fill:url(#linearGradient5)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="450,169 480,205 421,113 379,183 410,168 429,193 "
-       fill="#f8fcff"
-       id="polygon87-1"
-       transform="matrix(1.0565532,0.03252629,-0.03195329,1.0379406,-708.00547,-122.2031)" />
-  </g>
-  <g
-     id="g217-5-2"
-     transform="translate(486.24433,113.20253)">
-    <polygon
-       points="267,363 421,113 542,330 395,414 "
-       fill="url(#mountain-mid)"
-       id="polygon84-5-3"
-       style="fill:url(#linearGradient6)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="267,363 421,113 360,320 "
-       fill="url(#mountain-light)"
-       id="polygon85-1-2"
-       style="fill:url(#linearGradient7)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="421,113 542,330 466,286 "
-       fill="url(#mountain-dark)"
-       id="polygon86-7-2"
-       style="fill:url(#linearGradient8)"
-       transform="matrix(1.0570537,0,0,1.0384323,-711.89996,-108.45596)" />
-    <polygon
-       points="480,205 421,113 379,183 410,168 429,193 450,169 "
-       fill="#f8fcff"
-       id="polygon87-1-1"
-       transform="matrix(1.0565532,0.03252629,-0.03195329,1.0379406,-708.00547,-122.2031)" />
-  </g>
-  <!-- ============================================================
-       STYLES
-       ============================================================ -->
-  <style
-     id="style68">
-   #watershed-diagram {
-     --ink: #173b49;
-     --muted: #496773;
-     --flow: #087eb9;
-     --rain: #279fd0;
-     --et: #13a8b8;
-     --groundwater: #5ad9ef;
-     --focus: #ffcf32;
-   
-     background: #eef7f8;
-     font-family: Inter, "Segoe UI", Arial, sans-serif;
-     user-select: none;
-   }
 
+  <!-- ==========================================================
+       SVG-SCOPED STYLES
+       ========================================================== -->
+  <style>
+    #watershed-diagram {
+      --ink: #173b49;
+      --muted: #496773;
+      --flow: #087eb9;
+      --rain: #279fd0;
+      --et: #13a8b8;
+      --groundwater: #5ad9ef;
+      --focus: #ffcf32;
 
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #eef7f8;
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      text-rendering: geometricPrecision;
+      user-select: none;
+    }
 
-    a {
+    #watershed-diagram a {
       cursor: pointer;
       outline: none;
     }
 
-    .feature {
-      transition:
-        filter 180ms ease,
-        opacity 180ms ease;
+    #watershed-diagram .feature {
+      transition: filter 180ms ease, opacity 180ms ease;
     }
 
-    a:hover .feature,
-    a:focus .feature {
+    #watershed-diagram a:hover .feature,
+    #watershed-diagram a:focus .feature {
       filter:
-        brightness(1.08)
-        saturate(1.12)
-        drop-shadow(0 6px 5px rgba(15, 52, 67, 0.27));
+        brightness(1.06)
+        saturate(1.08)
+        drop-shadow(0 5px 4px rgba(15, 52, 67, 0.24));
     }
 
-    .hit-area {
+    #watershed-diagram .hit-area {
       fill: #ffffff;
       fill-opacity: 0.001;
       stroke: transparent;
       pointer-events: all;
     }
 
-    .focus-outline {
+    #watershed-diagram .focus-outline {
       fill: none;
       stroke: transparent;
       stroke-width: 5;
       pointer-events: none;
     }
 
-    a:focus-visible .focus-outline {
+    #watershed-diagram a:focus-visible .focus-outline {
       stroke: var(--focus);
       stroke-dasharray: 11 7;
     }
 
-    .title {
-      fill: #153a4b;
-      font-size: 66px;
-      font-weight: 850;
-      letter-spacing: -0.025em;
-    }
-
-    .subtitle {
-      fill: #496873;
-      font-size: 17px;
-      font-weight: 600;
-    }
-
-    .feature-label {
+    #watershed-diagram .feature-label {
       fill: #173b49;
-      font-size: 17px;
-      font-weight: 800;
-      paint-order: stroke;
-      stroke: #ffffff;
-      stroke-width: 5px;
+      font-size: 16px;
+      font-weight: 750;
+      paint-order: stroke fill;
+      stroke: rgba(255,255,255,0.94);
+      stroke-width: 3.5px;
       stroke-linejoin: round;
       pointer-events: none;
     }
 
-    .small-label {
+    #watershed-diagram .small-label {
       fill: #315663;
       font-size: 14px;
-      font-weight: 750;
-      paint-order: stroke;
-      stroke: #ffffff;
-      stroke-width: 4px;
+      font-weight: 700;
+      paint-order: stroke fill;
+      stroke: rgba(255,255,255,0.94);
+      stroke-width: 3px;
       stroke-linejoin: round;
       pointer-events: none;
     }
 
-    .process-label {
+    #watershed-diagram .process-label {
       fill: #1f5968;
-      font-size: 15px;
-      font-weight: 850;
-      paint-order: stroke;
-      stroke: #ffffff;
-      stroke-width: 5px;
+      font-size: 14px;
+      font-weight: 750;
+      paint-order: stroke fill;
+      stroke: rgba(255,255,255,0.94);
+      stroke-width: 3.5px;
       stroke-linejoin: round;
       pointer-events: none;
     }
 
-    .link-hint {
-      fill: #4a6975;
-      font-size: 13px;
-      font-weight: 650;
-    }
-
-    .flow-arrow {
+    #watershed-diagram .flow-arrow {
       fill: none;
       stroke: var(--flow);
       stroke-width: 5;
@@ -1243,7 +537,7 @@
       pointer-events: none;
     }
 
-    .river-flow {
+    #watershed-diagram .river-flow {
       fill: none;
       stroke: #c9f4ff;
       stroke-width: 4;
@@ -1256,7 +550,7 @@
       pointer-events: none;
     }
 
-    .runoff-arrow {
+    #watershed-diagram .runoff-arrow {
       fill: none;
       stroke: #e8fbff;
       stroke-width: 4;
@@ -1268,7 +562,7 @@
       pointer-events: none;
     }
 
-    .rain-line {
+    #watershed-diagram .rain-line {
       fill: none;
       stroke: var(--rain);
       stroke-width: 4;
@@ -1280,13 +574,13 @@
       pointer-events: none;
     }
 
-    .rain-drop {
+    #watershed-diagram .rain-drop {
       opacity: 0;
       animation: rain-drop-fall 1.45s linear infinite;
       pointer-events: none;
     }
 
-    .et-arrow {
+    #watershed-diagram .et-arrow {
       fill: none;
       stroke: var(--et);
       stroke-width: 5;
@@ -1298,13 +592,13 @@
       pointer-events: none;
     }
 
-    .et-arrow.secondary {
+    #watershed-diagram .et-arrow.secondary {
       stroke-width: 3.5;
       opacity: 0.76;
       animation-duration: 2.1s;
     }
 
-    .infiltration-arrow {
+    #watershed-diagram .infiltration-arrow {
       fill: none;
       stroke: var(--groundwater);
       stroke-width: 4;
@@ -1316,7 +610,7 @@
       pointer-events: none;
     }
 
-    .groundwater-arrow {
+    #watershed-diagram .groundwater-arrow {
       fill: none;
       stroke: #7de4f3;
       stroke-width: 5;
@@ -1328,46 +622,46 @@
       pointer-events: none;
     }
 
-    .pivot-rotor {
+    #watershed-diagram .pivot-rotor {
       transform-origin: 0 0;
       animation: pivot-spin 14s linear infinite;
     }
 
-    .pivot-spray {
+    #watershed-diagram .pivot-spray {
       stroke-dasharray: 4 5;
       animation: spray-pulse 1.05s ease-in-out infinite alternate;
     }
 
-    .water-shimmer {
+    #watershed-diagram .water-shimmer {
       stroke-dasharray: 15 12;
       animation: shimmer 2.2s linear infinite;
     }
 
-    .cloud-drift-slow {
+    #watershed-diagram .cloud-drift-slow {
       animation: cloud-drift 7s ease-in-out infinite alternate;
     }
 
-    .cloud-drift-fast {
+    #watershed-diagram .cloud-drift-fast {
       animation: cloud-drift 5.5s ease-in-out infinite alternate-reverse;
     }
 
-    .tooltip {
+    #watershed-diagram .tooltip {
       pointer-events: none;
       opacity: 0;
       transition: opacity 120ms ease;
     }
 
-    .tooltip.visible {
+    #watershed-diagram .tooltip.visible {
       opacity: 1;
     }
 
-    .tooltip-box {
-      fill: rgba(15, 49, 63, 0.96);
+    #watershed-diagram .tooltip-box {
+      fill: rgba(15,49,63,0.96);
       stroke: rgba(255,255,255,0.38);
       stroke-width: 1.5;
     }
 
-    .tooltip-text {
+    #watershed-diagram .tooltip-text {
       fill: #ffffff;
       font-size: 15px;
       font-weight: 750;
@@ -1394,12 +688,8 @@
         opacity: 0;
         transform: translateY(-14px) scale(.84);
       }
-      14% {
-        opacity: 1;
-      }
-      80% {
-        opacity: .9;
-      }
+      14% { opacity: 1; }
+      80% { opacity: .9; }
       100% {
         opacity: 0;
         transform: translateY(95px) scale(1);
@@ -1425,930 +715,1140 @@
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .flow-arrow,
-      .river-flow,
-      .runoff-arrow,
-      .rain-line,
-      .rain-drop,
-      .et-arrow,
-      .infiltration-arrow,
-      .groundwater-arrow,
-      .pivot-rotor,
-      .pivot-spray,
-      .water-shimmer,
-      .cloud-drift-slow,
-      .cloud-drift-fast {
+      #watershed-diagram .flow-arrow,
+      #watershed-diagram .river-flow,
+      #watershed-diagram .runoff-arrow,
+      #watershed-diagram .rain-line,
+      #watershed-diagram .rain-drop,
+      #watershed-diagram .et-arrow,
+      #watershed-diagram .infiltration-arrow,
+      #watershed-diagram .groundwater-arrow,
+      #watershed-diagram .pivot-rotor,
+      #watershed-diagram .pivot-spray,
+      #watershed-diagram .water-shimmer,
+      #watershed-diagram .cloud-drift-slow,
+      #watershed-diagram .cloud-drift-fast {
         animation: none;
       }
 
-      .rain-drop {
+      #watershed-diagram .rain-drop {
         opacity: .88;
       }
 
-      .feature {
+      #watershed-diagram .feature {
         transition: none;
       }
     }
   </style>
-  <!-- ============================================================
-       BACKGROUND AND HEADING
-       ============================================================ -->
 
-  <!-- Background clouds -->
-  <g
-     aria-hidden="true"
-     opacity="0.86"
-     id="g71">
-    <g
-       transform="matrix(0.62,0,0,0.62,869.98972,98.897172)"
-       id="g69">
-      <use
-         href="#cloud"
-         id="use69" />
+  <!-- ==========================================================
+       BACKGROUND
+       ========================================================== -->
+  <rect
+    x="0"
+    y="0"
+    width="1200"
+    height="900"
+    rx="14"
+    fill="url(#sky)"/>
+
+  <!-- Decorative background clouds -->
+  <g aria-hidden="true" opacity="0.82">
+    <g transform="translate(980 105) scale(.58)">
+      <use href="#cloud"/>
     </g>
-    <g
-       transform="matrix(0.46,0,0,0.46,567.87661,126.51414)"
-       id="g70">
-      <use
-         href="#cloud"
-         id="use70" />
+    <g transform="translate(600 122) scale(.42)">
+      <use href="#cloud"/>
     </g>
   </g>
-  <!-- ============================================================
+
+  <!-- ==========================================================
        LAND BLOCK
-       ============================================================ -->
-  <!-- ============================================================
-       MOUNTAINS
-       ============================================================ -->
-  <!-- Mountain runoff arrows -->
-  <path
-     class="hit-area"
-     d="M -553.3419,264.34124 -416.98198,87.807745 -369.41456,146.99839 -266.88035,8.8868899 -141.09096,234.2267 -296.47786,321.45501 -482.51931,304.8401 Z"
-     id="path79"
-     style="stroke-width:1.0477" />
-  <path
-     class="focus-outline"
-     d="M -553.3419,264.34124 -416.98198,87.807745 -369.41456,146.99839 -266.88035,8.8868899 -141.09096,234.2267 -296.47786,321.45501 -482.51931,304.8401 Z"
-     id="path80" />
-  <!-- ============================================================
-       PRECIPITATION
-       ============================================================ -->
-   <a
-      id="precipitation-link"
-      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
-      target="_top"
-      aria-label="Open water-footprint assessment project"
-      data-title="Water-footprint assessment">
-    <g
-       class="feature"
-       id="g122">
-      <rect
-         class="hit-area"
-         x="509.63177"
-         y="72.5411"
-         width="408"
-         height="270"
-         rx="42"
-         id="rect94" />
-      <rect
-         class="focus-outline"
-         x="490"
-         y="54"
-         width="408"
-         height="270"
-         rx="42"
-         id="rect95" />
-      <!-- Main cloud -->
-      <g
-         transform="translate(715 96)"
-         filter="url(#cloud-shadow)"
-         id="g96">
-        <g
-           class="cloud-drift-slow"
-           id="g95">
-          <use
-             href="#cloud"
-             transform="scale(1.15)"
-             id="use95" />
-        </g>
-      </g>
-      <!-- Smaller clouds -->
-      <g
-         transform="translate(570 165)"
-         filter="url(#cloud-shadow)"
-         id="g98">
-        <g
-           class="cloud-drift-fast"
-           id="g97">
-          <use
-             href="#cloud"
-             transform="scale(.62)"
-             id="use96" />
-        </g>
-      </g>
-      <g
-         transform="translate(823 170)"
-         filter="url(#cloud-shadow)"
-         id="g100">
-        <g
-           class="cloud-drift-slow"
-           id="g99">
-          <use
-             href="#cloud"
-             transform="scale(.65)"
-             id="use98" />
-        </g>
-      </g>
-      <text
-         class="feature-label"
-         x="661.09064"
-         y="165.00282"
-         id="text100">Precipitation</text>
-      <!-- Rain-direction lines -->
-      <path
-         class="rain-line"
-         d="M579 197C584 224 590 248 598 274"
-         id="path100" />
-      <path
-         class="rain-line"
-         d="M691 176C696 214 705 247 715 282"
-         id="path101" />
-      <path
-         class="rain-line"
-         d="M814 196C817 227 825 252 836 282"
-         id="path102" />
-      <!-- Animated droplets.
-           Outer group positions each drop; inner group animates it. -->
-      <g
-         transform="translate(545 201)"
-         id="g103">
-        <g
-           class="rain-drop"
-           id="g102"
-           style="animation-delay:-.12s">
-          <use
-             href="#raindrop"
-             transform="scale(.35)"
-             id="use102" />
-        </g>
-      </g>
-      <g
-         transform="translate(578 210)"
-         id="g105">
-        <g
-           class="rain-drop"
-           id="g104"
-           style="animation-delay:-.70s">
-          <use
-             href="#raindrop"
-             transform="scale(.39)"
-             id="use103" />
-        </g>
-      </g>
-      <g
-         transform="translate(613 194)"
-         id="g107">
-        <g
-           class="rain-drop"
-           id="g106"
-           style="animation-delay:-1.15s">
-          <use
-             href="#raindrop"
-             transform="scale(.34)"
-             id="use105" />
-        </g>
-      </g>
-      <g
-         transform="translate(648 220)"
-         id="g109">
-        <g
-           class="rain-drop"
-           id="g108"
-           style="animation-delay:-.38s">
-          <use
-             href="#raindrop"
-             transform="scale(.43)"
-             id="use107" />
-        </g>
-      </g>
-      <g
-         transform="translate(681 201)"
-         id="g111">
-        <g
-           class="rain-drop"
-           id="g110"
-           style="animation-delay:-.90s">
-          <use
-             href="#raindrop"
-             transform="scale(.36)"
-             id="use109" />
-        </g>
-      </g>
-      <g
-         transform="translate(716 219)"
-         id="g113">
-        <g
-           class="rain-drop"
-           id="g112"
-           style="animation-delay:-.18s">
-          <use
-             href="#raindrop"
-             transform="scale(.41)"
-             id="use111" />
-        </g>
-      </g>
-      <g
-         transform="translate(752 199)"
-         id="g115">
-        <g
-           class="rain-drop"
-           id="g114"
-           style="animation-delay:-.61s">
-          <use
-             href="#raindrop"
-             transform="scale(.35)"
-             id="use113" />
-        </g>
-      </g>
-      <g
-         transform="translate(787 217)"
-         id="g117">
-        <g
-           class="rain-drop"
-           id="g116"
-           style="animation-delay:-1.27s">
-          <use
-             href="#raindrop"
-             transform="scale(.42)"
-             id="use115" />
-        </g>
-      </g>
-      <g
-         transform="translate(821 201)"
-         id="g119">
-        <g
-           class="rain-drop"
-           id="g118"
-           style="animation-delay:-.48s">
-          <use
-             href="#raindrop"
-             transform="scale(.36)"
-             id="use117" />
-        </g>
-      </g>
-      <g
-         transform="translate(854 220)"
-         id="g121">
-        <g
-           class="rain-drop"
-           id="g120"
-           style="animation-delay:-1.02s">
-          <use
-             href="#raindrop"
-             transform="scale(.39)"
-             id="use119" />
-        </g>
-      </g>
-    </g>
-  </a>
-  <!-- ============================================================
-     DAM AND RESERVOIR
-     ============================================================ -->
-   <a
-      id="dam-link"
-      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
-      target="_top"
-      aria-label="Open water-footprint assessment project"
-      data-title="Water-footprint assessment"
-      transform="matrix(1.1133847,0,0,0.84656421,-61.227755,38.300561)">
-    <g
-       class="feature"
-       id="dam-and-reservoir-feature">
-      <!-- Accessible interaction area -->
-      <path
-         class="hit-area"
-         d="m 332,276           c 42,-22 82,-20 108,-6           24,13 43,37 62,62           l 42,26           -118,57           -91,-42 z"
-         id="dam-hit-area" />
-      <path
-         class="focus-outline"
-         d="m 332,276           c 42,-22 82,-20 108,-6           24,13 43,37 62,62           l 42,26           -118,57           -91,-42 z"
-         id="dam-focus-outline" />
-      <!-- Reservoir shoreline -->
-      <path
-         d="m 339,305           c 25,-23 59,-31 87,-20           20,8 36,26 53,47           l -51,34           c -23,-23 -48,-38 -88,-42 z"
-         fill="#0b6f99"
-         opacity="0.32"
-         id="reservoir-shore-shadow" />
-      <!-- Reservoir water -->
-      <path
-         d="m 343.16854,308.22044           c 24.20895,-21.95813 57.49626,-30.40357 83.21826,-19.42451           17.40019,6.75635 33.28731,24.49177 49.93097,44.76081           l -49.17443,29.55902           c -21.93936,-21.95812 -46.14832,-37.15992 -83.9748,-41.38263 z"
-         fill="url(#reservoir-water)"
-         stroke="#0d6eaa"
-         stroke-width="3"
-         stroke-linejoin="round"
-         id="reservoir-water-surface" />
-      <!-- Reservoir depth shading -->
-      <path
-         d="m 354,313           c 24,-17 49,-22 70,-14           16,6 28,18 41,34           l -37,22           c -20,-19 -41,-31 -74,-36 z"
-         fill="#52c7e4"
-         opacity="0.30"
-         id="reservoir-depth-highlight" />
-      <!-- Animated water highlights -->
-      <path
-         class="water-shimmer"
-         d="m 357,300           c 34,-7 65,3 89,29"
-         fill="none"
-         stroke="#d9f9ff"
-         stroke-width="4"
-         stroke-linecap="round"
-         opacity="0.86"
-         id="reservoir-highlight-1" />
-      <path
-         class="water-shimmer"
-         d="m 367,316           c 22,-3 42,4 59,19"
-         fill="none"
-         stroke="#a9edfa"
-         stroke-width="3"
-         stroke-linecap="round"
-         opacity="0.72"
-         style="animation-delay:-0.8s"
-         id="reservoir-highlight-2" />
-      <!-- Dam structure -->
-      <g
-         id="dam-structure"
-         filter="url(#object-shadow)"
-         transform="matrix(1.2434455,-0.33680962,-0.0754836,1.0296234,-90.956353,132.34706)">
-        <!-- Downstream foundation -->
-        <polygon
-           points="407,385 458,359 481,370 429,398"
-           fill="#596f75"
-           opacity="0.42"
-           id="dam-foundation" />
-        <!-- Main concrete face -->
-        <polygon
-           points="410,323 458,300 458,359 410,384"
-           fill="#b9c9cc"
-           stroke="#506970"
-           stroke-width="3"
-           stroke-linejoin="round"
-           id="dam-main-face" />
-        <!-- Shaded side face -->
-        <polygon
-           points="458,300 478,311 478,369 458,359"
-           fill="#788f95"
-           stroke="#506970"
-           stroke-width="3"
-           stroke-linejoin="round"
-           id="dam-side-face" />
-        <!-- Crest -->
-        <polygon
-           points="410,323 458,300 478,311 430,335"
-           fill="#edf4f5"
-           stroke="#607980"
-           stroke-width="3"
-           stroke-linejoin="round"
-           id="dam-crest" />
-        <!-- Crest roadway -->
-        <path
-           d="m 419,322 39,-18 11,6 -40,19 z"
-           fill="#697b80"
-           stroke="#455b61"
-           stroke-width="1.5"
-           id="dam-crest-road" />
-        <!-- Upstream water line -->
-        <path
-           d="m 410,329 48,-23"
-           fill="none"
-           stroke="#8be5f5"
-           stroke-width="4"
-           stroke-linecap="round"
-           opacity="0.90"
-           id="dam-water-line" />
-        <!-- Spillway recess -->
-        <polygon
-           points="421,332 447,319 447,361 421,375"
-           fill="#8fa5aa"
-           stroke="#536b71"
-           stroke-width="2"
-           id="dam-spillway-recess" />
-        <!-- Spillway gates -->
-        <path
-           d="m 427,330 v 39             m 7,-43 v 39             m 7,-42 v 38"
-           fill="none"
-           stroke="#e4edef"
-           stroke-width="4"
-           id="dam-spillway-gates" />
-        <!-- Gate separators -->
-        <path
-           d="m 424,343 21,-11             m -21,25 21,-11"
-           fill="none"
-           stroke="#60777d"
-           stroke-width="1.8"
-           opacity="0.80"
-           id="dam-gate-separators" />
-        <!-- Crest railing -->
-        <path
-           d="m 414,317 44,-21             m -39,18 v 7             m 10,-12 v 7             m 10,-12 v 7             m 10,-12 v 7"
-           fill="none"
-           stroke="#526a70"
-           stroke-width="1.5"
-           stroke-linecap="round"
-           id="dam-railing" />
-        <!-- Control house -->
-        <g
-           id="dam-control-house">
-          <polygon
-             points="444,302 454,297 461,301 451,306"
-             fill="#f7fbfc"
-             stroke="#536b71"
-             stroke-width="1.5"
-             id="polygon1" />
-          <polygon
-             points="444,302 451,306 451,318 444,314"
-             fill="#c4d2d5"
-             stroke="#536b71"
-             stroke-width="1.5"
-             id="polygon2" />
-          <polygon
-             points="451,306 461,301 461,313 451,318"
-             fill="#8da2a7"
-             stroke="#536b71"
-             stroke-width="1.5"
-             id="polygon3" />
-          <path
-             d="m 453,307 5,-2 v 4 l -5,2 z"
-             fill="#7ed2e7"
-             id="path3" />
-        </g>
-        <!-- Low-level outlet -->
-        <ellipse
-           cx="466"
-           cy="353"
-           rx="5"
-           ry="7"
-           fill="#314d55"
-           stroke="#d7e4e6"
-           stroke-width="2"
-           id="dam-outlet" />
-        <!-- Released water -->
-        <path
-           d="m 471,357             c 8,4 12,8 17,15"
-           fill="none"
-           stroke="#55c8e7"
-           stroke-width="5"
-           stroke-linecap="round"
-           opacity="0.88"
-           id="dam-release-water" />
-      </g>
-      <!-- One consistent feature label -->
-      <text
-         class="feature-label"
-         x="439.94699"
-         y="229.62852"
-         id="dam-and-reservoir-label"
-         transform="scale(0.86207296,1.1599946)"><tspan
-           sodipodi:role="line"
-           id="tspan9"
-           x="439.94699"
-           y="229.62852"
-           style="stroke-width:5.39077px">Reservoir</tspan></text>
-    </g>
-  </a>
-  <!-- ============================================================
-       IRRIGATION CHANNEL
-       ============================================================ -->
-  <!-- ============================================================
-       AGRICULTURE
-       ============================================================ -->
-   <a
-      id="agriculture-link"
-      href="{{ '/portfolio/agroecosystem-modeling/' | relative_url }}"
-      target="_top"
-      aria-label="Open agroecosystem modeling project"
-      data-title="Agroecosystem modeling"
-      transform="matrix(0.93981249,0.04870625,-0.04940576,0.95330995,76.81758,-26.441248)">
-    <g
-       class="feature"
-       id="g137">
-      <path
-         class="hit-area"
-         d="M 650,425 845,313 1014,409 823,528 Z"
-         id="path132" />
-      <path
-         class="focus-outline"
-         d="M 650,425 845,313 1014,409 823,528 Z"
-         id="path133" />
-      <!-- Farm base -->
-      <polygon
-         points="823,529 649,424 845,313 1015,409 "
-         fill="#dfc65b"
-         stroke="#aa8c2b"
-         stroke-width="3"
-         id="polygon133"
-         transform="matrix(1.0994645,0,0,1.1125729,-68.870957,-29.657491)" />
-      <!-- Wheat -->
-      <polygon
-         points="673,436 752,390 821,430 743,477 "
-         fill="url(#wheat-rows)"
-         stroke="#b98625"
-         stroke-width="3"
-         id="polygon134" />
-      <!-- Corn -->
-      <polygon
-         points="775,376 849,334 919,374 846,419 "
-         fill="url(#corn-rows)"
-         stroke="#357b42"
-         stroke-width="3"
-         id="polygon135" />
-      <!-- Field row highlights -->
-      <path
-         d="m 690,441 56,33 m -42,-41 55,33 m -41,-41 55,33"
-         fill="none"
-         stroke="#fff4ae"
-         stroke-width="3"
-         opacity="0.72"
-         id="path135" />
-      <path
-         d="m 793,375 56,32 m -42,-40 56,32 m -42,-40 56,32"
-         fill="none"
-         stroke="#b8e68b"
-         stroke-width="3"
-         opacity="0.72"
-         id="path136" />
-      <text
-         class="feature-label"
-         x="689"
-         y="405"
-         id="text136">Wheat</text>
-      <text
-         class="feature-label"
-         x="837"
-         y="340"
-         id="text137">Corn</text>
-    </g>
-  </a>
-  <!-- ============================================================
-       CENTER-PIVOT FIELD
-       ============================================================ -->
-  <!-- ============================================================
-       PASTURE AND LIVESTOCK
-       ============================================================ -->
-   <a
-      id="pasture-link"
-      href="{{ '/portfolio/agroecosystem-modeling/' | relative_url }}"
-      target="_top"
-      aria-label="Open agroecosystem modeling project"
-      data-title="Agroecosystem modeling"
-      transform="translate(4.6272494,2.3136247)">
-    <g
-       class="feature"
-       id="g160">
-      <path
-         class="hit-area"
-         d="m 847,424 82,-47 84,47 -84,54 z"
-         id="path151" />
-      <path
-         class="focus-outline"
-         d="m 847,424 82,-47 84,47 -84,54 z"
-         id="path152" />
-      <polygon
-         points="1013,423 929,478 847,423 929,376 "
-         fill="#76b35f"
-         stroke="#4b7f4c"
-         stroke-width="3"
-         id="polygon152"
-         transform="rotate(2.8754806,930.02505,427.03782)" />
-      <!-- Fence -->
-      <path
-         d="m 847,423 82,-47 84,47 -84,55 z"
-         fill="none"
-         stroke="#654730"
-         stroke-width="4"
-         stroke-dasharray="11, 6"
-         id="path153" />
-      <!-- Barn -->
-      <g
-         transform="matrix(0.5,0,0,0.5,966,404)"
-         filter="url(#object-shadow)"
-         id="g156">
-        <polygon
-           points="0,34 0,67 -31,50 -31,17 "
-           fill="#bd4e44"
-           id="polygon153" />
-        <polygon
-           points="0,34 0,67 31,50 31,17 "
-           fill="#913936"
-           id="polygon154" />
-        <polygon
-           points="0,-13 36,14 0,35 -35,14 "
-           fill="#584943"
-           id="polygon155" />
-        <polygon
-           points="0,38 0,65 -8,61 -8,42 "
-           fill="#f2dfbd"
-           id="polygon156" />
-      </g>
-      <g
-         transform="matrix(0.48,0,0,0.48,892,424)"
-         id="g157">
-        <use
-           href="#cow"
-           id="use156" />
-      </g>
-      <g
-         transform="matrix(0.42,0,0,0.42,935,440)"
-         id="g158">
-        <use
-           href="#cow"
-           id="use157" />
-      </g>
-      <g
-         transform="matrix(0.4,0,0,0.4,914,400)"
-         id="g159">
-        <use
-           href="#horse"
-           id="use158" />
-      </g>
-      <text
-         class="feature-label"
-         x="974.14655"
-         y="383.03085"
-         id="text159">Managed pasture</text>
-    </g>
-  </a>
-  <!-- ============================================================
-       EVAPOTRANSPIRATION
-       ============================================================ -->
-   <a
-      id="evapotranspiration-link"
-      href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
-      target="_top"
-      aria-label="Open irrigation and crop-stress modeling project"
-      data-title="Irrigation and crop-stress modeling"
-      transform="translate(53.442004,-57.259289)">
-    <g
-       class="feature"
-       id="g166">
-      <path
-         class="hit-area"
-         d="m 855,425 c -10,-54 10,-111 45,-162 h 127 c -23,62 -22,116 -3,178 z"
-         id="path160" />
-      <path
-         class="focus-outline"
-         d="m 855,425 c -10,-54 10,-111 45,-162 h 127 c -23,62 -22,116 -3,178 z"
-         id="path161" />
-      <!-- Soil evaporation -->
-      <path
-         class="et-arrow secondary"
-         d="m 870,426 c -15,-29 -8,-59 11,-82 18,-23 19,-47 11,-70"
-         id="path162" />
-      <!-- Wheat/corn transpiration -->
-      <path
-         class="et-arrow"
-         d="m 929,424 c -19,-34 -8,-66 11,-91 18,-24 18,-50 7,-77"
-         id="path163" />
-      <!-- Pasture transpiration -->
-      <path
-         class="et-arrow secondary"
-         d="m 992,438 c -16,-32 -8,-60 8,-83 14,-21 11,-47 3,-68"
-         id="path164" />
-      <!-- Vapor curves -->
-      <path
-         d="m 887,299 c -12,-13 -12,-25 0,-37 11,-12 11,-24 0,-37"
-         fill="none"
-         stroke="#74d9e6"
-         stroke-width="4"
-         stroke-linecap="round"
-         opacity="0.7"
-         id="path165" />
-      <path
-         d="m 1000.9962,309.91231 c -11.87801,-14.3104 -11.87801,-27.52 0,-40.7296 10.8882,-13.2096 10.8882,-26.4192 0,-40.7296"
-         fill="none"
-         stroke="#74d9e6"
-         stroke-width="4.17537"
-         stroke-linecap="round"
-         opacity="0.7"
-         id="path166" />
-      <text
-         class="feature-label"
-         x="866.54535"
-         y="217.82292"
-         id="text166">Evapotranspiration</text>
-    </g>
-  </a>
-  <!-- ============================================================
-       URBAN CATCHMENT
-       ============================================================ -->
-   <a
-      id="urban-link"
-      href="{{ '/portfolio/lulc-texas-high-plains/' | relative_url }}"
-      target="_top"
-      aria-label="Open land-use and land-cover project"
-      data-title="Land-use and land-cover analysis"
-      transform="translate(-3.0848329)">
-    <g
-       class="feature"
-       id="g180">
-      <path
-         class="hit-area"
-         d="M 135,453 306,355 458,444 287,546 Z"
-         id="path167" />
-      <path
-         class="focus-outline"
-         d="M 135,453 306,355 458,444 287,546 Z"
-         id="path168" />
-      <!-- Urban platform -->
-      <polygon
-         points="287,545 138,453 306,355 457,444 "
-         fill="#adbabc"
-         stroke="#697e82"
-         stroke-width="3"
-         id="polygon168"
-         transform="translate(-12.339332,15.424165)" />
-      <!-- Roads -->
-      <polygon
-         points="315,546 172,463 194,450 337,533 "
-         fill="#46555c"
-         id="polygon169"
-         transform="translate(-11.568123,-10.025707)" />
-      <polygon
-         points="411,468 387,482 243,398 267,384 "
-         fill="#46555c"
-         id="polygon170" />
-      <path
-         d="m 177.7455,447.97429 134.14396,81.54242 M 254,392 399,476"
-         stroke="#f4d65d"
-         stroke-width="3"
-         stroke-dasharray="13, 10"
-         id="path170"
-         sodipodi:nodetypes="cccc" />
-      <!-- Buildings -->
-      <g
-         transform="matrix(0.61,0,0,0.61,274,399)"
-         filter="url(#object-shadow)"
-         id="g170">
-        <use
-           href="#building"
-           id="use170" />
-      </g>
-      <g
-         transform="matrix(0.52,0,0,0.52,315,422)"
-         filter="url(#object-shadow)"
-         id="g171">
-        <use
-           href="#building"
-           id="use171" />
-      </g>
-      <g
-         transform="matrix(0.43,0,0,0.43,349,443)"
-         filter="url(#object-shadow)"
-         id="g172">
-        <use
-           href="#building"
-           id="use172" />
-      </g>
-      <!-- Houses -->
-      <g
-         transform="matrix(0.48,0,0,0.48,186.43188,453.97429)"
-         filter="url(#object-shadow)"
-         id="g173">
-        <use
-           href="#house"
-           id="use173" />
-      </g>
-      <g
-         transform="matrix(0.46,0,0,0.46,228.43188,478.97429)"
-         filter="url(#object-shadow)"
-         id="g174">
-        <use
-           href="#house"
-           id="use174" />
-      </g>
-      <g
-         transform="matrix(0.44,0,0,0.44,272.43188,502.97429)"
-         filter="url(#object-shadow)"
-         id="g175">
-        <use
-           href="#house"
-           id="use175" />
-      </g>
-      <!-- Street trees -->
-      <g
-         transform="matrix(0.28,0,0,0.28,154.43188,454.97429)"
-         id="g176">
-        <use
-           href="#deciduous-tree"
-           id="use176" />
-      </g>
-      <g
-         transform="matrix(0.28,0,0,0.28,375,466)"
-         id="g177">
-        <use
-           href="#deciduous-tree"
-           id="use177" />
-      </g>
-      <!-- Small vehicle -->
-      <g
-         transform="rotate(-29,924.60989,-177.53802)"
-         filter="url(#object-shadow)"
-         id="g179">
-        <rect
-           x="-12"
-           y="-6"
-           width="25"
-           height="12"
-           rx="3"
-           fill="#ffcb19"
-           stroke="#91491c"
-           stroke-width="2"
-           id="rect177" />
-        <rect
-           x="-6"
-           y="-5"
-           width="11"
-           height="5"
-           fill="#bcecff"
-           id="rect178" />
-        <circle
-           cx="-7"
-           cy="7"
-           r="3"
-           fill="#2f4047"
-           id="circle178" />
-        <circle
-           cx="8"
-           cy="7"
-           r="3"
-           fill="#2f4047"
-           id="circle179" />
-      </g>
-      <text
-         class="feature-label"
-         x="112"
-         y="389"
-         id="text179">Urban catchment</text>
-    </g>
-  </a>
-  <!-- Urban runoff -->
-  <!-- ============================================================
-       RIVER AND FLOODPLAIN
-       ============================================================ -->
-  <!-- ============================================================
-       WETLAND
-       ============================================================ -->
-  <!-- ============================================================
-       FLOODPLAIN
-       ============================================================ -->
-  <!-- ============================================================
-       GROUNDWATER AND INFILTRATION
-       ============================================================ -->
-  <!-- Infiltration arrows -->
-  <!-- ============================================================
-       SMALL LEGEND
-       ============================================================ -->
-  <!-- Click hint -->
-  <!-- ============================================================
-       TOOLTIP — MUST REMAIN NEAR THE END
-       ============================================================ -->
+       ========================================================== -->
   <g
-     id="tooltip"
-     class="tooltip"
-     transform="translate(0 0)"
-     aria-hidden="true">
-    <rect
-       id="tooltip-box"
-       class="tooltip-box"
-       x="0"
-       y="0"
-       width="230"
-       height="44"
-       rx="11"
-       filter="url(#tooltip-shadow)" />
+    id="watershed-block"
+    filter="url(#land-shadow)"
+    transform="matrix(1.024,0,0,1.144,-39.7,-49.4)">
+
     <path
-       d="M18 44H34L26 54Z"
-       fill="#0f313f"
-       id="path210" />
-    <text
-       id="tooltip-text"
-       class="tooltip-text"
-       x="15"
-       y="28">
-      Watershed feature
+      d="M76 442
+         C80 389 116 355 172 322
+         L487 145
+         C520 127 557 128 594 147
+         L1058 407
+         C1085 423 1090 450 1070 469
+         L605 754
+         C580 770 550 770 524 754
+         L94 503
+         C71 489 62 465 76 442Z"
+      fill="url(#top-ground)"
+      stroke="#1d7d49"
+      stroke-width="3"/>
+
+    <path
+      d="M75 445L552 724V827L75 550Z"
+      fill="url(#left-soil)"
+      stroke="#4a2817"
+      stroke-width="3"/>
+
+    <path
+      d="M552 724L1075 421V550L552 827Z"
+      fill="url(#right-soil)"
+      stroke="#3a1d0e"
+      stroke-width="3"/>
+
+    <path
+      d="M77 483L552 760L1074 458"
+      fill="none"
+      stroke="#d29a65"
+      stroke-width="13"
+      opacity=".92"/>
+
+    <path
+      d="M77 515L552 792L1074 489"
+      fill="none"
+      stroke="#587987"
+      stroke-width="23"
+      opacity=".97"/>
+
+    <path
+      d="M77 546L552 820L1074 519"
+      fill="none"
+      stroke="#b57d58"
+      stroke-width="15"
+      opacity=".88"/>
+
+    <path
+      d="M76 503L552 779L1075 476V516L552 817L76 540Z"
+      fill="url(#aquifer-water)"
+      stroke="#167fab"
+      stroke-width="3"
+      opacity=".94"/>
+
+    <path
+      class="water-shimmer"
+      d="M91 515L552 782L1057 490"
+      fill="none"
+      stroke="#baf5ff"
+      stroke-width="5"
+      opacity=".75"/>
+  </g>
+
+  <!-- ==========================================================
+       TWO MOUNTAINS
+       ========================================================== -->
+  <g id="mountains" aria-label="Mountain headwaters">
+
+    <!-- Rear/right mountain -->
+    <g id="mountain-rear" transform="translate(0,-5)">
+      <polygon
+        points="330,355 485,102 625,350 500,425"
+        fill="url(#mountain-mid)"
+        stroke="#3f5e54"
+        stroke-width="2"/>
+
+      <polygon
+        points="330,355 485,102 436,316"
+        fill="url(#mountain-light)"/>
+
+      <polygon
+        points="485,102 625,350 530,305"
+        fill="url(#mountain-dark)"/>
+
+      <polygon
+        points="485,102 443,171 474,156 494,183 514,151 547,199"
+        fill="#f8fcff"/>
+    </g>
+
+    <!-- Front/left mountain -->
+    <g id="mountain-front">
+      <polygon
+        points="205,420 360,190 490,410 365,478"
+        fill="url(#mountain-mid)"
+        stroke="#3f5e54"
+        stroke-width="2"/>
+
+      <polygon
+        points="205,420 360,190 318,380"
+        fill="url(#mountain-light)"/>
+
+      <polygon
+        points="360,190 490,410 405,365"
+        fill="url(#mountain-dark)"/>
+
+      <polygon
+        points="360,190 325,247 350,237 368,260 389,234 417,280"
+        fill="#f8fcff"/>
+    </g>
+  </g>
+
+  <!-- Mountain runoff -->
+  <g aria-hidden="true">
+    <path
+      class="runoff-arrow"
+      d="M500 185C505 235 520 280 555 324"/>
+    <path
+      class="runoff-arrow"
+      d="M350 270C356 310 373 345 400 375"/>
+  </g>
+
+  <!-- ==========================================================
+       PRECIPITATION
+       ========================================================== -->
+  <a
+    id="precipitation-link"
+    href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+    target="_top"
+    aria-label="Open water-footprint assessment project"
+    data-title="Precipitation — Water-footprint assessment">
+
+    <g class="feature">
+      <rect
+        class="hit-area"
+        x="525"
+        y="60"
+        width="380"
+        height="255"
+        rx="38"/>
+
+      <rect
+        class="focus-outline"
+        x="525"
+        y="60"
+        width="380"
+        height="255"
+        rx="38"/>
+
+      <g transform="translate(715 105)" filter="url(#cloud-shadow)">
+        <g class="cloud-drift-slow">
+          <use href="#cloud" transform="scale(1.08)"/>
+        </g>
+      </g>
+
+      <g transform="translate(575 165)" filter="url(#cloud-shadow)">
+        <g class="cloud-drift-fast">
+          <use href="#cloud" transform="scale(.60)"/>
+        </g>
+      </g>
+
+      <g transform="translate(835 168)" filter="url(#cloud-shadow)">
+        <g class="cloud-drift-slow">
+          <use href="#cloud" transform="scale(.62)"/>
+        </g>
+      </g>
+
+      <text class="feature-label" x="658" y="172">Precipitation</text>
+
+      <path class="rain-line" d="M580 200C585 228 590 250 598 277"/>
+      <path class="rain-line" d="M692 180C697 217 705 250 715 285"/>
+      <path class="rain-line" d="M817 198C821 229 829 254 840 284"/>
+
+      <g transform="translate(550 205)">
+        <g class="rain-drop" style="animation-delay:-.12s">
+          <use href="#raindrop" transform="scale(.35)"/>
+        </g>
+      </g>
+
+      <g transform="translate(605 198)">
+        <g class="rain-drop" style="animation-delay:-.72s">
+          <use href="#raindrop" transform="scale(.36)"/>
+        </g>
+      </g>
+
+      <g transform="translate(655 218)">
+        <g class="rain-drop" style="animation-delay:-1.1s">
+          <use href="#raindrop" transform="scale(.41)"/>
+        </g>
+      </g>
+
+      <g transform="translate(712 205)">
+        <g class="rain-drop" style="animation-delay:-.35s">
+          <use href="#raindrop" transform="scale(.37)"/>
+        </g>
+      </g>
+
+      <g transform="translate(765 220)">
+        <g class="rain-drop" style="animation-delay:-.88s">
+          <use href="#raindrop" transform="scale(.40)"/>
+        </g>
+      </g>
+
+      <g transform="translate(820 205)">
+        <g class="rain-drop" style="animation-delay:-1.22s">
+          <use href="#raindrop" transform="scale(.36)"/>
+        </g>
+      </g>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       RESERVOIR AND DAM
+       ========================================================== -->
+  <a
+    id="dam-link"
+    href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+    target="_top"
+    aria-label="Open water-footprint assessment project"
+    data-title="Dam and reservoir — Water-footprint assessment">
+
+    <g class="feature">
+      <path
+        class="hit-area"
+        d="M335 285C375 260 430 267 470 310L530 360L420 420L330 370Z"/>
+
+      <path
+        class="focus-outline"
+        d="M335 285C375 260 430 267 470 310L530 360L420 420L330 370Z"/>
+
+      <path
+        d="M340 318
+           C365 287 405 281 435 294
+           C458 304 477 326 493 349
+           L428 388
+           C403 358 375 338 340 334Z"
+        fill="#0b6f99"
+        opacity=".28"/>
+
+      <path
+        d="M343 309
+           C367 287 400 279 426 290
+           C444 297 460 315 477 335
+           L427 365
+           C405 343 381 328 343 323Z"
+        fill="url(#reservoir-water)"
+        stroke="#0d6eaa"
+        stroke-width="3"
+        stroke-linejoin="round"/>
+
+      <path
+        class="water-shimmer"
+        d="M358 301C392 294 422 304 447 329"
+        fill="none"
+        stroke="#d9f9ff"
+        stroke-width="4"
+        stroke-linecap="round"
+        opacity=".85"/>
+
+      <!-- Dam -->
+      <g
+        transform="matrix(1.22,-.32,-.08,1.02,-84,128)"
+        filter="url(#object-shadow)">
+
+        <polygon
+          points="407,385 458,359 481,370 429,398"
+          fill="#596f75"
+          opacity=".42"/>
+
+        <polygon
+          points="410,323 458,300 458,359 410,384"
+          fill="#b9c9cc"
+          stroke="#506970"
+          stroke-width="3"/>
+
+        <polygon
+          points="458,300 478,311 478,369 458,359"
+          fill="#788f95"
+          stroke="#506970"
+          stroke-width="3"/>
+
+        <polygon
+          points="410,323 458,300 478,311 430,335"
+          fill="#edf4f5"
+          stroke="#607980"
+          stroke-width="3"/>
+
+        <path
+          d="M419 322L458 304L469 310L429 329Z"
+          fill="#697b80"
+          stroke="#455b61"
+          stroke-width="1.5"/>
+
+        <polygon
+          points="421,332 447,319 447,361 421,375"
+          fill="#8fa5aa"
+          stroke="#536b71"
+          stroke-width="2"/>
+
+        <path
+          d="M427 330V369M434 326V365M441 323V361"
+          fill="none"
+          stroke="#e4edef"
+          stroke-width="4"/>
+
+        <ellipse
+          cx="466"
+          cy="353"
+          rx="5"
+          ry="7"
+          fill="#314d55"
+          stroke="#d7e4e6"
+          stroke-width="2"/>
+
+        <path
+          d="M471 357C479 361 483 365 488 372"
+          fill="none"
+          stroke="#55c8e7"
+          stroke-width="5"
+          stroke-linecap="round"/>
+      </g>
+
+      <text class="feature-label" x="350" y="280">Dam and reservoir</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       IRRIGATION CHANNEL
+       ========================================================== -->
+  <a
+    id="irrigation-channel-link"
+    href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
+    target="_top"
+    aria-label="Open irrigation and crop-stress modeling project"
+    data-title="Irrigation channel — Irrigation and crop-stress modeling">
+
+    <g class="feature">
+      <path
+        class="hit-area"
+        d="M430 340C570 335 700 350 850 394L840 430C700 390 570 375 430 378Z"/>
+
+      <path
+        class="focus-outline"
+        d="M430 340C570 335 700 350 850 394L840 430C700 390 570 375 430 378Z"/>
+
+      <path
+        d="M414 348
+           C556 343 686 357 837 398
+           L826 418
+           C680 380 552 366 414 369Z"
+        fill="#18a9cf"
+        stroke="#087e9f"
+        stroke-width="3"/>
+
+      <path
+        class="flow-arrow"
+        d="M490 358C590 354 705 370 808 403"/>
+
+      <text class="feature-label" x="555" y="338">
+        Irrigation channel
+      </text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       URBAN CATCHMENT
+       ========================================================== -->
+  <a
+    id="urban-link"
+    href="{{ '/portfolio/lulc-texas-high-plains/' | relative_url }}"
+    target="_top"
+    aria-label="Open land-use and land-cover project"
+    data-title="Urban catchment — Land-use and land-cover analysis">
+
+    <g class="feature">
+      <path
+        class="hit-area"
+        d="M120 455L305 350L470 445L285 555Z"/>
+
+      <path
+        class="focus-outline"
+        d="M120 455L305 350L470 445L285 555Z"/>
+
+      <polygon
+        points="275,557 125,465 305,360 462,450"
+        fill="#adbabc"
+        stroke="#697e82"
+        stroke-width="3"/>
+
+      <polygon points="302,548 160,465 184,450 326,533" fill="#46555c"/>
+      <polygon points="415,475 390,489 240,402 266,387" fill="#46555c"/>
+
+      <path
+        d="M167 458L308 540M253 395L403 482"
+        stroke="#f4d65d"
+        stroke-width="3"
+        stroke-dasharray="13 10"/>
+
+      <g transform="translate(275 405) scale(.60)" filter="url(#object-shadow)">
+        <use href="#building"/>
+      </g>
+
+      <g transform="translate(320 430) scale(.50)" filter="url(#object-shadow)">
+        <use href="#building"/>
+      </g>
+
+      <g transform="translate(355 450) scale(.42)" filter="url(#object-shadow)">
+        <use href="#building"/>
+      </g>
+
+      <g transform="translate(180 458) scale(.48)" filter="url(#object-shadow)">
+        <use href="#house"/>
+      </g>
+
+      <g transform="translate(225 484) scale(.45)" filter="url(#object-shadow)">
+        <use href="#house"/>
+      </g>
+
+      <g transform="translate(267 507) scale(.43)" filter="url(#object-shadow)">
+        <use href="#house"/>
+      </g>
+
+      <g transform="translate(150 460) scale(.28)">
+        <use href="#deciduous-tree"/>
+      </g>
+
+      <g transform="translate(380 474) scale(.28)">
+        <use href="#deciduous-tree"/>
+      </g>
+
+      <text class="feature-label" x="118" y="397">Urban catchment</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       FOREST
+       ========================================================== -->
+  <a
+    id="forest-link"
+    href="{{ '/portfolio/lulc-texas-high-plains/' | relative_url }}"
+    target="_top"
+    aria-label="Open land-use and land-cover project"
+    data-title="Forest — Land-use and land-cover analysis">
+
+    <g class="feature">
+      <path
+        class="hit-area"
+        d="M180 320H420V450H180Z"/>
+
+      <path
+        class="focus-outline"
+        d="M180 320H420V450H180Z"/>
+
+      <g transform="translate(215 390) scale(.48)">
+        <use href="#tree"/>
+      </g>
+
+      <g transform="translate(265 414) scale(.54)">
+        <use href="#tree"/>
+      </g>
+
+      <g transform="translate(315 391) scale(.50)">
+        <use href="#tree"/>
+      </g>
+
+      <g transform="translate(360 422) scale(.55)">
+        <use href="#tree"/>
+      </g>
+
+      <g transform="translate(400 392) scale(.48)">
+        <use href="#tree"/>
+      </g>
+
+      <text class="small-label" x="205" y="340">Forest</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       MAIN CHANNEL AND FLOODPLAIN UNDERLAY
+       ========================================================== -->
+  <a
+    id="river-link"
+    href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+    target="_top"
+    aria-label="Open water-footprint assessment project"
+    data-title="Main channel — Water-footprint assessment">
+
+    <g class="feature">
+      <path
+        d="M392 356
+           C450 380 507 414 538 453
+           C564 487 613 483 648 515
+           C681 546 653 582 624 611
+           C588 646 588 691 608 738"
+        fill="none"
+        stroke="#77bd8a"
+        stroke-width="88"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity=".72"/>
+
+      <path
+        class="hit-area"
+        d="M390 340
+           C452 364 515 405 550 444
+           C580 477 625 477 660 505
+           C706 542 680 588 642 620
+           C607 651 598 700 621 755"
+        fill="none"
+        stroke="transparent"
+        stroke-width="90"/>
+
+      <path
+        class="focus-outline"
+        d="M390 340
+           C452 364 515 405 550 444
+           C580 477 625 477 660 505
+           C706 542 680 588 642 620
+           C607 651 598 700 621 755"
+        fill="none"
+        stroke-width="56"/>
+
+      <path
+        d="M390 356
+           C448 380 505 414 536 453
+           C562 487 612 483 646 515
+           C680 546 652 582 622 611
+           C586 646 586 691 606 738"
+        fill="none"
+        stroke="#0967a6"
+        stroke-width="50"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+      <path
+        d="M390 356
+           C448 380 505 414 536 453
+           C562 487 612 483 646 515
+           C680 546 652 582 622 611
+           C586 646 586 691 606 738"
+        fill="none"
+        stroke="url(#river-water)"
+        stroke-width="39"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+      <path
+        class="river-flow"
+        d="M411 367
+           C462 393 512 425 540 465
+           C571 505 620 499 650 530
+           C676 556 652 587 623 619
+           C594 652 600 702 612 739"/>
+
+      <text class="feature-label" x="568" y="440">Main channel</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       AGRICULTURE
+       ========================================================== -->
+  <a
+    id="agriculture-link"
+    href="{{ '/portfolio/agroecosystem-modeling/' | relative_url }}"
+    target="_top"
+    aria-label="Open agroecosystem modeling project"
+    data-title="Agriculture — Agroecosystem modeling">
+
+    <g class="feature">
+      <path
+        class="hit-area"
+        d="M650 425L845 313L1020 410L823 535Z"/>
+
+      <path
+        class="focus-outline"
+        d="M650 425L845 313L1020 410L823 535Z"/>
+
+      <polygon
+        points="823,530 649,425 845,313 1015,409"
+        fill="#dfc65b"
+        stroke="#aa8c2b"
+        stroke-width="3"/>
+
+      <polygon
+        points="673,436 752,390 821,430 743,477"
+        fill="url(#wheat-rows)"
+        stroke="#b98625"
+        stroke-width="3"/>
+
+      <polygon
+        points="775,376 849,334 919,374 846,419"
+        fill="url(#corn-rows)"
+        stroke="#357b42"
+        stroke-width="3"/>
+
+      <path
+        d="M690 441L746 474M704 433L759 466M718 425L773 458"
+        fill="none"
+        stroke="#fff4ae"
+        stroke-width="3"
+        opacity=".72"/>
+
+      <path
+        d="M793 375L849 407M807 367L863 399M821 359L877 391"
+        fill="none"
+        stroke="#b8e68b"
+        stroke-width="3"
+        opacity=".72"/>
+
+      <text class="feature-label" x="688" y="405">Wheat</text>
+      <text class="feature-label" x="837" y="340">Corn</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       MANAGED PASTURE
+       ========================================================== -->
+  <a
+    id="pasture-link"
+    href="{{ '/portfolio/agroecosystem-modeling/' | relative_url }}"
+    target="_top"
+    aria-label="Open agroecosystem modeling project"
+    data-title="Managed pasture — Agroecosystem modeling">
+
+    <g class="feature">
+      <path
+        class="hit-area"
+        d="M847 424L929 377L1015 424L929 480Z"/>
+
+      <path
+        class="focus-outline"
+        d="M847 424L929 377L1015 424L929 480Z"/>
+
+      <polygon
+        points="1013,423 929,478 847,423 929,376"
+        fill="#76b35f"
+        stroke="#4b7f4c"
+        stroke-width="3"/>
+
+      <path
+        d="M847 423L929 376L1013 423L929 478Z"
+        fill="none"
+        stroke="#654730"
+        stroke-width="4"
+        stroke-dasharray="11 6"/>
+
+      <!-- Barn -->
+      <g transform="translate(966 404) scale(.5)" filter="url(#object-shadow)">
+        <polygon points="0,34 0,67 -31,50 -31,17" fill="#bd4e44"/>
+        <polygon points="0,34 0,67 31,50 31,17" fill="#913936"/>
+        <polygon points="0,-13 36,14 0,35 -35,14" fill="#584943"/>
+        <polygon points="0,38 0,65 -8,61 -8,42" fill="#f2dfbd"/>
+      </g>
+
+      <g transform="translate(892 424) scale(.48)">
+        <use href="#cow"/>
+      </g>
+
+      <g transform="translate(935 440) scale(.42)">
+        <use href="#cow"/>
+      </g>
+
+      <g transform="translate(914 400) scale(.40)">
+        <use href="#horse"/>
+      </g>
+
+      <text class="feature-label" x="925" y="370">Managed pasture</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       CENTER-PIVOT IRRIGATION
+       ========================================================== -->
+  <a
+    id="center-pivot-link"
+    href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
+    target="_top"
+    aria-label="Open irrigation and crop-stress modeling project"
+    data-title="Center-pivot irrigation — Irrigation and crop-stress modeling">
+
+    <g class="feature" transform="translate(4,-39)">
+      <ellipse
+        class="hit-area"
+        cx="827"
+        cy="519"
+        rx="75"
+        ry="49"/>
+
+      <ellipse
+        class="focus-outline"
+        cx="827"
+        cy="519"
+        rx="69"
+        ry="43"/>
+
+      <ellipse
+        cx="827"
+        cy="519"
+        rx="61"
+        ry="37"
+        fill="#5d9e48"
+        stroke="#377343"
+        stroke-width="3"/>
+
+      <g clip-path="url(#pivot-field-clip)">
+        <ellipse
+          cx="827"
+          cy="519"
+          rx="52"
+          ry="30"
+          fill="none"
+          stroke="#b8d96e"
+          stroke-width="13"/>
+
+        <ellipse
+          cx="827"
+          cy="519"
+          rx="36"
+          ry="21"
+          fill="none"
+          stroke="#438e48"
+          stroke-width="12"/>
+
+        <ellipse
+          cx="827"
+          cy="519"
+          rx="20"
+          ry="11"
+          fill="#c7df78"/>
+
+        <path
+          d="M766 519H888M827 482V556"
+          stroke="#2d7241"
+          stroke-width="2"
+          opacity=".52"/>
+      </g>
+
+      <g transform="matrix(1,0,0,.62,827,519)">
+        <circle
+          cx="0"
+          cy="0"
+          r="10"
+          fill="#e8f0f1"
+          stroke="#48656d"
+          stroke-width="3"/>
+
+        <g class="pivot-rotor">
+          <line
+            x1="0"
+            y1="0"
+            x2="56"
+            y2="0"
+            stroke="#eef5f6"
+            stroke-width="7"
+            stroke-linecap="round"/>
+
+          <line
+            x1="7"
+            y1="4"
+            x2="55"
+            y2="4"
+            stroke="#59727a"
+            stroke-width="2.5"
+            stroke-linecap="round"/>
+
+          <path
+            d="M5 0L14-10L23 0L32-10L41 0L50-8L56 0"
+            fill="none"
+            stroke="#48636b"
+            stroke-width="2.5"/>
+
+          <g transform="translate(20 9)">
+            <use href="#wheel"/>
+          </g>
+
+          <g transform="translate(39 9)">
+            <use href="#wheel"/>
+          </g>
+
+          <g transform="translate(55 7)">
+            <use href="#wheel"/>
+          </g>
+
+          <g
+            class="pivot-spray"
+            fill="none"
+            stroke="#75ddf0"
+            stroke-width="2.5"
+            stroke-linecap="round">
+            <path d="M14 2Q14 20 8 31"/>
+            <path d="M25 2Q27 23 20 35"/>
+            <path d="M37 2Q41 21 36 34"/>
+            <path d="M49 1Q55 18 53 31"/>
+          </g>
+        </g>
+      </g>
+
+      <circle
+        cx="827"
+        cy="519"
+        r="5"
+        fill="#48666d"
+        stroke="#ffffff"
+        stroke-width="2"/>
+
+      <text class="feature-label" x="700" y="575">
+        Center-pivot irrigation
+      </text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       EVAPOTRANSPIRATION
+       ========================================================== -->
+  <a
+    id="evapotranspiration-link"
+    href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
+    target="_top"
+    aria-label="Open irrigation and crop-stress modeling project"
+    data-title="Evapotranspiration — Irrigation and crop-stress modeling">
+
+    <g class="feature" transform="translate(53,-57)">
+      <path
+        class="hit-area"
+        d="M850 425C842 368 861 310 900 255H1030C1005 320 1007 379 1028 444Z"/>
+
+      <path
+        class="focus-outline"
+        d="M850 425C842 368 861 310 900 255H1030C1005 320 1007 379 1028 444Z"/>
+
+      <path
+        class="et-arrow secondary"
+        d="M870 426C855 397 862 367 881 344C899 321 900 297 892 274"/>
+
+      <path
+        class="et-arrow"
+        d="M929 424C910 390 921 358 940 333C958 309 958 283 947 256"/>
+
+      <path
+        class="et-arrow secondary"
+        d="M992 438C976 406 984 378 1000 355C1014 334 1011 308 1003 287"/>
+
+      <path
+        d="M887 299C875 286 875 274 887 262C898 250 898 238 887 225"
+        fill="none"
+        stroke="#74d9e6"
+        stroke-width="4"
+        stroke-linecap="round"
+        opacity=".7"/>
+
+      <path
+        d="M1001 310C989 296 989 282 1001 269C1012 256 1012 243 1001 228"
+        fill="none"
+        stroke="#74d9e6"
+        stroke-width="4"
+        stroke-linecap="round"
+        opacity=".7"/>
+
+      <text class="feature-label" x="866" y="218">
+        Evapotranspiration
+      </text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       WETLAND
+       ========================================================== -->
+  <a
+    id="wetland-link"
+    href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+    target="_top"
+    aria-label="Open water-footprint assessment project"
+    data-title="Wetland — Water-footprint assessment">
+
+    <g class="feature">
+      <ellipse
+        class="hit-area"
+        cx="426"
+        cy="558"
+        rx="76"
+        ry="52"
+        transform="rotate(31 426 558)"/>
+
+      <ellipse
+        class="focus-outline"
+        cx="426"
+        cy="558"
+        rx="67"
+        ry="44"
+        transform="rotate(31 426 558)"/>
+
+      <ellipse
+        cx="426"
+        cy="558"
+        rx="62"
+        ry="38"
+        transform="rotate(31 426 558)"
+        fill="#78c78d"
+        stroke="#54ae71"
+        stroke-width="10"/>
+
+      <ellipse
+        cx="426"
+        cy="558"
+        rx="52"
+        ry="30"
+        transform="rotate(31 426 558)"
+        fill="url(#wetland-water)"
+        stroke="#087f98"
+        stroke-width="2"/>
+
+      <g transform="translate(369 548)">
+        <use href="#reed"/>
+      </g>
+
+      <g transform="translate(470 585)">
+        <use href="#reed"/>
+      </g>
+
+      <g transform="translate(486 546)">
+        <use href="#reed"/>
+      </g>
+
+      <text class="feature-label" x="329" y="609">Wetland</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       FLOODPLAIN
+       ========================================================== -->
+  <a
+    id="floodplain-link"
+    href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
+    target="_top"
+    aria-label="Open water-footprint assessment project"
+    data-title="Floodplain — Water-footprint assessment">
+
+    <g class="feature">
+      <path
+        class="hit-area"
+        d="M458 486
+           C515 487 555 514 574 558
+           C588 590 580 626 568 656
+           L502 638
+           C512 607 512 575 497 548
+           C484 524 466 512 441 507Z"/>
+
+      <path
+        class="focus-outline"
+        d="M458 486C515 487 555 514 574 558C588 590 580 626 568 656"/>
+
+      <g transform="translate(507 520) scale(.34)">
+        <use href="#deciduous-tree"/>
+      </g>
+
+      <g transform="translate(529 572) scale(.40)">
+        <use href="#deciduous-tree"/>
+      </g>
+
+      <g transform="translate(487 620) scale(.34)">
+        <use href="#deciduous-tree"/>
+      </g>
+
+      <g transform="translate(517 668) scale(.36)">
+        <use href="#deciduous-tree"/>
+      </g>
+
+      <text class="feature-label" x="413" y="650">Floodplain</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       GROUNDWATER AND INFILTRATION
+       ========================================================== -->
+  <a
+    id="groundwater-link"
+    href="{{ '/portfolio/groundwater-management-carbon-footprint/' | relative_url }}"
+    target="_top"
+    aria-label="Open groundwater management and carbon-footprint project"
+    data-title="Groundwater and infiltration — Groundwater management">
+
+    <g class="feature">
+      <path
+        class="hit-area"
+        d="M95 700L552 835L1045 675L1045 770L552 880L95 780Z"/>
+
+      <path
+        class="focus-outline"
+        d="M95 700L552 835L1045 675L1045 770L552 880L95 780Z"/>
+
+      <path class="infiltration-arrow" d="M212 588L211 638"/>
+      <path class="infiltration-arrow" d="M367 685L367 735"/>
+      <path class="infiltration-arrow" d="M752 639V705"/>
+      <path class="infiltration-arrow" d="M922 534V611"/>
+
+      <path
+        class="groundwater-arrow"
+        d="M164 629C302 729 408 800 521 863"/>
+
+      <path
+        class="groundwater-arrow"
+        d="M931 615C769 703 656 782 538 861"/>
+
+      <text class="process-label" x="98" y="600">Infiltration</text>
+      <text class="process-label" x="690" y="820">Groundwater flow</text>
+    </g>
+  </a>
+
+  <!-- ==========================================================
+       RUNOFF PROCESSES
+       ========================================================== -->
+  <g aria-hidden="true">
+    <path
+      class="flow-arrow"
+      d="M338 493C385 488 423 485 465 465"/>
+
+    <text class="process-label" x="370" y="505">Storm runoff</text>
+
+    <path
+      class="flow-arrow"
+      d="M900 555C852 568 809 590 770 620"/>
+
+    <text class="process-label" x="760" y="650">
+      Agricultural runoff
     </text>
   </g>
-  <!-- ============================================================
-       INTERACTION SCRIPT — MUST BE LAST
-       ============================================================ -->
-  <script
-     id="script210"><![CDATA[
+
+  <!-- ==========================================================
+       TOOLTIP
+       ========================================================== -->
+  <g
+    id="tooltip"
+    class="tooltip"
+    transform="translate(0 0)"
+    aria-hidden="true">
+
+    <rect
+      id="tooltip-box"
+      class="tooltip-box"
+      x="0"
+      y="0"
+      width="230"
+      height="44"
+      rx="11"
+      filter="url(#tooltip-shadow)"/>
+
+    <path
+      d="M18 44H34L26 54Z"
+      fill="#0f313f"/>
+
+    <text
+      id="tooltip-text"
+      class="tooltip-text"
+      x="15"
+      y="28">Watershed feature</text>
+  </g>
+
+  <!-- ==========================================================
+       INTERACTION SCRIPT — KEEP LAST
+       ========================================================== -->
+  <script><![CDATA[
     (function () {
       "use strict";
 
-      var svg = document.currentScript.ownerSVGElement;
+      var script = document.currentScript;
+      var svg = script ? script.ownerSVGElement : null;
+
+      if (!svg) {
+        return;
+      }
+
       var links = svg.querySelectorAll("a[data-title]");
       var tooltip = svg.getElementById("tooltip");
       var tooltipBox = svg.getElementById("tooltip-box");
       var tooltipText = svg.getElementById("tooltip-text");
+
+      if (!tooltip || !tooltipBox || !tooltipText) {
+        return;
+      }
 
       function clientToSvg(clientX, clientY) {
         var point = svg.createSVGPoint();
@@ -2358,7 +1858,10 @@
         point.y = clientY;
 
         if (!matrix) {
-          return { x: clientX, y: clientY };
+          return {
+            x: clientX,
+            y: clientY
+          };
         }
 
         return point.matrixTransform(matrix.inverse());
@@ -2367,7 +1870,7 @@
       function placeTooltip(x, y, title) {
         var width = Math.max(
           170,
-          Math.min(340, title.length * 8.2 + 32)
+          Math.min(390, title.length * 7.7 + 32)
         );
 
         var tooltipX = x + 17;
@@ -2381,12 +1884,12 @@
           tooltipX = 20;
         }
 
-        if (tooltipY < 20) {
+        if (tooltipY < 30) {
           tooltipY = y + 24;
         }
 
-        if (tooltipY > 825) {
-          tooltipY = 825;
+        if (tooltipY > 815) {
+          tooltipY = 815;
         }
 
         tooltipText.textContent = title;
@@ -2401,9 +1904,9 @@
         tooltip.setAttribute("aria-hidden", "false");
 
         /*
-          Appending moves the tooltip to the top of the SVG paint order.
-          This prevents landscape elements from drawing over it.
-        */
+         * Move the tooltip to the end of the SVG paint order so that
+         * landscape elements cannot be drawn over it.
+         */
         svg.appendChild(tooltip);
       }
 
@@ -2417,23 +1920,19 @@
       }
 
       function showFocusTooltip(link) {
-        var box;
-        var matrix;
-        var point;
-        var transformed;
         var title =
           link.getAttribute("data-title") ||
           "Watershed feature";
 
         try {
-          box = link.getBBox();
-          matrix = link.getCTM();
+          var box = link.getBBox();
+          var matrix = link.getCTM();
+          var point = svg.createSVGPoint();
 
-          point = svg.createSVGPoint();
           point.x = box.x + box.width / 2;
           point.y = box.y;
 
-          transformed = matrix
+          var transformed = matrix
             ? point.matrixTransform(matrix)
             : point;
 
@@ -2452,7 +1951,7 @@
         tooltip.setAttribute("aria-hidden", "true");
       }
 
-      links.forEach(function (link) {
+      Array.prototype.forEach.call(links, function (link) {
         link.addEventListener("mouseenter", function (event) {
           showPointerTooltip(event, link);
         });
@@ -2468,464 +1967,10 @@
         });
 
         link.addEventListener("blur", hideTooltip);
-
         link.addEventListener("click", hideTooltip);
       });
 
       svg.addEventListener("mouseleave", hideTooltip);
     }());
   ]]></script>
-   <a
-      id="forest-link"
-      href="{{ '/portfolio/lulc-texas-high-plains/' | relative_url }}"
-      target="_top"
-      aria-label="Open land-use and land-cover project"
-      data-title="Land-use and land-cover analysis">
-     <g
-        class="feature"
-        id="g219"
-        transform="translate(1065.5681,4.3626124)">
-    <g
-       id="g92"
-       transform="matrix(1.0570537,0,0,1.0384323,-1115.9715,-56.636519)">
-      <g
-         transform="matrix(0.48,0,0,0.48,207,364)"
-         id="g87">
-        <use
-           href="#tree"
-           id="use87" />
-      </g>
-      <g
-         transform="matrix(0.54,0,0,0.54,259,388)"
-         id="g88">
-        <use
-           href="#tree"
-           id="use88" />
-      </g>
-      <g
-         transform="matrix(0.5,0,0,0.5,311,364)"
-         id="g89">
-        <use
-           href="#tree"
-           id="use89" />
-      </g>
-      <g
-         transform="matrix(0.55,0,0,0.55,356,397)"
-         id="g90">
-        <use
-           href="#tree"
-           id="use90" />
-      </g>
-      <g
-         transform="matrix(0.55,0,0,0.55,351.7871,350.96192)"
-         id="g90-1">
-        <use
-           href="#tree"
-           id="use90-7" />
-      </g>
-      <g
-         transform="matrix(0.48,0,0,0.48,395,365)"
-         id="g91">
-        <use
-           href="#tree"
-           id="use91" />
-      </g>
-    </g>
-    </a>
-    <text
-       class="small-label"
-       x="-862.56915"
-       y="289.00073"
-       id="text92"
-       transform="scale(1.0461976,0.95584242)">Forest</text>
-  </g>
-   <a
-      id="center-pivot-link"
-      href="{{ '/portfolio/irrigation-crop-stress-modeling/' | relative_url }}"
-      target="_top"
-      aria-label="Open irrigation and crop-stress modeling project"
-      data-title="Irrigation and crop-stress modeling"
-      transform="translate(3.8560412,-39.331619)">
-    <g
-       class="feature"
-       id="g151">
-      <ellipse
-         class="hit-area"
-         cx="827"
-         cy="519"
-         rx="74"
-         ry="48"
-         id="ellipse137" />
-      <ellipse
-         class="focus-outline"
-         cx="827"
-         cy="519"
-         rx="69"
-         ry="43"
-         id="ellipse138" />
-      <!-- Circular crop field -->
-      <ellipse
-         cx="827"
-         cy="519"
-         rx="61"
-         ry="37"
-         fill="#5d9e48"
-         stroke="#377343"
-         stroke-width="3"
-         id="ellipse139" />
-      <g
-         clip-path="url(#pivot-field-clip)"
-         id="g142">
-        <ellipse
-           cx="827"
-           cy="519"
-           rx="52"
-           ry="30"
-           fill="none"
-           stroke="#b8d96e"
-           stroke-width="13"
-           id="ellipse140" />
-        <ellipse
-           cx="827"
-           cy="519"
-           rx="36"
-           ry="21"
-           fill="none"
-           stroke="#438e48"
-           stroke-width="12"
-           id="ellipse141" />
-        <ellipse
-           cx="827"
-           cy="519"
-           rx="20"
-           ry="11"
-           fill="#c7df78"
-           id="ellipse142" />
-        <path
-           d="m 766,519 h 122 m -61,-37 v 74"
-           stroke="#2d7241"
-           stroke-width="2"
-           opacity="0.52"
-           id="path142" />
-      </g>
-      <!--
-        Outer transform positions and creates the isometric effect.
-        Inner .pivot-rotor rotates around local coordinate 0,0.
-      -->
-      <g
-         transform="matrix(1,0,0,0.62,827,519)"
-         id="g150">
-        <circle
-           cx="0"
-           cy="0"
-           r="10"
-           fill="#e8f0f1"
-           stroke="#48656d"
-           stroke-width="3"
-           id="circle142" />
-        <g
-           class="pivot-rotor"
-           id="g149">
-          <!-- Main pipe -->
-          <line
-             x1="0"
-             y1="0"
-             x2="56"
-             y2="0"
-             stroke="#eef5f6"
-             stroke-width="7"
-             stroke-linecap="round"
-             id="line142" />
-          <!-- Dark underside -->
-          <line
-             x1="7"
-             y1="4"
-             x2="55"
-             y2="4"
-             stroke="#59727a"
-             stroke-width="2.5"
-             stroke-linecap="round"
-             id="line143" />
-          <!-- Truss -->
-          <path
-             d="m 5,0 9,-10 9,10 9,-10 9,10 9,-8 6,8"
-             fill="none"
-             stroke="#48636b"
-             stroke-width="2.5"
-             stroke-linejoin="round"
-             id="path143" />
-          <!-- Support wheels -->
-          <g
-             transform="translate(20,9)"
-             id="g143">
-            <use
-               href="#wheel"
-               id="use143" />
-          </g>
-          <g
-             transform="translate(39,9)"
-             id="g144">
-            <use
-               href="#wheel"
-               id="use144" />
-          </g>
-          <g
-             transform="translate(55,7)"
-             id="g145">
-            <use
-               href="#wheel"
-               id="use145" />
-          </g>
-          <!-- Spray -->
-          <g
-             class="pivot-spray"
-             fill="none"
-             stroke="#75ddf0"
-             stroke-width="2.5"
-             stroke-linecap="round"
-             id="g148">
-            <path
-               d="M 14,2 Q 14,20 8,31"
-               id="path145" />
-            <path
-               d="m 25,2 q 2,21 -5,33"
-               id="path146" />
-            <path
-               d="m 37,2 q 4,19 -1,32"
-               id="path147" />
-            <path
-               d="m 49,1 q 6,17 4,30"
-               id="path148" />
-          </g>
-        </g>
-      </g>
-      <circle
-         cx="827"
-         cy="519"
-         r="5"
-         fill="#48666d"
-         stroke="#ffffff"
-         stroke-width="2"
-         id="circle150" />
-      <text
-         class="feature-label"
-         x="697"
-         y="575"
-         id="text150">Center-pivot irrigation</text>
-    </g>
-  </a>
-   <a
-      id="wetland-link"
-      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
-      target="_top"
-      aria-label="Open water-footprint assessment project"
-      data-title="Water-footprint assessment">
-    <g
-       class="feature"
-       id="g192">
-      <ellipse
-         class="hit-area"
-         cx="426"
-         cy="558"
-         rx="76"
-         ry="52"
-         transform="rotate(31 426 558)"
-         id="ellipse186" />
-      <ellipse
-         class="focus-outline"
-         cx="426"
-         cy="558"
-         rx="67"
-         ry="44"
-         transform="rotate(31 426 558)"
-         id="ellipse187" />
-      <ellipse
-         cx="426"
-         cy="558"
-         rx="62"
-         ry="38"
-         transform="rotate(31 426 558)"
-         fill="#78c78d"
-         stroke="#54ae71"
-         stroke-width="10"
-         id="ellipse188" />
-      <ellipse
-         cx="426"
-         cy="558"
-         rx="52"
-         ry="30"
-         transform="rotate(31 426 558)"
-         fill="url(#wetland-water)"
-         stroke="#087f98"
-         stroke-width="2"
-         id="ellipse189" />
-      <g
-         transform="translate(369 548)"
-         id="g189">
-        <use
-           href="#reed"
-           id="use189" />
-      </g>
-      <g
-         transform="translate(470 585)"
-         id="g190">
-        <use
-           href="#reed"
-           id="use190" />
-      </g>
-      <g
-         transform="translate(486 546)"
-         id="g191">
-        <use
-           href="#reed"
-           id="use191" />
-      </g>
-      <text
-         class="feature-label"
-         x="327.45502"
-         y="602.23138"
-         id="text191">Wetland</text>
-    </g>
-  </a>
-   <a
-      id="floodplain-link"
-      href="{{ '/portfolio/water-footprint-assessment-banas-basin/' | relative_url }}"
-      target="_top"
-      aria-label="Open water-footprint assessment project"
-      data-title="Water-footprint assessment">
-    <g
-       class="feature"
-       id="g198">
-      <path
-         class="hit-area"
-         d="M458 486C515 487 555 514 574 558            C588 590 580 626 568 656            L502 638C512 607 512 575 497 548            C484 524 466 512 441 507Z"
-         id="path192" />
-      <path
-         class="focus-outline"
-         d="M458 486C515 487 555 514 574 558            C588 590 580 626 568 656"
-         id="path193" />
-      <g
-         id="g197">
-        <g
-           transform="translate(507 520) scale(.34)"
-           id="g193">
-          <use
-             href="#deciduous-tree"
-             id="use193" />
-        </g>
-        <g
-           transform="translate(529 572) scale(.40)"
-           id="g194">
-          <use
-             href="#deciduous-tree"
-             id="use194" />
-        </g>
-        <g
-           transform="translate(487 620) scale(.34)"
-           id="g195">
-          <use
-             href="#deciduous-tree"
-             id="use195" />
-        </g>
-        <g
-           transform="matrix(0.36,0,0,0.36,516.55518,668.17849)"
-           id="g196">
-          <use
-             href="#deciduous-tree"
-             id="use196" />
-        </g>
-      </g>
-      <text
-         class="feature-label"
-         x="412.71219"
-         y="647.20428"
-         id="text197">Floodplain</text>
-    </g>
-  </a>
-  <g
-     aria-hidden="true"
-     id="g207">
-    <path
-       class="infiltration-arrow"
-       d="M 212.09065,587.62331 211,637.81165"
-       id="path202"
-       sodipodi:nodetypes="cc" />
-    <path
-       class="infiltration-arrow"
-       d="m 366.63739,684.53125 0.54532,50.4603"
-       id="path203"
-       sodipodi:nodetypes="cc" />
-    <path
-       class="infiltration-arrow"
-       d="m 752.09065,638.81306 v 65.91076"
-       id="path204"
-       sodipodi:nodetypes="cc" />
-    <path
-       class="infiltration-arrow"
-       d="M922 534L922 611"
-       id="path205" />
-    <!-- Groundwater flow toward river -->
-    <path
-       class="groundwater-arrow"
-       d="m 163.61296,629.23643 c 138.11741,99.49623 243.70337,170.77951 357.15692,233.79379"
-       id="path206"
-       sodipodi:nodetypes="cc" />
-    <path
-       class="groundwater-arrow"
-       d="M 930.8461,614.61721 C 769.03076,702.98525 655.7985,781.96822 537.80692,860.78516"
-       id="path206-2"
-       style="fill:none;stroke:#7de4f3;stroke-width:6;stroke-linecap:round;stroke-dasharray:14.4, 10.8;stroke-dashoffset:0;marker-end:url(#arrow-groundwater-6)"
-       sodipodi:nodetypes="cc" />
-    <text
-       class="process-label"
-       x="97.591255"
-       y="599.25452"
-       id="text205">Infiltration</text>
-  </g>
-  <g
-     aria-hidden="true"
-     id="g181"
-     transform="matrix(1.0301012,0,0,1.037566,10.985484,3.4299256)">
-    <path
-       class="flow-arrow"
-       d="m 327,471 c 47,-5 85,-8 127,-28"
-       id="path180" />
-    <text
-       class="process-label"
-       x="416.11313"
-       y="434.74182"
-       id="text180"
-       transform="scale(0.90463434,1.105419)">Storm runoff</text>
-  </g>
-  <g
-     aria-hidden="true"
-     id="g181-2"
-     transform="rotate(166.3586,557.72497,547.50451)">
-    <path
-       class="flow-arrow"
-       d="m 392.03122,454.69342 c 47,-5 100.57444,6.44174 142.57444,-13.55826"
-       id="path180-4"
-       style="vector-effect:non-scaling-stroke;fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:12, 10;marker-end:url(#arrow-flow-4)"
-       sodipodi:nodetypes="cc" />
-    <text
-       class="process-label"
-       x="-710.95184"
-       y="-295.49536"
-       id="text180-5"
-       style="font-weight:850;font-size:17.5473px;fill:#1f5968;stroke:#ffffff;stroke-width:5.84909px;stroke-linejoin:round;paint-order:stroke"
-       transform="matrix(-0.82752923,-0.21257753,0.28413007,-1.1354286,0,0)">Agricultural runoff</text>
-  </g>
-  <g
-     aria-hidden="true"
-     id="g94"
-     transform="matrix(0.71108861,0,0,0.66465263,123.89627,9.5989067)">
-    <path
-       class="runoff-arrow"
-       d="m 357.02606,218.01769 c 6.1261,45.02648 20.67559,88.0063 53.60338,128.93947"
-       id="path93" />
-    <path
-       class="runoff-arrow"
-       d="m 236.39127,321.89863 c 3.48599,27.98076 16.26796,53.2317 38.34591,74.38788"
-       id="path94" />
-  </g>
 </svg>
