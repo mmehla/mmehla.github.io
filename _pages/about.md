@@ -8,11 +8,13 @@ redirect_from:
 ---
 Welcome to my academic website.
 
-## Interactive watershed model
+## My watershed
 
 <div class="watershed-graphic">
   {% include animated-watershed.svg %}
 </div>
+
+## Research interests
 
 I am an **early career researcher** specializing in *soil and water conservation*, *conservation agriculture*, and *hydrological modeling*, and the sustainable management of agricultural ecosystems and groundwater resources. 
 
